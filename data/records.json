@@ -1,8 +1,104 @@
 {
-  "updatedAt": "2026-04-25T21:00:09.685492Z",
-  "totalRecords": 584,
-  "addedCount": 6,
+  "updatedAt": "2026-04-25T21:05:10.978639Z",
+  "totalRecords": 596,
+  "addedCount": 12,
   "records": [
+    {
+      "threadNumber": "1777151088",
+      "threadTitle": "野獣先輩(24) .114 5本 14打点 OPS.810",
+      "metadentUpper": "kShr",
+      "metadentLower": "TdAQ",
+      "firstPostId": "TdA0LGItQ",
+      "firstPostDateTime": "2026/04/26(日) 06:04:48.156"
+    },
+    {
+      "threadNumber": "1777151059",
+      "threadTitle": "本日9時から佐々木朗希先発wwwwwwwwwwww",
+      "metadentUpper": "dXqK",
+      "metadentLower": "flaw",
+      "firstPostId": "flaMLBtiw",
+      "firstPostDateTime": "2026/04/26(日) 06:04:19.907"
+    },
+    {
+      "threadNumber": "1777151035",
+      "threadTitle": "風邪を引いてから食べ物の味がしない……",
+      "metadentUpper": "Y/Ih",
+      "metadentLower": "DwwG",
+      "firstPostId": "DwwezLLMG",
+      "firstPostDateTime": "2026/04/26(日) 06:03:55.432"
+    },
+    {
+      "threadNumber": "1777151019",
+      "threadTitle": "エミリースチュアート「おはようございます仕掛け人さま♡」",
+      "metadentUpper": "8Um1",
+      "metadentLower": "HG.G",
+      "firstPostId": "HG.KGYAcG",
+      "firstPostDateTime": "2026/04/26(日) 06:03:39.600"
+    },
+    {
+      "threadNumber": "1777151013",
+      "threadTitle": "精神病ティアリストできたw",
+      "metadentUpper": "gpsN",
+      "metadentLower": "0Nhb",
+      "firstPostId": "0NhD8IhFb",
+      "firstPostDateTime": "2026/04/26(日) 06:03:33.783"
+    },
+    {
+      "threadNumber": "1777150874",
+      "threadTitle": "ドンデコルテ銀次がしんどくなってきた",
+      "metadentUpper": "ODkD",
+      "metadentLower": "pTfs",
+      "firstPostId": "pTfJFLBss",
+      "firstPostDateTime": "2026/04/26(日) 06:01:14.156"
+    },
+    {
+      "threadNumber": "1777150873",
+      "threadTitle": "ボヘミアン・ラプソディー歌おうかな…🥺",
+      "metadentUpper": "wQSc",
+      "metadentLower": "EoKr",
+      "firstPostId": "EoKufNKvr",
+      "firstPostDateTime": "2026/04/26(日) 06:01:13.409"
+    },
+    {
+      "threadNumber": "1777150871",
+      "threadTitle": "トップバリュで「これ好きなのワイだけやろなぁ…ﾆﾁｬ」って商品ある？",
+      "metadentUpper": "mSiF",
+      "metadentLower": "3Wnl",
+      "firstPostId": "3WnH.tyJl",
+      "firstPostDateTime": "2026/04/26(日) 06:01:11.061"
+    },
+    {
+      "threadNumber": "1777150860",
+      "threadTitle": "イオン株買った馬鹿wwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "trra",
+      "metadentLower": "bwPt",
+      "firstPostId": "bwPjwXfOt",
+      "firstPostDateTime": "2026/04/26(日) 06:01:00.064"
+    },
+    {
+      "threadNumber": "1777150849",
+      "threadTitle": "ホリエモンとひろゆきが喧嘩したらどっちが勝つ？",
+      "metadentUpper": "n9Rd",
+      "metadentLower": "MNDk",
+      "firstPostId": "MNDImnhXk",
+      "firstPostDateTime": "2026/04/26(日) 06:00:49.418"
+    },
+    {
+      "threadNumber": "1777150844",
+      "threadTitle": "今から自前でブログ作るんやったらWordPressは選択肢から外れるんか？",
+      "metadentUpper": "sBHp",
+      "metadentLower": "Pg8u",
+      "firstPostId": "Pg8sqhvEu",
+      "firstPostDateTime": "2026/04/26(日) 06:00:44.540"
+    },
+    {
+      "threadNumber": "1777150814",
+      "threadTitle": "ｍｅｋＰａｒｋほんま覇権やなｍｅｋＰａｒｋほんま覇権やなｍｅｋＰａｒｋほんま覇権やな",
+      "metadentUpper": "Axvh",
+      "metadentLower": "Zs2L",
+      "firstPostId": "Zs2Ad7K/L",
+      "firstPostDateTime": "2026/04/26(日) 06:00:14.411"
+    },
     {
       "threadNumber": "1777150795",
       "threadTitle": "サヨナラホームラン→満塁ホームラン→？？？",
