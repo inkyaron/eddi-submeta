@@ -1,8 +1,280 @@
-﻿{
-  "updatedAt": "2026-04-25T18:10:10.600222Z",
-  "totalRecords": 196,
-  "addedCount": 11,
+{
+  "updatedAt": "2026-04-25T18:24:14.140128Z",
+  "totalRecords": 230,
+  "addedCount": 34,
   "records": [
+    {
+      "threadNumber": "1777141449",
+      "threadTitle": "チャーハンつくっていい?",
+      "metadentUpper": "y0cs",
+      "metadentLower": "44/f",
+      "firstPostId": "44/eSS/Jf",
+      "firstPostDateTime": "2026/04/26(日) 03:24:09.127"
+    },
+    {
+      "threadNumber": "1777141397",
+      "threadTitle": "ワイ「TWICEモモとエッチできたら死んでもええな」TWICEモモ「ワイくんとエッチするなら死んだ方がマシやな」",
+      "metadentUpper": "1a2z",
+      "metadentLower": "tZpy",
+      "firstPostId": "tZpFQsjWy",
+      "firstPostDateTime": "2026/04/26(日) 03:23:17.780"
+    },
+    {
+      "threadNumber": "1777141346",
+      "threadTitle": "ホリエモン「タカポンって呼んで❤️」←これ",
+      "metadentUpper": "5on8",
+      "metadentLower": "OZh7",
+      "firstPostId": "OZhHt9ND7",
+      "firstPostDateTime": "2026/04/26(日) 03:22:26.485"
+    },
+    {
+      "threadNumber": "1777141326",
+      "threadTitle": "鶏肉ってグロくね？",
+      "metadentUpper": "XUWH",
+      "metadentLower": "/w.N",
+      "firstPostId": "/w.KGzCRN",
+      "firstPostDateTime": "2026/04/26(日) 03:22:06.278"
+    },
+    {
+      "threadNumber": "1777141315",
+      "threadTitle": "アニメ実況民彡(❤️)(❤️)「おっぱい大きい」「えちえちやな...」「えちえちやな...」「串刺しえちえちやな...」",
+      "metadentUpper": "FIIV",
+      "metadentLower": "VxBw",
+      "firstPostId": "VxBqkTjEw",
+      "firstPostDateTime": "2026/04/26(日) 03:21:55.279"
+    },
+    {
+      "threadNumber": "1777141314",
+      "threadTitle": "【悲報】新卒ワイの初任給、崩壊スターレイルというゲームで半分以上溶けてしまうwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "Fyii",
+      "metadentLower": "NR6T",
+      "firstPostId": "NR6YzLNHT",
+      "firstPostDateTime": "2026/04/26(日) 03:21:54.800"
+    },
+    {
+      "threadNumber": "1777141305",
+      "threadTitle": "すき家レディオで泣いてしまった",
+      "metadentUpper": "QVSB",
+      "metadentLower": "jQ7o",
+      "firstPostId": "jQ7hPA7Io",
+      "firstPostDateTime": "2026/04/26(日) 03:21:45.168"
+    },
+    {
+      "threadNumber": "1777141258",
+      "threadTitle": "あほらドルフィンドルフォンドルファン～",
+      "metadentUpper": "lsMK",
+      "metadentLower": "c5RG",
+      "firstPostId": "c5RDKY82G",
+      "firstPostDateTime": "2026/04/26(日) 03:20:58.549"
+    },
+    {
+      "threadNumber": "1777141255",
+      "threadTitle": "ぷゆ時計きたよ🥺",
+      "metadentUpper": "Tpsu",
+      "metadentLower": "kTnv",
+      "firstPostId": "kTnJKnG2v",
+      "firstPostDateTime": "2026/04/26(日) 03:20:55.747"
+    },
+    {
+      "threadNumber": "1777141254",
+      "threadTitle": "まだ赤信号なのに青に変わるの察知してまだ赤の内に渡り出す人いるでしょ",
+      "metadentUpper": "iOqZ",
+      "metadentLower": "iaAV",
+      "firstPostId": "iaABTtvtV",
+      "firstPostDateTime": "2026/04/26(日) 03:20:54.583"
+    },
+    {
+      "threadNumber": "1777141234",
+      "threadTitle": "🤥📢おっはよおおおおおおおおおおおおおおおおおお！！！！！、！",
+      "metadentUpper": "4TKY",
+      "metadentLower": "Oi3K",
+      "firstPostId": "Oi3DZ/GRK",
+      "firstPostDateTime": "2026/04/26(日) 03:20:34.827"
+    },
+    {
+      "threadNumber": "1777141230",
+      "threadTitle": "漫画家「百合漫画描いてます」ワイ「！！！」ｼｭﾊﾞﾊﾞﾊﾞ(走り寄ってくる音)",
+      "metadentUpper": "pMFf",
+      "metadentLower": "Capn",
+      "firstPostId": "Cap0Ef8.n",
+      "firstPostDateTime": "2026/04/26(日) 03:20:30.088"
+    },
+    {
+      "threadNumber": "1777141215",
+      "threadTitle": "【EX】一畳間まんきつ暮らし!★反省会2",
+      "metadentUpper": "2pFB",
+      "metadentLower": "Vip3",
+      "firstPostId": "VipFreu53",
+      "firstPostDateTime": "2026/04/26(日) 03:20:15.331"
+    },
+    {
+      "threadNumber": "1777141205",
+      "threadTitle": "【悲報】ネトウヨさん、しょうもない自演をするもブラジル人に小馬鹿にされてしまう・・・",
+      "metadentUpper": "0LGt",
+      "metadentLower": "eeC8",
+      "firstPostId": "eeCRCZpe8",
+      "firstPostDateTime": "2026/04/26(日) 03:20:05.360"
+    },
+    {
+      "threadNumber": "1777141185",
+      "threadTitle": "びっくりドンキーにブロッコリーの方舟ってメニューあるけど",
+      "metadentUpper": "g9+2",
+      "metadentLower": "T9hQ",
+      "firstPostId": "T9hGVYxoQ",
+      "firstPostDateTime": "2026/04/26(日) 03:19:45.101"
+    },
+    {
+      "threadNumber": "1777141179",
+      "threadTitle": "エッヂで安倍晋三連呼が廃れた理由",
+      "metadentUpper": "0glg",
+      "metadentLower": "ot5b",
+      "firstPostId": "ot5ZWGXVb",
+      "firstPostDateTime": "2026/04/26(日) 03:19:39.669"
+    },
+    {
+      "threadNumber": "1777141153",
+      "threadTitle": "人生ってガチで意味ないよな ",
+      "metadentUpper": "qm1X",
+      "metadentLower": "Scex",
+      "firstPostId": "Sceghcoex",
+      "firstPostDateTime": "2026/04/26(日) 03:19:13.882"
+    },
+    {
+      "threadNumber": "1777141151",
+      "threadTitle": "砂時計買え",
+      "metadentUpper": "m+t7",
+      "metadentLower": "J801",
+      "firstPostId": "J80/ef8E1",
+      "firstPostDateTime": "2026/04/26(日) 03:19:11.264"
+    },
+    {
+      "threadNumber": "1777141096",
+      "threadTitle": "エッヂで一人称「ワイ」が廃れた理由",
+      "metadentUpper": "dCPQ",
+      "metadentLower": "OZh7",
+      "firstPostId": "OZhHt9ND7",
+      "firstPostDateTime": "2026/04/26(日) 03:18:16.392"
+    },
+    {
+      "threadNumber": "1777141074",
+      "threadTitle": "性欲なくて生きるのつらすぎる",
+      "metadentUpper": "fdCA",
+      "metadentLower": "sO0q",
+      "firstPostId": "sO0L3CaNq",
+      "firstPostDateTime": "2026/04/26(日) 03:17:54.849"
+    },
+    {
+      "threadNumber": "1777141069",
+      "threadTitle": "早く恐竜復活させろよ",
+      "metadentUpper": "XUWH",
+      "metadentLower": "/w.N",
+      "firstPostId": "/w.KGzCRN",
+      "firstPostDateTime": "2026/04/26(日) 03:17:49.148"
+    },
+    {
+      "threadNumber": "1777141060",
+      "threadTitle": "昔の人「ブルーベリーは目に良いんですよ」ワイ「はぇ～視力が回復するんか凄いな」",
+      "metadentUpper": "+wBo",
+      "metadentLower": "vUaC",
+      "firstPostId": "vUalGTzGC",
+      "firstPostDateTime": "2026/04/26(日) 03:17:40.073"
+    },
+    {
+      "threadNumber": "1777140965",
+      "threadTitle": "何のために生きてるんだろう",
+      "metadentUpper": "DYXF",
+      "metadentLower": "avDx",
+      "firstPostId": "avDHsoHUx",
+      "firstPostDateTime": "2026/04/26(日) 03:16:05.986"
+    },
+    {
+      "threadNumber": "1777140946",
+      "threadTitle": "そろそろ淘汰されそうな人の集まりがエッヂや",
+      "metadentUpper": "Tpsu",
+      "metadentLower": "kTnv",
+      "firstPostId": "kTnJKnG2v",
+      "firstPostDateTime": "2026/04/26(日) 03:15:46.192"
+    },
+    {
+      "threadNumber": "1777140939",
+      "threadTitle": "「○○(温泉施設、スーパー銭湯の名称) ハッテン場」←ほぼほぼ爆サイがヒットするという事実",
+      "metadentUpper": "CrKw",
+      "metadentLower": "plQP",
+      "firstPostId": "plQIV1sLP",
+      "firstPostDateTime": "2026/04/26(日) 03:15:39.256"
+    },
+    {
+      "threadNumber": "1777140934",
+      "threadTitle": "逢沢みゆ←くっそ抜けるのにエッヂでは全く話題になってない理由",
+      "metadentUpper": "5on8",
+      "metadentLower": "OZh7",
+      "firstPostId": "OZhHt9ND7",
+      "firstPostDateTime": "2026/04/26(日) 03:15:34.760"
+    },
+    {
+      "threadNumber": "1777140868",
+      "threadTitle": "エッヂで「俺」って使わないで🥺",
+      "metadentUpper": "Z274",
+      "metadentLower": "P7v3",
+      "firstPostId": "P7vdVIex3",
+      "firstPostDateTime": "2026/04/26(日) 03:14:28.434"
+    },
+    {
+      "threadNumber": "1777140838",
+      "threadTitle": "AIに詳しい人ちょっと来て",
+      "metadentUpper": "pMFf",
+      "metadentLower": ".eFX",
+      "firstPostId": ".eFTPTAxX",
+      "firstPostDateTime": "2026/04/26(日) 03:13:58.302"
+    },
+    {
+      "threadNumber": "1777140832",
+      "threadTitle": "夜    の    始    ま    り     さ",
+      "metadentUpper": "vCqZ",
+      "metadentLower": "BAr1",
+      "firstPostId": "BArR4qDN1",
+      "firstPostDateTime": "2026/04/26(日) 03:13:52.964"
+    },
+    {
+      "threadNumber": "1777140802",
+      "threadTitle": "鬱の人にかけてあげたいカスな言葉",
+      "metadentUpper": "LJE8",
+      "metadentLower": "Stff",
+      "firstPostId": "Stf5mXKCf",
+      "firstPostDateTime": "2026/04/26(日) 03:13:22.338"
+    },
+    {
+      "threadNumber": "1777140800",
+      "threadTitle": "「東アジアの盟主は中国」←なんでこんな簡単なことが認められないのか",
+      "metadentUpper": "1cjW",
+      "metadentLower": "lkZn",
+      "firstPostId": "lkZR.gW8n",
+      "firstPostDateTime": "2026/04/26(日) 03:13:20.066"
+    },
+    {
+      "threadNumber": "1777140728",
+      "threadTitle": "バンプオブチキンadd9多すぎじゃないか？",
+      "metadentUpper": "xWtd",
+      "metadentLower": "7nwH",
+      "firstPostId": "7nwq5hYKH",
+      "firstPostDateTime": "2026/04/26(日) 03:12:08.344"
+    },
+    {
+      "threadNumber": "1777140716",
+      "threadTitle": "レスバに勝つために煽ってからすぐにスレ落としたいんやが",
+      "metadentUpper": "n9Rd",
+      "metadentLower": "MNDk",
+      "firstPostId": "MNDImnhXk",
+      "firstPostDateTime": "2026/04/26(日) 03:11:56.621"
+    },
+    {
+      "threadNumber": "1777140709",
+      "threadTitle": "10900K 64GB DDR4 3060TiのPCいくらで買いたい？",
+      "metadentUpper": "w5mT",
+      "metadentLower": "WSQ8",
+      "firstPostId": "WSQNVWv98",
+      "firstPostDateTime": "2026/04/26(日) 03:11:49.255"
+    },
     {
       "threadNumber": "1777140560",
       "threadTitle": "昨日親知らず抜歯したんやがさっき赤い塊が口から出てきた",
@@ -37,7 +309,7 @@
     },
     {
       "threadNumber": "1777140471",
-      "threadTitle": "差別主義者どもがよ&#128545;",
+      "threadTitle": "差別主義者どもがよ😡",
       "metadentUpper": "EYnS",
       "metadentLower": "ZQZH",
       "firstPostId": "ZQZscOGlH",
@@ -69,7 +341,7 @@
     },
     {
       "threadNumber": "1777140400",
-      "threadTitle": "彡(&#129535;)(&#129535;)「ハァハァ...アニメ実況スレ立ったらザーチャンのNG呼びかけなきゃ」ﾌﾞﾂﾌﾞﾂ",
+      "threadTitle": "彡(🧿)(🧿)「ハァハァ...アニメ実況スレ立ったらザーチャンのNG呼びかけなきゃ」ﾌﾞﾂﾌﾞﾂ",
       "metadentUpper": "FIIV",
       "metadentLower": "VxBw",
       "firstPostId": "VxBqkTjEw",
@@ -93,7 +365,7 @@
     },
     {
       "threadNumber": "1777140307",
-      "threadTitle": "おなかすいたからコンビニでおやつ買ってきたんだけど外ムッチャ寒い&#129398;",
+      "threadTitle": "おなかすいたからコンビニでおやつ買ってきたんだけど外ムッチャ寒い🥶",
       "metadentUpper": "Skx7",
       "metadentLower": "ZVAm",
       "firstPostId": "ZVARYzQ0m",
@@ -125,7 +397,7 @@
     },
     {
       "threadNumber": "1777140221",
-      "threadTitle": "ごめん、ブルーベリー食べるね…&#129770;",
+      "threadTitle": "ごめん、ブルーベリー食べるね…🫪",
       "metadentUpper": "ztwF",
       "metadentLower": "mQIw",
       "firstPostId": "mQIC14wlw",
@@ -221,7 +493,7 @@
     },
     {
       "threadNumber": "1777140025",
-      "threadTitle": "安倍晋三がね…&#128532;",
+      "threadTitle": "安倍晋三がね…😔",
       "metadentUpper": "54PJ",
       "metadentLower": "vY70",
       "firstPostId": "vY7z8AkC0",
@@ -237,7 +509,7 @@
     },
     {
       "threadNumber": "1777139995",
-      "threadTitle": "ワイのﾏｲｸﾛﾁﾝﾁﾝかわいくて草&#129770;",
+      "threadTitle": "ワイのﾏｲｸﾛﾁﾝﾁﾝかわいくて草🫪",
       "metadentUpper": "E9Bv",
       "metadentLower": "e1G0",
       "firstPostId": "e1GoBcC/0",
@@ -285,7 +557,7 @@
     },
     {
       "threadNumber": "1777139907",
-      "threadTitle": "【画像あり】後藤真希、パンパンの膨らみにネット騒然 「デッ…でかっ&#128149;」「え、目立つやん！&#128149;」",
+      "threadTitle": "【画像あり】後藤真希、パンパンの膨らみにネット騒然 「デッ…でかっ💕」「え、目立つやん！💕」",
       "metadentUpper": "dvX1",
       "metadentLower": "rpu0",
       "firstPostId": "rpu5xJJ70",
@@ -333,7 +605,7 @@
     },
     {
       "threadNumber": "1777139789",
-      "threadTitle": "今日もぷゆゆだよ&#129402;",
+      "threadTitle": "今日もぷゆゆだよ🥺",
       "metadentUpper": "Gw8e",
       "metadentLower": "zDLN",
       "firstPostId": "zDLSeCs2N",
@@ -365,7 +637,7 @@
     },
     {
       "threadNumber": "1777139739",
-      "threadTitle": "クッキーを許可しろ&#128545;",
+      "threadTitle": "クッキーを許可しろ😡",
       "metadentUpper": "ztwF",
       "metadentLower": "mQIw",
       "firstPostId": "mQIC14wlw",
@@ -389,7 +661,7 @@
     },
     {
       "threadNumber": "1777139669",
-      "threadTitle": "Vtuberさん、うっかり口を滑らせ絵師と2人でキャンプに行ってることをバラしてしまうｗｗｗｗ&#129412;&#128162;",
+      "threadTitle": "Vtuberさん、うっかり口を滑らせ絵師と2人でキャンプに行ってることをバラしてしまうｗｗｗｗ🦄💢",
       "metadentUpper": "334Z",
       "metadentLower": "rb/b",
       "firstPostId": "rb/Lb0qEb",
@@ -445,7 +717,7 @@
     },
     {
       "threadNumber": "1777139500",
-      "threadTitle": "エッヂたまにアナルがキュン&#9825;とヒクつくことある部",
+      "threadTitle": "エッヂたまにアナルがキュン♡とヒクつくことある部",
       "metadentUpper": "h44N",
       "metadentLower": "ech3",
       "firstPostId": "ech1zZ5S3",
@@ -469,7 +741,7 @@
     },
     {
       "threadNumber": "1777139413",
-      "threadTitle": "&#129784;&#128563;&#129783;",
+      "threadTitle": "🫸😳🫷",
       "metadentUpper": "TmIv",
       "metadentLower": "QJ1o",
       "firstPostId": "QJ1h852No",
@@ -493,7 +765,7 @@
     },
     {
       "threadNumber": "1777139371",
-      "threadTitle": "平壌ってどう？&#129402;",
+      "threadTitle": "平壌ってどう？🥺",
       "metadentUpper": "7YMQ",
       "metadentLower": "MpEE",
       "firstPostId": "MpEnUpinE",
@@ -517,7 +789,7 @@
     },
     {
       "threadNumber": "1777139307",
-      "threadTitle": "ミオシティのBGM聴きながら寝るンゴ&#128564;",
+      "threadTitle": "ミオシティのBGM聴きながら寝るンゴ😴",
       "metadentUpper": "eKN/",
       "metadentLower": "EWOE",
       "firstPostId": "EWO8jUTcE",
@@ -549,7 +821,7 @@
     },
     {
       "threadNumber": "1777139178",
-      "threadTitle": "なんでそんなことゆうの&#129770;",
+      "threadTitle": "なんでそんなことゆうの🫪",
       "metadentUpper": "dbTe",
       "metadentLower": "G0fN",
       "firstPostId": "G0faBxhtN",
@@ -717,7 +989,7 @@
     },
     {
       "threadNumber": "1777138889",
-      "threadTitle": "【動画】ヤギさん、仲直りセックスしてしまう&#128016;&#128016;&#128149;",
+      "threadTitle": "【動画】ヤギさん、仲直りセックスしてしまう🐐🐐💕",
       "metadentUpper": "BSaa",
       "metadentLower": "ITxM",
       "firstPostId": "ITxE9q8YM",
@@ -741,7 +1013,7 @@
     },
     {
       "threadNumber": "1777138872",
-      "threadTitle": "&#128054;犬ってボーダーコリーが1番可愛いよな？&#128021;",
+      "threadTitle": "🐶犬ってボーダーコリーが1番可愛いよな？🐕",
       "metadentUpper": "AG+2",
       "metadentLower": "Nol1",
       "firstPostId": "Nol.P7C/1",
@@ -765,7 +1037,7 @@
     },
     {
       "threadNumber": "1777138866",
-      "threadTitle": "&#129402;&lt;&gt;",
+      "threadTitle": "🥺<>",
       "metadentUpper": "DKRY",
       "metadentLower": "zvqw",
       "firstPostId": "zvqKajhtw",
@@ -781,7 +1053,7 @@
     },
     {
       "threadNumber": "1777138809",
-      "threadTitle": "聖剣LOMクリアしたからデスティニーやるね&#129402;",
+      "threadTitle": "聖剣LOMクリアしたからデスティニーやるね🥺",
       "metadentUpper": "xl5I",
       "metadentLower": "rmhg",
       "firstPostId": "rmhkx0j1g",
@@ -797,7 +1069,7 @@
     },
     {
       "threadNumber": "1777138794",
-      "threadTitle": "エッヂ民ってもし鉄道会社に勤めてたら新人運転手をイジメ倒して福知山線事故みたいな事故起こしてそう&#129402;",
+      "threadTitle": "エッヂ民ってもし鉄道会社に勤めてたら新人運転手をイジメ倒して福知山線事故みたいな事故起こしてそう🥺",
       "metadentUpper": "DL1h",
       "metadentLower": "VKtq",
       "firstPostId": "VKt3Ojldq",
@@ -861,7 +1133,7 @@
     },
     {
       "threadNumber": "1777138704",
-      "threadTitle": "孤独だ&#129402;",
+      "threadTitle": "孤独だ🥺",
       "metadentUpper": "7YMQ",
       "metadentLower": "MpEE",
       "firstPostId": "MpEnUpinE",
@@ -893,7 +1165,7 @@
     },
     {
       "threadNumber": "1777138656",
-      "threadTitle": "超かぐや姫！のrayって曲を聴いてる&#129402;",
+      "threadTitle": "超かぐや姫！のrayって曲を聴いてる🥺",
       "metadentUpper": "wQSc",
       "metadentLower": "EoKr",
       "firstPostId": "EoKufNKvr",
@@ -941,7 +1213,7 @@
     },
     {
       "threadNumber": "1777138509",
-      "threadTitle": "【悲報】ブルアカ、エロいキャラが多すぎてシコり切れない&#128166;&#128166;&#128166;&#128166;&#128166;&#128166;",
+      "threadTitle": "【悲報】ブルアカ、エロいキャラが多すぎてシコり切れない💦💦💦💦💦💦",
       "metadentUpper": "CC8x",
       "metadentLower": "ivnZ",
       "firstPostId": "ivnvM9BmZ",
@@ -1013,7 +1285,7 @@
     },
     {
       "threadNumber": "1777138374",
-      "threadTitle": "30億円持ってるけど&#129402;",
+      "threadTitle": "30億円持ってるけど🥺",
       "metadentUpper": "gfhN",
       "metadentLower": "Tc.4",
       "firstPostId": "Tc.FSnN34",
@@ -1053,7 +1325,7 @@
     },
     {
       "threadNumber": "1777138298",
-      "threadTitle": "お昼に買ったマックがあと2個残ってる&#129402;",
+      "threadTitle": "お昼に買ったマックがあと2個残ってる🥺",
       "metadentUpper": "usYC",
       "metadentLower": "KeEE",
       "firstPostId": "KeEppzswE",
@@ -1069,7 +1341,7 @@
     },
     {
       "threadNumber": "1777138255",
-      "threadTitle": "精子でたv(&#758;&#5154;                               ω&#5154;&#758;)&#3623;",
+      "threadTitle": "精子でたv(˶ᐢ                               ωᐢ˶)ว",
       "metadentUpper": "nTWX",
       "metadentLower": "NCOS",
       "firstPostId": "NCO.409VS",
@@ -1093,7 +1365,7 @@
     },
     {
       "threadNumber": "1777138216",
-      "threadTitle": "死のうかなぁ&#129402;",
+      "threadTitle": "死のうかなぁ🥺",
       "metadentUpper": "RmKB",
       "metadentLower": "iQyD",
       "firstPostId": "iQyeUmZID",
@@ -1189,7 +1461,7 @@
     },
     {
       "threadNumber": "1777138029",
-      "threadTitle": "イスラム教ってどうですか？&#129402;",
+      "threadTitle": "イスラム教ってどうですか？🥺",
       "metadentUpper": "7YMQ",
       "metadentLower": "MpEE",
       "firstPostId": "MpEnUpinE",
@@ -1213,7 +1485,7 @@
     },
     {
       "threadNumber": "1777137889",
-      "threadTitle": "ヒヤシンス！&#128553;",
+      "threadTitle": "ヒヤシンス！😩",
       "metadentUpper": "E31i",
       "metadentLower": "fAwI",
       "firstPostId": "fAwCW0E3I",
@@ -1285,7 +1557,7 @@
     },
     {
       "threadNumber": "1777137692",
-      "threadTitle": "新幹線通勤したいなぁ&#129402;",
+      "threadTitle": "新幹線通勤したいなぁ🥺",
       "metadentUpper": "7YMQ",
       "metadentLower": "MpEE",
       "firstPostId": "MpEnUpinE",
@@ -1357,7 +1629,7 @@
     },
     {
       "threadNumber": "1777137210",
-      "threadTitle": "玉舐めしてる時一番エロいのって&quot;鼻がちんちんにあたってること&quot;だよな",
+      "threadTitle": "玉舐めしてる時一番エロいのって\"鼻がちんちんにあたってること\"だよな",
       "metadentUpper": "TMI5",
       "metadentLower": "OmmA",
       "firstPostId": "OmmBjggIA",
@@ -1373,7 +1645,7 @@
     },
     {
       "threadNumber": "1777137123",
-      "threadTitle": "ブルーカラー年収250ぼく「よいしょ&#128166;よいしょ&#128166;生活ちゅらいよぉ&#128546;」敵「努力不足！努力不足！」",
+      "threadTitle": "ブルーカラー年収250ぼく「よいしょ💦よいしょ💦生活ちゅらいよぉ😢」敵「努力不足！努力不足！」",
       "metadentUpper": "Mj94",
       "metadentLower": "HCrx",
       "firstPostId": "HCrySP6Rx",
@@ -1413,7 +1685,7 @@
     },
     {
       "threadNumber": "1777136221",
-      "threadTitle": "ワイ「水族館経営したい&#128515;」エッヂ民「無理無理w」ワイ「それではこちらをご覧ください…w」",
+      "threadTitle": "ワイ「水族館経営したい😃」エッヂ民「無理無理w」ワイ「それではこちらをご覧ください…w」",
       "metadentUpper": "QVSB",
       "metadentLower": "jQ7o",
       "firstPostId": "jQ7hPA7Io",
@@ -1461,7 +1733,7 @@
     },
     {
       "threadNumber": "1777134693",
-      "threadTitle": "ぼっち&#127800;&カラーズ&#129397;&#129398;&#129402;＆ゾンビ&#129503;すこすこ部&#128525;4/26",
+      "threadTitle": "ぼっち🌸&カラーズ🥵🥶🥺＆ゾンビ🧟すこすこ部😍4/26",
       "metadentUpper": "/69t",
       "metadentLower": "WgaM",
       "firstPostId": "Wgat9rQ9M",
@@ -1541,7 +1813,7 @@
     },
     {
       "threadNumber": "1777129060",
-      "threadTitle": "&quot;二重整形&quot;考えてるやつ、ちょっとこいwwwwwwwwwwww",
+      "threadTitle": "\"二重整形\"考えてるやつ、ちょっとこいwwwwwwwwwwww",
       "metadentUpper": "MCav",
       "metadentLower": "dr6o",
       "firstPostId": "dr6kFCTMo",
@@ -1549,7 +1821,7 @@
     },
     {
       "threadNumber": "1777128772",
-      "threadTitle": "【朗報】けいおんのムギちゃん「お金持ちです&#9825;腋とおっぱいがえっちです&#9825;甘やかし上手です&#9825;」←こいつが不人気だった理由",
+      "threadTitle": "【朗報】けいおんのムギちゃん「お金持ちです♡腋とおっぱいがえっちです♡甘やかし上手です♡」←こいつが不人気だった理由",
       "metadentUpper": "fseF",
       "metadentLower": "Vep7",
       "firstPostId": "VepE.sog7",
