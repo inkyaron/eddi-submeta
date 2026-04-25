@@ -36,13 +36,13 @@ function renderRows(rows) {
     row.querySelector(".upper").textContent = record.metadentUpper;
     row.querySelector(".lower").textContent = record.metadentLower;
     row.querySelector(".first-post-id").textContent = record.firstPostId || "-";
-    row.querySelector(".title").textContent = record.title || "";
+    row.querySelector(".first-post-datetime").textContent = record.firstPostDateTime || "-";
 
     row.children[0].dataset.label = "スレ番号";
     row.children[1].dataset.label = "上位4桁";
     row.children[2].dataset.label = "下位4桁";
     row.children[3].dataset.label = "レス1 ID";
-    row.children[4].dataset.label = "スレタイ";
+    row.children[4].dataset.label = "レス1日時";
 
     resultsElement.appendChild(row);
   }
@@ -73,7 +73,7 @@ function applyFilters() {
       record.metadentUpper,
       record.metadentLower,
       record.firstPostId,
-      record.title
+      record.firstPostDateTime
     ]
       .map(normalize)
       .join("\n");

@@ -97,26 +97,22 @@ jobs:
         id: freshness
         run: |
           python - <<'PY'
-          import json
           import os
           from datetime import datetime, timezone
           from pathlib import Path
 
-          records_path = Path("data/records.json")
+          records_path = Path("data/records.csv")
           skip = False
-          reason = "records.json not found"
+          reason = "records.csv not found"
 
           if records_path.exists():
-              payload = json.loads(records_path.read_text(encoding="utf-8"))
-              updated_at = payload.get("updatedAt")
-              if updated_at:
-                  updated_dt = datetime.fromisoformat(updated_at.replace("Z", "+00:00"))
-                  delta = (datetime.now(timezone.utc) - updated_dt).total_seconds()
-                  if delta < 240:
-                      skip = True
-                      reason = f"last update was {delta:.1f}s ago at {updated_dt.isoformat()}"
-                  else:
-                      reason = f"last update was {delta:.1f}s ago at {updated_dt.isoformat()}"
+              updated_dt = datetime.fromtimestamp(records_path.stat().st_mtime, tz=timezone.utc)
+              delta = (datetime.now(timezone.utc) - updated_dt).total_seconds()
+              if delta < 240:
+                  skip = True
+                  reason = f"last update was {delta:.1f}s ago at {updated_dt.isoformat()}"
+              else:
+                  reason = f"last update was {delta:.1f}s ago at {updated_dt.isoformat()}"
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"skip={'true' if skip else 'false'}\n")

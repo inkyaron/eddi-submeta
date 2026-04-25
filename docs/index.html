@@ -12,7 +12,7 @@
         <p class="eyebrow">Eddibb Subject-Metadent Archive</p>
         <h1>エッヂ・サブメタ保存庫</h1>
         <p class="lead">
-          エッヂ掲示板の `subject-metadent` を保存し、スレ番号・metadent・レス1のIDから検索できる保管庫です。
+          エッヂ掲示板の `subject-metadent` を保存し、スレ番号・metadent・レス1のID・レス1日時から検索できる保管庫です。
         </p>
         <div class="meta">
           <span id="updated-at">更新日時を読み込み中...</span>
@@ -27,7 +27,7 @@
           <input
             id="search-input"
             type="search"
-            placeholder="スレ番号 / metadent / 記者ID / スレタイ"
+            placeholder="スレ番号 / metadent / 記者ID / レス1日時"
             autocomplete="off"
           />
         </label>
@@ -63,7 +63,7 @@
               <th>上位4桁</th>
               <th>下位4桁</th>
               <th>レス1 ID</th>
-              <th>スレタイ</th>
+              <th>レス1日時</th>
             </tr>
           </thead>
           <tbody id="results"></tbody>
@@ -78,7 +78,7 @@
         <td class="mono upper"></td>
         <td class="mono lower"></td>
         <td class="mono first-post-id"></td>
-        <td class="title"></td>
+        <td class="first-post-datetime"></td>
       </tr>
     </template>
 

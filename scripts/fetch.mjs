@@ -4,11 +4,12 @@ import path from "node:path";
 const SUBJECT_URL = "https://bbs.eddibb.cc/liveedge/subject-metadent.txt";
 const DAT_BASE_URL = "https://bbs.eddibb.cc/liveedge/dat";
 const DATA_DIR = path.resolve("data");
-const DATA_PATH = path.join(DATA_DIR, "records.json");
+const DATA_PATH = path.join(DATA_DIR, "records.csv");
 
 const SUBJECT_LINE_RE =
   /^(?<threadNumber>\d+)\.dat<>(?<title>.+?) \[(?<metadent>[^\[\]\s]{8})★\] \((?<responseCount>\d+)\)$/;
-const FIRST_POST_ID_RE = / ID:([A-Za-z0-9+\/._-]+)/;
+const FIRST_POST_RE =
+  /^.*?<>(?<dateTime>\d{4}\/\d{2}\/\d{2}\([^)]+\) \d{2}:\d{2}:\d{2}(?:\.\d+)?) ID:(?<postId>[A-Za-z0-9+\/._-]+)<>/;
 
 async function ensureDataFile() {
   await fs.mkdir(DATA_DIR, { recursive: true });
@@ -16,29 +17,51 @@ async function ensureDataFile() {
   try {
     await fs.access(DATA_PATH);
   } catch {
-    const initial = {
-      version: 1,
-      updatedAt: null,
-      records: []
-    };
-    await fs.writeFile(DATA_PATH, JSON.stringify(initial, null, 2) + "\n", "utf8");
+    await fs.writeFile(
+      DATA_PATH,
+      "thread_number,metadent_upper,metadent_lower,first_post_id,first_post_datetime\n",
+      "utf8"
+    );
   }
 }
 
 async function loadData() {
   await ensureDataFile();
   const raw = await fs.readFile(DATA_PATH, "utf8");
-  const parsed = JSON.parse(raw);
-  const records = Array.isArray(parsed.records) ? parsed.records : [];
-  return {
-    version: parsed.version ?? 1,
-    updatedAt: parsed.updatedAt ?? null,
-    records
-  };
+  const lines = raw.split(/\r?\n/).filter(Boolean);
+  const records = [];
+
+  for (const line of lines.slice(1)) {
+    const [threadNumber, metadentUpper, metadentLower, firstPostId, firstPostDateTime] = parseCsvLine(line);
+    if (!threadNumber) {
+      continue;
+    }
+    records.push({
+      threadNumber,
+      metadentUpper,
+      metadentLower,
+      firstPostId,
+      firstPostDateTime
+    });
+  }
+
+  return { records };
 }
 
-async function saveData(state) {
-  await fs.writeFile(DATA_PATH, JSON.stringify(state, null, 2) + "\n", "utf8");
+async function saveData(records) {
+  const lines = [
+    "thread_number,metadent_upper,metadent_lower,first_post_id,first_post_datetime",
+    ...records.map((record) =>
+      [
+        csvEscape(record.threadNumber),
+        csvEscape(record.metadentUpper),
+        csvEscape(record.metadentLower),
+        csvEscape(record.firstPostId),
+        csvEscape(record.firstPostDateTime)
+      ].join(",")
+    )
+  ];
+  await fs.writeFile(DATA_PATH, lines.join("\n") + "\n", "utf8");
 }
 
 function splitMetadent(metadent) {
@@ -57,9 +80,7 @@ function parseSubjectLine(line) {
   const { threadNumber, title, metadent, responseCount } = match.groups;
   return {
     threadNumber,
-    title,
     metadent,
-    responseCount: Number(responseCount),
     ...splitMetadent(metadent)
   };
 }
@@ -79,11 +100,14 @@ async function fetchText(url) {
   return new TextDecoder("shift_jis").decode(buffer);
 }
 
-async function fetchFirstPostId(threadNumber) {
+async function fetchFirstPost(threadNumber) {
   const datText = await fetchText(`${DAT_BASE_URL}/${threadNumber}.dat`);
   const firstLine = datText.split(/\r?\n/, 1)[0] ?? "";
-  const match = firstLine.match(FIRST_POST_ID_RE);
-  return match?.[1] ?? "";
+  const match = firstLine.match(FIRST_POST_RE);
+  return {
+    firstPostId: match?.groups?.postId ?? "",
+    firstPostDateTime: match?.groups?.dateTime ?? ""
+  };
 }
 
 function compareRecords(a, b) {
@@ -113,8 +137,11 @@ async function main() {
     }
 
     let firstPostId = "";
+    let firstPostDateTime = "";
     try {
-      firstPostId = await fetchFirstPostId(parsed.threadNumber);
+      const firstPost = await fetchFirstPost(parsed.threadNumber);
+      firstPostId = firstPost.firstPostId;
+      firstPostDateTime = firstPost.firstPostDateTime;
     } catch (error) {
       console.error(`Failed to fetch .dat for ${parsed.threadNumber}:`, error.message);
     }
@@ -124,31 +151,66 @@ async function main() {
       metadentUpper: parsed.metadentUpper,
       metadentLower: parsed.metadentLower,
       firstPostId,
-      title: parsed.title,
-      sourceMetadent: parsed.metadent,
-      observedResponseCount: parsed.responseCount,
-      discoveredAt: new Date().toISOString()
+      firstPostDateTime
     };
 
     existing.set(record.threadNumber, record);
     addedCount += 1;
   }
 
-  state.records = Array.from(existing.values()).sort(compareRecords);
-  state.updatedAt = new Date().toISOString();
-  await saveData(state);
+  const records = Array.from(existing.values()).sort(compareRecords);
+  await saveData(records);
 
   console.log(
     JSON.stringify(
       {
-        updatedAt: state.updatedAt,
-        totalRecords: state.records.length,
+        updatedAt: new Date().toISOString(),
+        totalRecords: records.length,
         addedCount
       },
       null,
       2
     )
   );
+}
+
+function parseCsvLine(line) {
+  const values = [];
+  let current = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const character = line[index];
+
+    if (character === '"') {
+      if (inQuotes && line[index + 1] === '"') {
+        current += '"';
+        index += 1;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
+    }
+
+    if (character === "," && !inQuotes) {
+      values.push(current);
+      current = "";
+      continue;
+    }
+
+    current += character;
+  }
+
+  values.push(current);
+  return values;
+}
+
+function csvEscape(value) {
+  const text = String(value ?? "");
+  if (/[",\n]/.test(text)) {
+    return `"${text.replaceAll('"', '""')}"`;
+  }
+  return text;
 }
 
 await main();
