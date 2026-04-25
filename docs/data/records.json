@@ -1,8 +1,113 @@
 {
-  "updatedAt": "2026-04-25T16:55:27.836559Z",
-  "totalRecords": 77,
-  "addedCount": 17,
+  "updatedAt": "2026-04-25T17:00:13.507035Z",
+  "totalRecords": 92,
+  "addedCount": 15,
   "records": [
+    {
+      "threadNumber": "1777136398",
+      "metadentUpper": "U4mb",
+      "metadentLower": "klRx",
+      "firstPostId": "klRAlX.tx",
+      "firstPostDateTime": "2026/04/26(日) 01:59:58.703"
+    },
+    {
+      "threadNumber": "1777136392",
+      "metadentUpper": "RQUP",
+      "metadentLower": "Wvdj",
+      "firstPostId": "WvdUQHRvj",
+      "firstPostDateTime": "2026/04/26(日) 01:59:52.195"
+    },
+    {
+      "threadNumber": "1777136378",
+      "metadentUpper": "9IqX",
+      "metadentLower": "aiNM",
+      "firstPostId": "aiNUR1cFM",
+      "firstPostDateTime": "2026/04/26(日) 01:59:38.055"
+    },
+    {
+      "threadNumber": "1777136344",
+      "metadentUpper": "i1VE",
+      "metadentLower": "Ad.1",
+      "firstPostId": "Ad.1sN531",
+      "firstPostDateTime": "2026/04/26(日) 01:59:04.704"
+    },
+    {
+      "threadNumber": "1777136320",
+      "metadentUpper": "l9sH",
+      "metadentLower": "H0kw",
+      "firstPostId": "H0k8SuxLw",
+      "firstPostDateTime": "2026/04/26(日) 01:58:40.164"
+    },
+    {
+      "threadNumber": "1777136319",
+      "metadentUpper": "Zp2P",
+      "metadentLower": "SM.q",
+      "firstPostId": "SM.TNff2q",
+      "firstPostDateTime": "2026/04/26(日) 01:58:39.595"
+    },
+    {
+      "threadNumber": "1777136289",
+      "metadentUpper": "8JTl",
+      "metadentLower": "HZg0",
+      "firstPostId": "HZgBMS0x0",
+      "firstPostDateTime": "2026/04/26(日) 01:58:09.002"
+    },
+    {
+      "threadNumber": "1777136274",
+      "metadentUpper": "4vF9",
+      "metadentLower": "brpC",
+      "firstPostId": "brpxjN6aC",
+      "firstPostDateTime": "2026/04/26(日) 01:57:54.847"
+    },
+    {
+      "threadNumber": "1777136252",
+      "metadentUpper": "fdCA",
+      "metadentLower": "sO0q",
+      "firstPostId": "sO0L3CaNq",
+      "firstPostDateTime": "2026/04/26(日) 01:57:32.969"
+    },
+    {
+      "threadNumber": "1777136229",
+      "metadentUpper": "pMFf",
+      "metadentLower": "6nTk",
+      "firstPostId": "6nTKUHUHk",
+      "firstPostDateTime": "2026/04/26(日) 01:57:09.120"
+    },
+    {
+      "threadNumber": "1777136221",
+      "metadentUpper": "QVSB",
+      "metadentLower": "jQ7o",
+      "firstPostId": "jQ7hPA7Io",
+      "firstPostDateTime": "2026/04/26(日) 01:57:01.429"
+    },
+    {
+      "threadNumber": "1777136207",
+      "metadentUpper": "dRPO",
+      "metadentLower": "gt2K",
+      "firstPostId": "gt2f3j3YK",
+      "firstPostDateTime": "2026/04/26(日) 01:56:47.188"
+    },
+    {
+      "threadNumber": "1777136182",
+      "metadentUpper": "9BtJ",
+      "metadentLower": "SXKU",
+      "firstPostId": "SXKONSf4U",
+      "firstPostDateTime": "2026/04/26(日) 01:56:22.226"
+    },
+    {
+      "threadNumber": "1777136172",
+      "metadentUpper": "v4nd",
+      "metadentLower": "x0zG",
+      "firstPostId": "x0z8JSIaG",
+      "firstPostDateTime": "2026/04/26(日) 01:56:12.411"
+    },
+    {
+      "threadNumber": "1777136128",
+      "metadentUpper": "Zyzn",
+      "metadentLower": "GM8T",
+      "firstPostId": "GM8tQT86T",
+      "firstPostDateTime": "2026/04/26(日) 01:55:28.357"
+    },
     {
       "threadNumber": "1777136123",
       "metadentUpper": "WYH1",
