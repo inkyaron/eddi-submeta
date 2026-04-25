@@ -4,15 +4,87 @@ on:
   schedule:
     - cron: "2/5 * * * *"
   workflow_dispatch:
+    inputs:
+      chain:
+        description: "Keep the GitHub-only self-dispatch loop running"
+        required: false
+        default: true
+        type: boolean
+      target_time:
+        description: "UTC ISO8601 time to wait for before starting the update"
+        required: false
+        type: string
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: archive-update
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
 
     steps:
+      - name: Plan next run
+        id: plan
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_CHAIN: ${{ inputs.chain }}
+          INPUT_TARGET_TIME: ${{ inputs.target_time }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timedelta, timezone
+
+          def parse_bool(value: str) -> bool:
+              return str(value).strip().lower() in {"1", "true", "yes", "on"}
+
+          event_name = os.environ.get("EVENT_NAME", "")
+          chain_enabled = True if event_name == "schedule" else parse_bool(os.environ.get("INPUT_CHAIN", "true"))
+          target_time = os.environ.get("INPUT_TARGET_TIME", "").strip()
+          now = datetime.now(timezone.utc)
+          next_mark = now.replace(second=0, microsecond=0)
+          minute_mod = next_mark.minute % 5
+          if minute_mod:
+              next_mark += timedelta(minutes=5 - minute_mod)
+          else:
+              next_mark += timedelta(minutes=5)
+          next_mark += timedelta(seconds=5)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"chain_enabled={'true' if chain_enabled else 'false'}\n")
+              fh.write(f"wait_target={target_time}\n")
+              fh.write(f"next_target={next_mark.isoformat().replace('+00:00', 'Z')}\n")
+          PY
+
+      - name: Wait for planned start time
+        if: ${{ steps.plan.outputs.wait_target != '' }}
+        env:
+          WAIT_TARGET: ${{ steps.plan.outputs.wait_target }}
+        run: |
+          python - <<'PY'
+          import os
+          import time
+          from datetime import datetime, timezone
+
+          target = os.environ["WAIT_TARGET"].strip()
+          if not target:
+              raise SystemExit(0)
+
+          target_dt = datetime.fromisoformat(target.replace("Z", "+00:00"))
+          now = datetime.now(timezone.utc)
+          seconds = (target_dt - now).total_seconds()
+          if seconds > 0:
+              print(f"Sleeping {seconds:.1f}s until {target_dt.isoformat()}")
+              time.sleep(seconds)
+          else:
+              print(f"Target {target_dt.isoformat()} already passed; continuing immediately")
+          PY
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -21,10 +93,43 @@ jobs:
         with:
           node-version: 22
 
+      - name: Skip duplicate updates inside the same 5-minute window
+        id: freshness
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          records_path = Path("data/records.json")
+          skip = False
+          reason = "records.json not found"
+
+          if records_path.exists():
+              payload = json.loads(records_path.read_text(encoding="utf-8"))
+              updated_at = payload.get("updatedAt")
+              if updated_at:
+                  updated_dt = datetime.fromisoformat(updated_at.replace("Z", "+00:00"))
+                  delta = (datetime.now(timezone.utc) - updated_dt).total_seconds()
+                  if delta < 240:
+                      skip = True
+                      reason = f"last update was {delta:.1f}s ago at {updated_dt.isoformat()}"
+                  else:
+                      reason = f"last update was {delta:.1f}s ago at {updated_dt.isoformat()}"
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"skip={'true' if skip else 'false'}\n")
+              fh.write(f"reason={reason}\n")
+          print(reason)
+          PY
+
       - name: Update archive data
+        if: ${{ steps.freshness.outputs.skip != 'true' }}
         run: npm run update
 
       - name: Commit changes
+        if: ${{ steps.freshness.outputs.skip != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -35,3 +140,47 @@ jobs:
           fi
           git commit -m "chore: update archive data"
           git push
+
+      - name: Dispatch next run
+        if: ${{ success() && steps.plan.outputs.chain_enabled == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          REF_NAME: ${{ github.ref_name }}
+          NEXT_TARGET: ${{ steps.plan.outputs.next_target }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          repository = os.environ["REPOSITORY"]
+          ref_name = os.environ["REF_NAME"]
+          next_target = os.environ["NEXT_TARGET"]
+          token = os.environ["GH_TOKEN"]
+
+          payload = json.dumps(
+              {
+                  "ref": ref_name,
+                  "inputs": {
+                      "chain": "true",
+                      "target_time": next_target,
+                  },
+              }
+          ).encode("utf-8")
+
+          request = urllib.request.Request(
+              f"https://api.github.com/repos/{repository}/actions/workflows/update-data.yml/dispatches",
+              data=payload,
+              method="POST",
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
+                  "Content-Type": "application/json",
+                  "User-Agent": "eddi-submeta-actions",
+              },
+          )
+
+          with urllib.request.urlopen(request) as response:
+              print(f"Queued next workflow_dispatch for {next_target}; status={response.status}")
+          PY

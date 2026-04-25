@@ -26,7 +26,9 @@ npm run update
 ## 自動実行
 
 - `/.github/workflows/update-data.yml`
-  - 5分ごとに収集
+  - GitHub Actions の `schedule` を維持
+  - さらに `workflow_dispatch` の self-dispatch 連鎖で GitHub 内だけで5分更新を自己維持
+  - 直近4分以内に更新済みなら重複実行をスキップ
   - 変更があれば自動コミット
 - `/.github/workflows/deploy-pages.yml`
   - `docs/` を GitHub Pages にデプロイ
