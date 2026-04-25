@@ -73,10 +73,7 @@ function applyFilters() {
     const matchesLower = !lower || normalize(record.metadentLower).includes(lower);
     const matchesFirstPostId = !firstPostId || normalize(record.firstPostId).includes(firstPostId);
 
-    if (!matchesThread || !matchesUpper || !matchesLower || !matchesFirstPostId) {
-      return false;
-    }
-    return true;
+    return matchesThread && matchesUpper && matchesLower && matchesFirstPostId;
   });
 
   emptyStateElement.textContent = "一致するデータはありません。";

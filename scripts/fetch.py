@@ -8,7 +8,7 @@ from pathlib import Path
 
 SUBJECT_URL = "https://bbs.eddibb.cc/liveedge/subject-metadent.txt"
 DAT_BASE_URL = "https://bbs.eddibb.cc/liveedge/dat"
-DATA_DIR = Path("docs") / "data"
+DATA_DIR = Path("data")
 DATA_PATH = DATA_DIR / "records.json"
 
 SUBJECT_LINE_RE = re.compile(

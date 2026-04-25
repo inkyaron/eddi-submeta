@@ -102,7 +102,7 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
 
-          metadata_path = Path("docs/data/records.json")
+          metadata_path = Path("data/records.json")
           skip = False
           reason = "records.json not found"
 
@@ -136,7 +136,7 @@ jobs:
           git fetch origin main
           git reset --hard origin/main
           python scripts/fetch.py
-          git add docs/data
+          git add data
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

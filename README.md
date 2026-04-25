@@ -18,7 +18,7 @@ python scripts/fetch.py
 
 生成物:
 
-- `docs/data/records.json`: 正本データ兼 GitHub Pages 用検索データ
+- `data/records.json`: 正本データ兼 GitHub Pages 用検索データ
 
 ## 自動実行
 
