@@ -107,7 +107,7 @@ jobs:
           reason = "records.json not found"
 
           if metadata_path.exists():
-              metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+              metadata = json.loads(metadata_path.read_text(encoding="utf-8-sig"))
               updated_at = metadata.get("updatedAt")
               if updated_at:
                   updated_dt = datetime.fromisoformat(updated_at.replace("Z", "+00:00"))

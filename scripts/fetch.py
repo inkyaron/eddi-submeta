@@ -51,7 +51,7 @@ def ensure_data_file() -> None:
 
 def load_records() -> dict[str, dict[str, str]]:
     ensure_data_file()
-    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    payload = json.loads(DATA_PATH.read_text(encoding="utf-8-sig"))
     records: dict[str, dict[str, str]] = {}
     for row in payload.get("records", []):
         thread_number = row.get("threadNumber", "")
