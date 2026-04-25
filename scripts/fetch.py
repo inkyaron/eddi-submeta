@@ -4,6 +4,7 @@ import json
 import re
 import urllib.request
 from datetime import datetime, timezone
+from html import unescape
 from pathlib import Path
 
 SUBJECT_URL = "https://bbs.eddibb.cc/liveedge/subject-metadent.txt"
@@ -58,7 +59,7 @@ def load_records() -> dict[str, dict[str, str]]:
             continue
         records[thread_number] = {
             "threadNumber": thread_number,
-            "threadTitle": row.get("threadTitle", ""),
+            "threadTitle": unescape(row.get("threadTitle", "")),
             "metadentUpper": row.get("metadentUpper", ""),
             "metadentLower": row.get("metadentLower", ""),
             "firstPostId": row.get("firstPostId", ""),
@@ -110,11 +111,13 @@ def main() -> None:
             continue
 
         thread_number = match.group("thread_number")
+        metadent = match.group("metadent")
+        title = unescape(match.group("title"))
+
         if thread_number in existing:
+            existing[thread_number]["threadTitle"] = title
             continue
 
-        metadent = match.group("metadent")
-        title = match.group("title")
         first_post_id, first_post_datetime = "", ""
         try:
             first_post_id, first_post_datetime = fetch_first_post(thread_number)

@@ -11,6 +11,13 @@ const titleFilter = document.querySelector("#title-filter");
 const rowTemplate = document.querySelector("#row-template");
 
 let records = [];
+const entityDecoder = document.createElement("textarea");
+
+function decodeTitle(value) {
+  const text = String(value ?? "");
+  entityDecoder.innerHTML = text;
+  return entityDecoder.value;
+}
 
 function normalize(value) {
   return String(value ?? "").trim().toLowerCase();
@@ -39,7 +46,7 @@ function renderRows(rows) {
     row.querySelector(".lower").textContent = record.metadentLower;
     row.querySelector(".first-post-id").textContent = record.firstPostId || "-";
     row.querySelector(".first-post-datetime").textContent = record.firstPostDateTime || "-";
-    row.querySelector(".thread-title").textContent = record.threadTitle || "-";
+    row.querySelector(".thread-title").textContent = decodeTitle(record.threadTitle) || "-";
 
     row.children[0].dataset.label = "スレ番号";
     row.children[1].dataset.label = "meta-upper";
@@ -76,7 +83,7 @@ function applyFilters() {
     const matchesUpper = !upper || normalize(record.metadentUpper).includes(upper);
     const matchesLower = !lower || normalize(record.metadentLower).includes(lower);
     const matchesFirstPostId = !firstPostId || normalize(record.firstPostId).includes(firstPostId);
-    const matchesTitle = !title || normalize(record.threadTitle).includes(title);
+    const matchesTitle = !title || normalize(decodeTitle(record.threadTitle)).includes(title);
 
     return matchesThread && matchesUpper && matchesLower && matchesFirstPostId && matchesTitle;
   });
