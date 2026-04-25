@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>エッヂ・サブメタ保存庫</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <p class="eyebrow">Eddibb Subject-Metadent Archive</p>
+        <h1>エッヂ・サブメタ保存庫</h1>
+        <p class="lead">
+          エッヂ掲示板の `subject-metadent` を保存し、スレ番号・metadent・レス1のIDから検索できる保管庫です。
+        </p>
+        <div class="meta">
+          <span id="updated-at">更新日時を読み込み中...</span>
+          <a href="./data/records.csv">CSV</a>
+          <a href="https://bbs.eddibb.cc/liveedge/subject-metadent.txt">subject-metadent.txt</a>
+        </div>
+      </header>
+
+      <section class="panel controls">
+        <label class="search">
+          <span>検索</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="スレ番号 / metadent / 記者ID / スレタイ"
+            autocomplete="off"
+          />
+        </label>
+
+        <div class="filters">
+          <label>
+            <span>上位4桁</span>
+            <input id="upper-filter" type="text" maxlength="4" placeholder="例: DNip" />
+          </label>
+          <label>
+            <span>下位4桁</span>
+            <input id="lower-filter" type="text" maxlength="4" placeholder="例: x7bZ" />
+          </label>
+        </div>
+      </section>
+
+      <section class="panel stats">
+        <div class="stat">
+          <strong id="total-count">0</strong>
+          <span>保存件数</span>
+        </div>
+        <div class="stat">
+          <strong id="result-count">0</strong>
+          <span>検索結果</span>
+        </div>
+      </section>
+
+      <section class="panel table-panel">
+        <table>
+          <thead>
+            <tr>
+              <th>スレ番号</th>
+              <th>上位4桁</th>
+              <th>下位4桁</th>
+              <th>レス1 ID</th>
+              <th>スレタイ</th>
+            </tr>
+          </thead>
+          <tbody id="results"></tbody>
+        </table>
+        <p id="empty-state" class="empty" hidden>一致するデータはありません。</p>
+      </section>
+    </div>
+
+    <template id="row-template">
+      <tr>
+        <td class="mono thread"></td>
+        <td class="mono upper"></td>
+        <td class="mono lower"></td>
+        <td class="mono first-post-id"></td>
+        <td class="title"></td>
+      </tr>
+    </template>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
