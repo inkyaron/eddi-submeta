@@ -49,7 +49,6 @@ body {
 
 h1 {
   margin: 0;
-  font-family: Georgia, "Yu Mincho", serif;
   font-size: clamp(2rem, 4vw, 3.4rem);
   line-height: 1.05;
 }
