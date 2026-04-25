@@ -12,7 +12,7 @@ DATA_DIR = Path("data")
 DATA_PATH = DATA_DIR / "records.json"
 
 SUBJECT_LINE_RE = re.compile(
-    r"^(?P<thread_number>\d+)\.dat<>.+? \[(?P<metadent>[^\[\]\s]{8})★\] \((?P<response_count>\d+)\)$"
+    r"^(?P<thread_number>\d+)\.dat<>(?P<title>.+) \[(?P<metadent>[^\[\]\s]{8})★\] \((?P<response_count>\d+)\)$"
 )
 FIRST_POST_RE = re.compile(
     r"^.*?<>(?P<date_time>\d{4}/\d{2}/\d{2}\([^)]+\) \d{2}:\d{2}:\d{2}(?:\.\d+)?) ID:(?P<post_id>[A-Za-z0-9+\/._-]+)<>"
@@ -26,7 +26,7 @@ def fetch_text(url: str) -> str:
     )
     with urllib.request.urlopen(request) as response:
         data = response.read()
-    return data.decode("shift_jis", errors="replace")
+    return data.decode("cp932", errors="replace")
 
 
 def ensure_data_file() -> None:
@@ -58,6 +58,7 @@ def load_records() -> dict[str, dict[str, str]]:
             continue
         records[thread_number] = {
             "threadNumber": thread_number,
+            "threadTitle": row.get("threadTitle", ""),
             "metadentUpper": row.get("metadentUpper", ""),
             "metadentLower": row.get("metadentLower", ""),
             "firstPostId": row.get("firstPostId", ""),
@@ -68,7 +69,8 @@ def load_records() -> dict[str, dict[str, str]]:
 
 def fetch_first_post(thread_number: str) -> tuple[str, str]:
     dat_text = fetch_text(f"{DAT_BASE_URL}/{thread_number}.dat")
-    first_line = dat_text.splitlines()[0] if dat_text.splitlines() else ""
+    lines = dat_text.splitlines()
+    first_line = lines[0] if lines else ""
     match = FIRST_POST_RE.match(first_line)
     if not match:
         return "", ""
@@ -113,6 +115,7 @@ def main() -> None:
             continue
 
         metadent = match.group("metadent")
+        title = match.group("title")
         first_post_id, first_post_datetime = "", ""
         try:
             first_post_id, first_post_datetime = fetch_first_post(thread_number)
@@ -121,6 +124,7 @@ def main() -> None:
 
         existing[thread_number] = {
             "threadNumber": thread_number,
+            "threadTitle": title,
             "metadentUpper": metadent[:4],
             "metadentLower": metadent[4:8],
             "firstPostId": first_post_id,

@@ -10,24 +10,32 @@
     <div class="page">
       <header class="hero">
         <p class="eyebrow">Eddibb Subject-Metadent Archive</p>
-        <h1>エッヂ・サブメタ保管庫</h1>
+        <h1>エッヂ・サブメタ保存庫</h1>
         <p class="lead">
-          エッヂ掲示板のsubject-metadent、通称<b>スレ立てID</b>(記者ID)の保管庫。<br>
-          2026年04月25日21:26:41から記録開始。<br>
-          取得頻度は5分毎。その間に立って落ちたスレは記録されません。。
+          エッヂ掲示板の subject-metadent、通称
+          <b>スレ立てID</b> を記録する保管庫です。<br />
+          2026年04月25日23:25:10 から記録開始。<br />
+          巡回頻度は5分ごとです。
         </p>
         <div class="meta">
           <a href="./data/records.json">JSON</a>
+          <span id="updated-at">最終更新日時 読み込み中</span>
         </div>
       </header>
 
       <section class="panel controls">
-        <p class="search-note">複数項目を入力した場合は AND 検索です。1項目だけでも検索できます。</p>
+        <p class="search-note">
+          複数の検索条件を入力した場合は AND 検索です。スレタイは部分一致で検索します。
+        </p>
 
         <div class="filters">
           <label>
             <span>スレ番号</span>
             <input id="thread-filter" type="text" inputmode="numeric" placeholder="例: 1777133414" />
+          </label>
+          <label>
+            <span>スレタイ</span>
+            <input id="title-filter" type="text" placeholder="例: 一畳間まんきつ暮らし" />
           </label>
           <label>
             <span>meta-upper</span>
@@ -47,7 +55,7 @@
       <section class="panel stats">
         <div class="stat">
           <strong id="total-count">0</strong>
-          <span>保存件数</span>
+          <span>記録件数</span>
         </div>
         <div class="stat">
           <strong id="result-count">0</strong>
@@ -60,10 +68,11 @@
           <thead>
             <tr>
               <th>スレ番号</th>
-              <th>上位4桁</th>
-              <th>下位4桁</th>
-              <th>レス1 ID</th>
-              <th>レス1日時</th>
+              <th>スレタイ</th>
+              <th>meta-upper</th>
+              <th>meta-lower</th>
+              <th>レスID</th>
+              <th>スレ立て日時</th>
             </tr>
           </thead>
           <tbody id="results"></tbody>
@@ -75,6 +84,7 @@
     <template id="row-template">
       <tr>
         <td class="mono thread"></td>
+        <td class="thread-title"></td>
         <td class="mono upper"></td>
         <td class="mono lower"></td>
         <td class="mono first-post-id"></td>
