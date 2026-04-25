@@ -69,8 +69,7 @@ def load_records() -> dict[str, dict[str, str]]:
 
 def fetch_first_post(thread_number: str) -> tuple[str, str]:
     dat_text = fetch_text(f"{DAT_BASE_URL}/{thread_number}.dat")
-    lines = dat_text.splitlines()
-    first_line = lines[0] if lines else ""
+    first_line = dat_text.splitlines()[0] if dat_text.splitlines() else ""
     match = FIRST_POST_RE.match(first_line)
     if not match:
         return "", ""

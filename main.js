@@ -1,13 +1,14 @@
+const updatedFirstElement = document.querySelector("#updated-first");
 const updatedAtElement = document.querySelector("#updated-at");
 const totalCountElement = document.querySelector("#total-count");
 const resultCountElement = document.querySelector("#result-count");
 const resultsElement = document.querySelector("#results");
 const emptyStateElement = document.querySelector("#empty-state");
 const threadFilter = document.querySelector("#thread-filter");
-const titleFilter = document.querySelector("#title-filter");
 const upperFilter = document.querySelector("#upper-filter");
 const lowerFilter = document.querySelector("#lower-filter");
 const idFilter = document.querySelector("#id-filter");
+const titleFilter = document.querySelector("#title-filter");
 const rowTemplate = document.querySelector("#row-template");
 
 let records = [];
@@ -16,17 +17,25 @@ function normalize(value) {
   return String(value ?? "").trim().toLowerCase();
 }
 
-function formatTimestamp(value) {
+function formatUpdatedAt(value) {
   if (!value) {
-    return "最終更新日時 不明";
+    return "最終更新 不明";
   }
 
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) {
-    return `最終更新日時 ${value}`;
+    return `最終更新 ${value}`;
   }
 
-  return `最終更新日時 ${date.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}`;
+  return `最終更新 ${date.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}`;
+}
+
+function formatFirstRecordedAt(value) {
+  if (!value) {
+    return "最古記録 不明";
+  }
+
+  return `最古記録 ${value}`;
 }
 
 function renderRows(rows) {
@@ -35,18 +44,18 @@ function renderRows(rows) {
   for (const record of rows) {
     const row = rowTemplate.content.firstElementChild.cloneNode(true);
     row.querySelector(".thread").textContent = record.threadNumber;
-    row.querySelector(".thread-title").textContent = record.threadTitle || "-";
     row.querySelector(".upper").textContent = record.metadentUpper;
     row.querySelector(".lower").textContent = record.metadentLower;
     row.querySelector(".first-post-id").textContent = record.firstPostId || "-";
     row.querySelector(".first-post-datetime").textContent = record.firstPostDateTime || "-";
+    row.querySelector(".thread-title").textContent = record.threadTitle || "-";
 
     row.children[0].dataset.label = "スレ番号";
-    row.children[1].dataset.label = "スレタイ";
-    row.children[2].dataset.label = "meta-upper";
-    row.children[3].dataset.label = "meta-lower";
-    row.children[4].dataset.label = "レスID";
-    row.children[5].dataset.label = "スレ立て日時";
+    row.children[1].dataset.label = "meta-upper";
+    row.children[2].dataset.label = "meta-lower";
+    row.children[3].dataset.label = "レスID";
+    row.children[4].dataset.label = "スレ立て日時";
+    row.children[5].dataset.label = "スレタイ";
 
     resultsElement.appendChild(row);
   }
@@ -57,12 +66,12 @@ function renderRows(rows) {
 
 function applyFilters() {
   const thread = normalize(threadFilter.value);
-  const title = normalize(titleFilter.value);
   const upper = normalize(upperFilter.value);
   const lower = normalize(lowerFilter.value);
   const firstPostId = normalize(idFilter.value);
+  const title = normalize(titleFilter.value);
 
-  const hasActiveFilters = Boolean(thread || title || upper || lower || firstPostId);
+  const hasActiveFilters = Boolean(thread || upper || lower || firstPostId || title);
   if (!hasActiveFilters) {
     resultCountElement.textContent = "0";
     resultsElement.replaceChildren();
@@ -73,12 +82,12 @@ function applyFilters() {
 
   const filtered = records.filter((record) => {
     const matchesThread = !thread || normalize(record.threadNumber).includes(thread);
-    const matchesTitle = !title || normalize(record.threadTitle).includes(title);
     const matchesUpper = !upper || normalize(record.metadentUpper).includes(upper);
     const matchesLower = !lower || normalize(record.metadentLower).includes(lower);
     const matchesFirstPostId = !firstPostId || normalize(record.firstPostId).includes(firstPostId);
+    const matchesTitle = !title || normalize(record.threadTitle).includes(title);
 
-    return matchesThread && matchesTitle && matchesUpper && matchesLower && matchesFirstPostId;
+    return matchesThread && matchesUpper && matchesLower && matchesFirstPostId && matchesTitle;
   });
 
   emptyStateElement.textContent = "一致するデータはありません。";
@@ -94,17 +103,22 @@ async function boot() {
   const payload = await response.json();
   records = Array.isArray(payload.records) ? payload.records : [];
   totalCountElement.textContent = records.length.toLocaleString("ja-JP");
-  updatedAtElement.textContent = formatTimestamp(payload.updatedAt);
+  updatedAtElement.textContent = formatUpdatedAt(payload.updatedAt);
+
+  const oldestRecord = records.at(-1);
+  updatedFirstElement.textContent = formatFirstRecordedAt(oldestRecord?.firstPostDateTime);
+
   applyFilters();
 }
 
 threadFilter.addEventListener("input", applyFilters);
-titleFilter.addEventListener("input", applyFilters);
 upperFilter.addEventListener("input", applyFilters);
 lowerFilter.addEventListener("input", applyFilters);
 idFilter.addEventListener("input", applyFilters);
+titleFilter.addEventListener("input", applyFilters);
 
 boot().catch((error) => {
   console.error(error);
+  updatedFirstElement.textContent = "最古記録を読み込めませんでした。";
   updatedAtElement.textContent = "データを読み込めませんでした。";
 });

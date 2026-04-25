@@ -12,14 +12,13 @@
         <p class="eyebrow">Eddibb Subject-Metadent Archive</p>
         <h1>エッヂ・サブメタ保存庫</h1>
         <p class="lead">
-          エッヂ掲示板の subject-metadent、通称
-          <b>スレ立てID</b> を記録する保管庫です。<br />
-          2026年04月25日23:25:10 から記録開始。<br />
-          巡回頻度は5分ごとです。
+          エッヂ掲示板のsubject-metadent、通称 <b>スレ立てID</b>
+          を記録する保存庫です。巡回頻度は5分ごとです。
         </p>
         <div class="meta">
           <a href="./data/records.json">JSON</a>
-          <span id="updated-at">最終更新日時 読み込み中</span>
+          <span id="updated-first">最古記録 読み込み中</span>
+          <span id="updated-at">最終更新 読み込み中</span>
         </div>
       </header>
 
@@ -34,10 +33,6 @@
             <input id="thread-filter" type="text" inputmode="numeric" placeholder="例: 1777133414" />
           </label>
           <label>
-            <span>スレタイ</span>
-            <input id="title-filter" type="text" placeholder="例: 一畳間まんきつ暮らし" />
-          </label>
-          <label>
             <span>meta-upper</span>
             <input id="upper-filter" type="text" maxlength="4" placeholder="例: DNip" />
           </label>
@@ -48,6 +43,10 @@
           <label>
             <span>レスID</span>
             <input id="id-filter" type="text" placeholder="例: aW6LRcTTV" />
+          </label>
+          <label>
+            <span>スレタイ</span>
+            <input id="title-filter" type="text" placeholder="例: 一畳間まんきつ暮らし" />
           </label>
         </div>
       </section>
@@ -68,11 +67,11 @@
           <thead>
             <tr>
               <th>スレ番号</th>
-              <th>スレタイ</th>
               <th>meta-upper</th>
               <th>meta-lower</th>
               <th>レスID</th>
               <th>スレ立て日時</th>
+              <th>スレタイ</th>
             </tr>
           </thead>
           <tbody id="results"></tbody>
@@ -84,11 +83,11 @@
     <template id="row-template">
       <tr>
         <td class="mono thread"></td>
-        <td class="thread-title"></td>
         <td class="mono upper"></td>
         <td class="mono lower"></td>
         <td class="mono first-post-id"></td>
         <td class="first-post-datetime"></td>
+        <td class="thread-title"></td>
       </tr>
     </template>
 
