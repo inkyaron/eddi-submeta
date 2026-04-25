@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 DATA_PATH = Path("data") / "records.csv"
+METADATA_PATH = Path("data") / "metadata.json"
 DOCS_DATA_DIR = Path("docs") / "data"
 
 
@@ -26,8 +27,13 @@ def main() -> None:
             if row.get("thread_number")
         ]
 
+    updated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    if METADATA_PATH.exists():
+        metadata = json.loads(METADATA_PATH.read_text(encoding="utf-8"))
+        updated_at = metadata.get("updatedAt", updated_at)
+
     payload = {
-        "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "updatedAt": updated_at,
         "totalRecords": len(records),
         "records": records,
     }

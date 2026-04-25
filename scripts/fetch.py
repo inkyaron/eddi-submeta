@@ -4,12 +4,14 @@ import csv
 import json
 import re
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 SUBJECT_URL = "https://bbs.eddibb.cc/liveedge/subject-metadent.txt"
 DAT_BASE_URL = "https://bbs.eddibb.cc/liveedge/dat"
 DATA_DIR = Path("data")
 DATA_PATH = DATA_DIR / "records.csv"
+METADATA_PATH = DATA_DIR / "metadata.json"
 
 SUBJECT_LINE_RE = re.compile(
     r"^(?P<thread_number>\d+)\.dat<>.+? \[(?P<metadent>[^\[\]\s]{8})★\] \((?P<response_count>\d+)\)$"
@@ -98,6 +100,24 @@ def write_records(records: list[dict[str, str]]) -> None:
             )
 
 
+def write_metadata(total_records: int, added_count: int) -> str:
+    updated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    METADATA_PATH.write_text(
+        json.dumps(
+            {
+                "updatedAt": updated_at,
+                "totalRecords": total_records,
+                "addedCount": added_count,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    return updated_at
+
+
 def main() -> None:
     existing = load_records()
     subject_text = fetch_text(SUBJECT_URL)
@@ -134,10 +154,12 @@ def main() -> None:
 
     records = sorted(existing.values(), key=lambda row: int(row["thread_number"]), reverse=True)
     write_records(records)
+    updated_at = write_metadata(len(records), added_count)
 
     print(
         json.dumps(
             {
+                "updatedAt": updated_at,
                 "totalRecords": len(records),
                 "addedCount": added_count,
             },
