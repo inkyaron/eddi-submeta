@@ -9,6 +9,7 @@ const lowerFilter = document.querySelector("#lower-filter");
 const idFilter = document.querySelector("#id-filter");
 const titleFilter = document.querySelector("#title-filter");
 const rowTemplate = document.querySelector("#row-template");
+const KYODEMO_BASE_URL = "https://www.kyodemo.net/sdemo/b/e_e_liveedge/";
 const DATA_URL =
   "https://raw.githubusercontent.com/inkyaron/eddi-submeta/refs/heads/main/data/records.json";
 
@@ -38,15 +39,77 @@ function formatUpdatedAt(value) {
   return `最終更新 ${date.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}`;
 }
 
+function extractDateKey(value) {
+  const match = String(value ?? "").match(/^(\d{4})\/(\d{2})\/(\d{2})/);
+  if (!match) {
+    return "";
+  }
+
+  return `${match[1]}${match[2]}${match[3]}`;
+}
+
+function buildThreadUrl(record) {
+  const date = extractDateKey(record.firstPostDateTime);
+  if (!record.threadNumber || !date) {
+    return "";
+  }
+
+  const params = new URLSearchParams({
+    key: record.threadNumber,
+    date,
+  });
+  return `${KYODEMO_BASE_URL}?${params.toString()}`;
+}
+
+function buildIdUrl(record) {
+  const date = extractDateKey(record.firstPostDateTime);
+  if (!record.threadNumber || !record.firstPostId || !date) {
+    return "";
+  }
+
+  const params = new URLSearchParams({
+    hi: record.firstPostId,
+    key: record.threadNumber,
+    date,
+  });
+  return `${KYODEMO_BASE_URL}?${params.toString()}`;
+}
+
 function renderRows(rows) {
   resultsElement.replaceChildren();
 
   for (const record of rows) {
     const row = rowTemplate.content.firstElementChild.cloneNode(true);
-    row.querySelector(".thread").textContent = record.threadNumber;
+    const threadCell = row.querySelector(".thread");
+    const firstPostIdCell = row.querySelector(".first-post-id");
+    const threadUrl = buildThreadUrl(record);
+    const idUrl = buildIdUrl(record);
+
+    if (threadUrl) {
+      const link = document.createElement("a");
+      link.href = threadUrl;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.textContent = record.threadNumber;
+      threadCell.replaceChildren(link);
+    } else {
+      threadCell.textContent = record.threadNumber;
+    }
+
     row.querySelector(".upper").textContent = record.metadentUpper;
     row.querySelector(".lower").textContent = record.metadentLower;
-    row.querySelector(".first-post-id").textContent = record.firstPostId || "-";
+
+    if (idUrl && record.firstPostId) {
+      const link = document.createElement("a");
+      link.href = idUrl;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.textContent = record.firstPostId;
+      firstPostIdCell.replaceChildren(link);
+    } else {
+      firstPostIdCell.textContent = record.firstPostId || "-";
+    }
+
     row.querySelector(".first-post-datetime").textContent = record.firstPostDateTime || "-";
     row.querySelector(".thread-title").textContent = decodeTitle(record.threadTitle) || "-";
 
