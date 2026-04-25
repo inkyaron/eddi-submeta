@@ -3,9 +3,10 @@ const totalCountElement = document.querySelector("#total-count");
 const resultCountElement = document.querySelector("#result-count");
 const resultsElement = document.querySelector("#results");
 const emptyStateElement = document.querySelector("#empty-state");
-const searchInput = document.querySelector("#search-input");
+const threadFilter = document.querySelector("#thread-filter");
 const upperFilter = document.querySelector("#upper-filter");
 const lowerFilter = document.querySelector("#lower-filter");
+const idFilter = document.querySelector("#id-filter");
 const rowTemplate = document.querySelector("#row-template");
 
 let records = [];
@@ -52,35 +53,33 @@ function renderRows(rows) {
 }
 
 function applyFilters() {
-  const query = normalize(searchInput.value);
+  const thread = normalize(threadFilter.value);
   const upper = normalize(upperFilter.value);
   const lower = normalize(lowerFilter.value);
+  const firstPostId = normalize(idFilter.value);
+
+  const hasActiveFilters = Boolean(thread || upper || lower || firstPostId);
+  if (!hasActiveFilters) {
+    resultCountElement.textContent = "0";
+    resultsElement.replaceChildren();
+    emptyStateElement.textContent = "検索条件を入力してください。";
+    emptyStateElement.hidden = false;
+    return;
+  }
 
   const filtered = records.filter((record) => {
+    const matchesThread = !thread || normalize(record.threadNumber).includes(thread);
     const matchesUpper = !upper || normalize(record.metadentUpper).includes(upper);
     const matchesLower = !lower || normalize(record.metadentLower).includes(lower);
+    const matchesFirstPostId = !firstPostId || normalize(record.firstPostId).includes(firstPostId);
 
-    if (!matchesUpper || !matchesLower) {
+    if (!matchesThread || !matchesUpper || !matchesLower || !matchesFirstPostId) {
       return false;
     }
-
-    if (!query) {
-      return true;
-    }
-
-    const haystack = [
-      record.threadNumber,
-      record.metadentUpper,
-      record.metadentLower,
-      record.firstPostId,
-      record.firstPostDateTime
-    ]
-      .map(normalize)
-      .join("\n");
-
-    return haystack.includes(query);
+    return true;
   });
 
+  emptyStateElement.textContent = "一致するデータはありません。";
   renderRows(filtered);
 }
 
@@ -97,9 +96,10 @@ async function boot() {
   applyFilters();
 }
 
-searchInput.addEventListener("input", applyFilters);
+threadFilter.addEventListener("input", applyFilters);
 upperFilter.addEventListener("input", applyFilters);
 lowerFilter.addEventListener("input", applyFilters);
+idFilter.addEventListener("input", applyFilters);
 
 boot().catch((error) => {
   console.error(error);

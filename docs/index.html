@@ -22,24 +22,24 @@
       </header>
 
       <section class="panel controls">
-        <label class="search">
-          <span>検索</span>
-          <input
-            id="search-input"
-            type="search"
-            placeholder="スレ番号 / metadent / 記者ID / レス1日時"
-            autocomplete="off"
-          />
-        </label>
+        <p class="search-note">複数項目を入力した場合は AND 検索です。1項目だけでも検索できます。</p>
 
         <div class="filters">
           <label>
-            <span>上位4桁</span>
+            <span>スレ番号</span>
+            <input id="thread-filter" type="text" inputmode="numeric" placeholder="例: 1777133414" />
+          </label>
+          <label>
+            <span>meta-upper</span>
             <input id="upper-filter" type="text" maxlength="4" placeholder="例: DNip" />
           </label>
           <label>
-            <span>下位4桁</span>
+            <span>meta-lower</span>
             <input id="lower-filter" type="text" maxlength="4" placeholder="例: x7bZ" />
+          </label>
+          <label>
+            <span>レスID</span>
+            <input id="id-filter" type="text" placeholder="例: aW6LRcTTV" />
           </label>
         </div>
       </section>
@@ -68,7 +68,7 @@
           </thead>
           <tbody id="results"></tbody>
         </table>
-        <p id="empty-state" class="empty" hidden>一致するデータはありません。</p>
+        <p id="empty-state" class="empty" hidden>検索条件を入力してください。</p>
       </section>
     </div>
 
