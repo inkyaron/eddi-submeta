@@ -9,6 +9,8 @@ const lowerFilter = document.querySelector("#lower-filter");
 const idFilter = document.querySelector("#id-filter");
 const titleFilter = document.querySelector("#title-filter");
 const rowTemplate = document.querySelector("#row-template");
+const DATA_URL =
+  "https://raw.githubusercontent.com/inkyaron/eddi-submeta/refs/heads/main/data/records.json";
 
 let records = [];
 const entityDecoder = document.createElement("textarea");
@@ -93,7 +95,7 @@ function applyFilters() {
 }
 
 async function boot() {
-  const response = await fetch("./data/records.json", { cache: "no-store" });
+  const response = await fetch(DATA_URL, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`データ読み込み失敗: ${response.status}`);
   }
