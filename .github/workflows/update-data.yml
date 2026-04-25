@@ -88,10 +88,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 22
+          python-version: "3.12"
 
       - name: Skip duplicate updates inside the same 5-minute window
         id: freshness
@@ -122,13 +122,19 @@ jobs:
 
       - name: Update archive data
         if: ${{ steps.freshness.outputs.skip != 'true' }}
-        run: npm run update
+        run: |
+          python scripts/fetch.py
+          python scripts/build_site.py
 
       - name: Commit changes
         if: ${{ steps.freshness.outputs.skip != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --hard origin/main
+          python scripts/fetch.py
+          python scripts/build_site.py
           git add data docs/data
           if git diff --cached --quiet; then
             echo "No changes to commit"

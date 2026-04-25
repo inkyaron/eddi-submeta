@@ -13,7 +13,8 @@
 ## 開発
 
 ```bash
-npm run update
+python scripts/fetch.py
+python scripts/build_site.py
 ```
 
 生成物:
