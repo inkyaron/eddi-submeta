@@ -102,9 +102,9 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
 
-          metadata_path = Path("data/metadata.json")
+          metadata_path = Path("docs/data/records.json")
           skip = False
-          reason = "metadata.json not found"
+          reason = "records.json not found"
 
           if metadata_path.exists():
               metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
@@ -126,9 +126,7 @@ jobs:
 
       - name: Update archive data
         if: ${{ steps.freshness.outputs.skip != 'true' }}
-        run: |
-          python scripts/fetch.py
-          python scripts/build_site.py
+        run: python scripts/fetch.py
 
       - name: Commit changes
         if: ${{ steps.freshness.outputs.skip != 'true' }}
@@ -138,8 +136,7 @@ jobs:
           git fetch origin main
           git reset --hard origin/main
           python scripts/fetch.py
-          python scripts/build_site.py
-          git add data docs/data
+          git add docs/data
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

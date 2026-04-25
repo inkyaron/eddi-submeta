@@ -84,7 +84,7 @@ function applyFilters() {
 }
 
 async function boot() {
-  const response = await fetch("./data/index.json", { cache: "no-store" });
+  const response = await fetch("./data/records.json", { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`データ読み込み失敗: ${response.status}`);
   }

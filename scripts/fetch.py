@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import csv
 import json
 import re
 import urllib.request
@@ -9,9 +8,8 @@ from pathlib import Path
 
 SUBJECT_URL = "https://bbs.eddibb.cc/liveedge/subject-metadent.txt"
 DAT_BASE_URL = "https://bbs.eddibb.cc/liveedge/dat"
-DATA_DIR = Path("data")
-DATA_PATH = DATA_DIR / "records.csv"
-METADATA_PATH = DATA_DIR / "metadata.json"
+DATA_DIR = Path("docs") / "data"
+DATA_PATH = DATA_DIR / "records.json"
 
 SUBJECT_LINE_RE = re.compile(
     r"^(?P<thread_number>\d+)\.dat<>.+? \[(?P<metadent>[^\[\]\s]{8})★\] \((?P<response_count>\d+)\)$"
@@ -35,35 +33,36 @@ def ensure_data_file() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     if DATA_PATH.exists():
         return
-    with DATA_PATH.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.writer(fh)
-        writer.writerow(
-            [
-                "thread_number",
-                "metadent_upper",
-                "metadent_lower",
-                "first_post_id",
-                "first_post_datetime",
-            ]
+    DATA_PATH.write_text(
+        json.dumps(
+            {
+                "updatedAt": None,
+                "totalRecords": 0,
+                "records": [],
+            },
+            ensure_ascii=False,
+            indent=2,
         )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def load_records() -> dict[str, dict[str, str]]:
     ensure_data_file()
+    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     records: dict[str, dict[str, str]] = {}
-    with DATA_PATH.open("r", encoding="utf-8", newline="") as fh:
-        reader = csv.DictReader(fh)
-        for row in reader:
-            thread_number = row.get("thread_number", "")
-            if not thread_number:
-                continue
-            records[thread_number] = {
-                "thread_number": thread_number,
-                "metadent_upper": row.get("metadent_upper", ""),
-                "metadent_lower": row.get("metadent_lower", ""),
-                "first_post_id": row.get("first_post_id", ""),
-                "first_post_datetime": row.get("first_post_datetime", ""),
-            }
+    for row in payload.get("records", []):
+        thread_number = row.get("threadNumber", "")
+        if not thread_number:
+            continue
+        records[thread_number] = {
+            "threadNumber": thread_number,
+            "metadentUpper": row.get("metadentUpper", ""),
+            "metadentLower": row.get("metadentLower", ""),
+            "firstPostId": row.get("firstPostId", ""),
+            "firstPostDateTime": row.get("firstPostDateTime", ""),
+        }
     return records
 
 
@@ -76,38 +75,15 @@ def fetch_first_post(thread_number: str) -> tuple[str, str]:
     return match.group("post_id"), match.group("date_time")
 
 
-def write_records(records: list[dict[str, str]]) -> None:
-    with DATA_PATH.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.writer(fh)
-        writer.writerow(
-            [
-                "thread_number",
-                "metadent_upper",
-                "metadent_lower",
-                "first_post_id",
-                "first_post_datetime",
-            ]
-        )
-        for record in records:
-            writer.writerow(
-                [
-                    record["thread_number"],
-                    record["metadent_upper"],
-                    record["metadent_lower"],
-                    record["first_post_id"],
-                    record["first_post_datetime"],
-                ]
-            )
-
-
-def write_metadata(total_records: int, added_count: int) -> str:
+def write_payload(records: list[dict[str, str]], added_count: int) -> str:
     updated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-    METADATA_PATH.write_text(
+    DATA_PATH.write_text(
         json.dumps(
             {
                 "updatedAt": updated_at,
-                "totalRecords": total_records,
+                "totalRecords": len(records),
                 "addedCount": added_count,
+                "records": records,
             },
             ensure_ascii=False,
             indent=2,
@@ -144,17 +120,16 @@ def main() -> None:
             print(f"Failed to fetch .dat for {thread_number}: {error}")
 
         existing[thread_number] = {
-            "thread_number": thread_number,
-            "metadent_upper": metadent[:4],
-            "metadent_lower": metadent[4:8],
-            "first_post_id": first_post_id,
-            "first_post_datetime": first_post_datetime,
+            "threadNumber": thread_number,
+            "metadentUpper": metadent[:4],
+            "metadentLower": metadent[4:8],
+            "firstPostId": first_post_id,
+            "firstPostDateTime": first_post_datetime,
         }
         added_count += 1
 
-    records = sorted(existing.values(), key=lambda row: int(row["thread_number"]), reverse=True)
-    write_records(records)
-    updated_at = write_metadata(len(records), added_count)
+    records = sorted(existing.values(), key=lambda row: int(row["threadNumber"]), reverse=True)
+    updated_at = write_payload(records, added_count)
 
     print(
         json.dumps(

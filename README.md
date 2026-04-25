@@ -14,14 +14,11 @@
 
 ```bash
 python scripts/fetch.py
-python scripts/build_site.py
 ```
 
 生成物:
 
-- `data/records.csv`: 正本データ
-- `docs/data/index.json`: GitHub Pages 用検索データ
-- `docs/data/records.csv`: CSV 出力
+- `docs/data/records.json`: 正本データ兼 GitHub Pages 用検索データ
 
 ## 自動実行
 
