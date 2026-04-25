@@ -9,7 +9,9 @@ const lowerFilter = document.querySelector("#lower-filter");
 const idFilter = document.querySelector("#id-filter");
 const titleFilter = document.querySelector("#title-filter");
 const rowTemplate = document.querySelector("#row-template");
-const KYODEMO_BASE_URL = "https://www.kyodemo.net/sdemo/b/e_e_liveedge/";
+const KYODEMO_ID_BASE_URL = "https://www.kyodemo.net/sdemo/b/e_e_liveedge/";
+const KYODEMO_THREAD_BASE_URL = "https://www.kyodemo.net/sdemo/r/e_e_liveedge/";
+const DAT_BASE_URL = "https://bbs.eddibb.cc/liveedge/dat/";
 const DATA_URL =
   "https://raw.githubusercontent.com/inkyaron/eddi-submeta/refs/heads/main/data/records.json";
 
@@ -48,17 +50,20 @@ function extractDateKey(value) {
   return `${match[1]}${match[2]}${match[3]}`;
 }
 
-function buildThreadUrl(record) {
-  const date = extractDateKey(record.firstPostDateTime);
-  if (!record.threadNumber || !date) {
+function buildDatUrl(record) {
+  if (!record.threadNumber) {
     return "";
   }
 
-  const params = new URLSearchParams({
-    key: record.threadNumber,
-    date,
-  });
-  return `${KYODEMO_BASE_URL}?${params.toString()}`;
+  return `${DAT_BASE_URL}${record.threadNumber}.dat`;
+}
+
+function buildThreadArchiveUrl(record) {
+  if (!record.threadNumber) {
+    return "";
+  }
+
+  return `${KYODEMO_THREAD_BASE_URL}${record.threadNumber}/`;
 }
 
 function buildIdUrl(record) {
@@ -72,7 +77,7 @@ function buildIdUrl(record) {
     key: record.threadNumber,
     date,
   });
-  return `${KYODEMO_BASE_URL}?${params.toString()}`;
+  return `${KYODEMO_ID_BASE_URL}?${params.toString()}`;
 }
 
 function renderRows(rows) {
@@ -82,12 +87,14 @@ function renderRows(rows) {
     const row = rowTemplate.content.firstElementChild.cloneNode(true);
     const threadCell = row.querySelector(".thread");
     const firstPostIdCell = row.querySelector(".first-post-id");
-    const threadUrl = buildThreadUrl(record);
+    const titleCell = row.querySelector(".thread-title");
+    const datUrl = buildDatUrl(record);
+    const threadUrl = buildThreadArchiveUrl(record);
     const idUrl = buildIdUrl(record);
 
-    if (threadUrl) {
+    if (datUrl) {
       const link = document.createElement("a");
-      link.href = threadUrl;
+      link.href = datUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
       link.textContent = record.threadNumber;
@@ -111,7 +118,17 @@ function renderRows(rows) {
     }
 
     row.querySelector(".first-post-datetime").textContent = record.firstPostDateTime || "-";
-    row.querySelector(".thread-title").textContent = decodeTitle(record.threadTitle) || "-";
+    const decodedTitle = decodeTitle(record.threadTitle) || "-";
+    if (threadUrl && record.threadTitle) {
+      const link = document.createElement("a");
+      link.href = threadUrl;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.textContent = decodedTitle;
+      titleCell.replaceChildren(link);
+    } else {
+      titleCell.textContent = decodedTitle;
+    }
 
     row.children[0].dataset.label = "スレ番号";
     row.children[1].dataset.label = "meta-upper";

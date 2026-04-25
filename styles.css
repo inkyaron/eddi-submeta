@@ -189,6 +189,15 @@ th {
   word-break: break-word;
 }
 
+.table-panel a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.table-panel a:hover {
+  text-decoration: underline;
+}
+
 .mono {
   font-family: "Cascadia Code", Consolas, monospace;
 }
