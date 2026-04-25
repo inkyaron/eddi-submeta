@@ -113,6 +113,14 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
+.filters-title {
+  grid-template-columns: 1fr;
+}
+
+.filter-title {
+  width: 100%;
+}
+
 label span {
   font-size: 0.88rem;
   font-weight: 700;

@@ -1,4 +1,3 @@
-const updatedFirstElement = document.querySelector("#updated-first");
 const updatedAtElement = document.querySelector("#updated-at");
 const totalCountElement = document.querySelector("#total-count");
 const resultCountElement = document.querySelector("#result-count");
@@ -28,14 +27,6 @@ function formatUpdatedAt(value) {
   }
 
   return `最終更新 ${date.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}`;
-}
-
-function formatFirstRecordedAt(value) {
-  if (!value) {
-    return "最古記録 不明";
-  }
-
-  return `最古記録 ${value}`;
 }
 
 function renderRows(rows) {
@@ -104,10 +95,6 @@ async function boot() {
   records = Array.isArray(payload.records) ? payload.records : [];
   totalCountElement.textContent = records.length.toLocaleString("ja-JP");
   updatedAtElement.textContent = formatUpdatedAt(payload.updatedAt);
-
-  const oldestRecord = records.at(-1);
-  updatedFirstElement.textContent = formatFirstRecordedAt(oldestRecord?.firstPostDateTime);
-
   applyFilters();
 }
 
@@ -119,6 +106,5 @@ titleFilter.addEventListener("input", applyFilters);
 
 boot().catch((error) => {
   console.error(error);
-  updatedFirstElement.textContent = "最古記録を読み込めませんでした。";
   updatedAtElement.textContent = "データを読み込めませんでした。";
 });
