@@ -1,8 +1,232 @@
 {
-  "updatedAt": "2026-04-26T23:30:13.466742Z",
-  "totalRecords": 8639,
-  "addedCount": 18,
+  "updatedAt": "2026-04-26T23:35:18.741449Z",
+  "totalRecords": 8667,
+  "addedCount": 28,
   "records": [
+    {
+      "threadNumber": "1777246509",
+      "threadTitle": "雨晋三",
+      "metadentUpper": "54PJ",
+      "metadentLower": "Dzky",
+      "firstPostId": "DzkZHNAqy",
+      "firstPostDateTime": "2026/04/27(月) 08:35:09.010"
+    },
+    {
+      "threadNumber": "1777246508",
+      "threadTitle": "エッヂ民ってどこで髪切ってんの",
+      "metadentUpper": "0zrM",
+      "metadentLower": "GyZN",
+      "firstPostId": "GyZxje4MN",
+      "firstPostDateTime": "2026/04/27(月) 08:35:08.814"
+    },
+    {
+      "threadNumber": "1777246496",
+      "threadTitle": "行きたくないなぁ🥺",
+      "metadentUpper": "V++R",
+      "metadentLower": "4y0w",
+      "firstPostId": "4y0hvX.Yw",
+      "firstPostDateTime": "2026/04/27(月) 08:34:56.667"
+    },
+    {
+      "threadNumber": "1777246489",
+      "threadTitle": "『星のカービィ』 本日で34周年ｗｗ",
+      "metadentUpper": "ksd8",
+      "metadentLower": "bUFW",
+      "firstPostId": "bUFX.02HW",
+      "firstPostDateTime": "2026/04/27(月) 08:34:49.019"
+    },
+    {
+      "threadNumber": "1777246479",
+      "threadTitle": "ワイよりApex強いやつおるか？",
+      "metadentUpper": "t6Hp",
+      "metadentLower": "D1p4",
+      "firstPostId": "D1pAaElU4",
+      "firstPostDateTime": "2026/04/27(月) 08:34:39.365"
+    },
+    {
+      "threadNumber": "1777246478",
+      "threadTitle": "【朗報】安倍晋三、万バズ",
+      "metadentUpper": "TwV2",
+      "metadentLower": "bV1Z",
+      "firstPostId": "bV1yKGqsZ",
+      "firstPostDateTime": "2026/04/27(月) 08:34:38.625"
+    },
+    {
+      "threadNumber": "1777246474",
+      "threadTitle": "中道2%",
+      "metadentUpper": "0dwH",
+      "metadentLower": "2GSa",
+      "firstPostId": "2GSfpab4a",
+      "firstPostDateTime": "2026/04/27(月) 08:34:34.841"
+    },
+    {
+      "threadNumber": "1777246472",
+      "threadTitle": "鶴の恩返しって最後まで覗かんかったらツルツルになった鶴の死骸が出来上がってたんか？",
+      "metadentUpper": "pMFf",
+      "metadentLower": "bM57",
+      "firstPostId": "bM50.1.47",
+      "firstPostDateTime": "2026/04/27(月) 08:34:32.216"
+    },
+    {
+      "threadNumber": "1777246464",
+      "threadTitle": "🏺「あべしんぞう」とかいう日本にいたのに「音読み」しか存在しない謎の動物ｗｗｗｗｗｗｗ",
+      "metadentUpper": "cGGV",
+      "metadentLower": "9h7O",
+      "firstPostId": "9h7ioGVVO",
+      "firstPostDateTime": "2026/04/27(月) 08:34:24.498"
+    },
+    {
+      "threadNumber": "1777246460",
+      "threadTitle": "なんエヂ G_N_U/L_i_n_u_x部",
+      "metadentUpper": "Tn3D",
+      "metadentLower": "JIdv",
+      "firstPostId": "JIdHMsGov",
+      "firstPostDateTime": "2026/04/27(月) 08:34:20.705"
+    },
+    {
+      "threadNumber": "1777246447",
+      "threadTitle": "「統一教会滅ぼしたいなぁ……誰狙うのが最適やろか……せや！」",
+      "metadentUpper": "KdpR",
+      "metadentLower": "Y0qk",
+      "firstPostId": "Y0qm9y2uk",
+      "firstPostDateTime": "2026/04/27(月) 08:34:07.387"
+    },
+    {
+      "threadNumber": "1777246437",
+      "threadTitle": "【動画】ねこちゃん知らない間に赤ちゃん産んでしまう",
+      "metadentUpper": "VrEu",
+      "metadentLower": "9d5J",
+      "firstPostId": "9d5q0ZwSJ",
+      "firstPostDateTime": "2026/04/27(月) 08:33:57.939"
+    },
+    {
+      "threadNumber": "1777246426",
+      "threadTitle": "【朗報】今週のタフ、拳獣リカルド復活　タフくんに圧勝",
+      "metadentUpper": "4RQY",
+      "metadentLower": "4vtf",
+      "firstPostId": "4vtAAOgjf",
+      "firstPostDateTime": "2026/04/27(月) 08:33:46.379"
+    },
+    {
+      "threadNumber": "1777246408",
+      "threadTitle": "やらせて🫪",
+      "metadentUpper": "njBs",
+      "metadentLower": "6kC8",
+      "firstPostId": "6kC0ltNM8",
+      "firstPostDateTime": "2026/04/27(月) 08:33:28.394"
+    },
+    {
+      "threadNumber": "1777246407",
+      "threadTitle": "電車で腹痛くなる→途中駅でトイレ行ってもうんこ出ない→乗った途端また腹痛くなる",
+      "metadentUpper": "rak+",
+      "metadentLower": "TV5I",
+      "firstPostId": "TV5NFxB3I",
+      "firstPostDateTime": "2026/04/27(月) 08:33:27.509"
+    },
+    {
+      "threadNumber": "1777246405",
+      "threadTitle": "地震気付かなかった🥺",
+      "metadentUpper": "zH8U",
+      "metadentLower": "wBik",
+      "firstPostId": "wBiXvm4Ek",
+      "firstPostDateTime": "2026/04/27(月) 08:33:25.508"
+    },
+    {
+      "threadNumber": "1777246390",
+      "threadTitle": "ゆめちゃんぷゆゆってやつしてみたいよぉ🤥",
+      "metadentUpper": "Zgz2",
+      "metadentLower": "kztL",
+      "firstPostId": "kzth9qb7L",
+      "firstPostDateTime": "2026/04/27(月) 08:33:10.868"
+    },
+    {
+      "threadNumber": "1777246385",
+      "threadTitle": "ジャップ大地震で死ね",
+      "metadentUpper": "T0FU",
+      "metadentLower": "508o",
+      "firstPostId": "508/AWtZo",
+      "firstPostDateTime": "2026/04/27(月) 08:33:05.317"
+    },
+    {
+      "threadNumber": "1777246382",
+      "threadTitle": "高市6号ｗｗｗｗｗｗｗｍｗｗｗｗｗｗｗｍｗｗｗｗｗｗｗｗｍｍｗｗｗｗｗｗｗｗｗｗｗｗｗｍｗｗｗｗｗｗ",
+      "metadentUpper": "tT8t",
+      "metadentLower": "w2PL",
+      "firstPostId": "w2P8TrR9L",
+      "firstPostDateTime": "2026/04/27(月) 08:33:02.715"
+    },
+    {
+      "threadNumber": "1777246365",
+      "threadTitle": "専門学校入ったんやがみんな平気で学校のWi-FiでAV見てて草",
+      "metadentUpper": "JKum",
+      "metadentLower": "xynV",
+      "firstPostId": "xynzx9NZV",
+      "firstPostDateTime": "2026/04/27(月) 08:32:45.480"
+    },
+    {
+      "threadNumber": "1777246339",
+      "threadTitle": "【画像】ワイがガチ恋してるアイドルみてWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "RVN9",
+      "metadentLower": "X1Mh",
+      "firstPostId": "X1M8UxRwh",
+      "firstPostDateTime": "2026/04/27(月) 08:32:19.072"
+    },
+    {
+      "threadNumber": "1777246318",
+      "threadTitle": "糞爺ゴミ先輩社員話しかけてくんなマジで",
+      "metadentUpper": "FmV8",
+      "metadentLower": "nYUy",
+      "firstPostId": "nYUwILLyy",
+      "firstPostDateTime": "2026/04/27(月) 08:31:58.638"
+    },
+    {
+      "threadNumber": "1777246308",
+      "threadTitle": "【悲報】最近の「ドパガキ」､マジでヤバイ。映画を中断して他のアプリを開く､机に10分も座ってられない",
+      "metadentUpper": "RQgU",
+      "metadentLower": "VPIY",
+      "firstPostId": "VPI8cTaNY",
+      "firstPostDateTime": "2026/04/27(月) 08:31:48.604"
+    },
+    {
+      "threadNumber": "1777246304",
+      "threadTitle": "BBSPINK、ひっそりと復活",
+      "metadentUpper": "HJ0w",
+      "metadentLower": "0wLs",
+      "firstPostId": "0wLtuzb6s",
+      "firstPostDateTime": "2026/04/27(月) 08:31:44.153"
+    },
+    {
+      "threadNumber": "1777246301",
+      "threadTitle": "ヒトラー「あいさつはした方がいい」",
+      "metadentUpper": "k6s2",
+      "metadentLower": "YaZg",
+      "firstPostId": "YaZn93C5g",
+      "firstPostDateTime": "2026/04/27(月) 08:31:41.170"
+    },
+    {
+      "threadNumber": "1777246284",
+      "threadTitle": "寒いよー🥺",
+      "metadentUpper": "/YgZ",
+      "metadentLower": "5Bpa",
+      "firstPostId": "5BpwRJEDa",
+      "firstPostDateTime": "2026/04/27(月) 08:31:24.970"
+    },
+    {
+      "threadNumber": "1777246227",
+      "threadTitle": "女の唾液ってガチでエロくね？",
+      "metadentUpper": "DNip",
+      "metadentLower": ".E7t",
+      "firstPostId": ".E7dvvuPt",
+      "firstPostDateTime": "2026/04/27(月) 08:30:27.292"
+    },
+    {
+      "threadNumber": "1777246213",
+      "threadTitle": "米国防総省「ホルムズ海峡の機雷除去に6ヶ月かかるとか言ってるやつ、フェイクニュースだぞ😡」報道否定",
+      "metadentUpper": "oV/7",
+      "metadentLower": "kjt2",
+      "firstPostId": "kjt.wOgn2",
+      "firstPostDateTime": "2026/04/27(月) 08:30:13.176"
+    },
     {
       "threadNumber": "1777246203",
       "threadTitle": "エッヂャーってれいわ新選組の事どう思ってるんや？",
