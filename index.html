@@ -12,7 +12,7 @@
         <p class="eyebrow">Eddibb Subject-Metadent Archive</p>
         <h1>エッヂ・サブメタ保管庫</h1>
         <p class="lead">
-          エッヂ掲示板のsubject-metadent、通称<b>スレ立てID</b>(記者ID)の保管庫。巡回頻度は5分。
+          エッヂ掲示板のsubject-metadent、通称<b>スレ立てID</b>(記者ID)の保管庫。巡回頻度は5分。その間に立って落ちたスレは取り逃します。
         </p>
         <div class="meta">
           <a href="https://raw.githubusercontent.com/inkyaron/eddi-submeta/refs/heads/main/data/records.json">JSON</a>
@@ -21,9 +21,20 @@
         </div>
       </header>
 
+      <section class="panel stats">
+        <div class="stat">
+          <strong id="total-count">0</strong>
+          <span>記録件数</span>
+        </div>
+        <div class="stat">
+          <strong id="result-count">0</strong>
+          <span>検索結果</span>
+        </div>
+      </section>
+
       <section class="panel controls">
         <p class="search-note">
-          複数の検索条件を入力した場合は AND 検索。スレタイは部分一致。
+          複数の検索条件を入力した場合は AND 検索。部分一致。
         </p>
 
         <div class="filters">
@@ -50,17 +61,6 @@
             <span>スレタイ</span>
             <input id="title-filter" type="text" placeholder="例: エッヂ死んだ飼い犬が夢に出る部" />
           </label>
-        </div>
-      </section>
-
-      <section class="panel stats">
-        <div class="stat">
-          <strong id="total-count">0</strong>
-          <span>記録件数</span>
-        </div>
-        <div class="stat">
-          <strong id="result-count">0</strong>
-          <span>検索結果</span>
         </div>
       </section>
 
