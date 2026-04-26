@@ -1,8 +1,168 @@
 {
-  "updatedAt": "2026-04-26T23:05:19.318896Z",
-  "totalRecords": 8526,
-  "addedCount": 27,
+  "updatedAt": "2026-04-26T23:10:15.077654Z",
+  "totalRecords": 8546,
+  "addedCount": 20,
   "records": [
+    {
+      "threadNumber": "1777244985",
+      "threadTitle": "【発見】魅力的なスレ、見つかる",
+      "metadentUpper": "HPfz",
+      "metadentLower": "ySpk",
+      "firstPostId": "ySp7rNpRk",
+      "firstPostDateTime": "2026/04/27(月) 08:09:45.655"
+    },
+    {
+      "threadNumber": "1777244978",
+      "threadTitle": "人類、ついに公認フルマラソンで2時間を切ってしまう",
+      "metadentUpper": "uRJK",
+      "metadentLower": "2UKX",
+      "firstPostId": "2UKgNKfTX",
+      "firstPostDateTime": "2026/04/27(月) 08:09:38.782"
+    },
+    {
+      "threadNumber": "1777244923",
+      "threadTitle": "おばあちゃんが死んだ",
+      "metadentUpper": "tcR1",
+      "metadentLower": "tSbx",
+      "firstPostId": "tSb6m0Ukx",
+      "firstPostDateTime": "2026/04/27(月) 08:08:43.231"
+    },
+    {
+      "threadNumber": "1777244922",
+      "threadTitle": "【悲報】中央線、15分遅延",
+      "metadentUpper": "dGlS",
+      "metadentLower": "G60R",
+      "firstPostId": "G60YSj44R",
+      "firstPostDateTime": "2026/04/27(月) 08:08:42.775"
+    },
+    {
+      "threadNumber": "1777244921",
+      "threadTitle": "俺がエッヂのリーダーなったからには勝手な行動は許さんからな🥺",
+      "metadentUpper": "n931",
+      "metadentLower": "1eUy",
+      "firstPostId": "1eU.2U1Ry",
+      "firstPostDateTime": "2026/04/27(月) 08:08:41.658"
+    },
+    {
+      "threadNumber": "1777244865",
+      "threadTitle": "高校の時点で白髪いっぱいあるヤツいたでしょ？",
+      "metadentUpper": "NTwB",
+      "metadentLower": "0ipu",
+      "firstPostId": "0ipOsHicu",
+      "firstPostDateTime": "2026/04/27(月) 08:07:45.030"
+    },
+    {
+      "threadNumber": "1777244859",
+      "threadTitle": "1（中）ワイ  .000  0本  12打点  61盗塁  OPS.462  UZR +25.3  ※最高出塁率 盗塁王 GG",
+      "metadentUpper": "gXiW",
+      "metadentLower": "7FEO",
+      "firstPostId": "7FEWk.yIO",
+      "firstPostDateTime": "2026/04/27(月) 08:07:39.380"
+    },
+    {
+      "threadNumber": "1777244844",
+      "threadTitle": "変な牛丼に傘盗まれた",
+      "metadentUpper": "2DNq",
+      "metadentLower": "7CHz",
+      "firstPostId": "7CHG/R4Zz",
+      "firstPostDateTime": "2026/04/27(月) 08:07:24.891"
+    },
+    {
+      "threadNumber": "1777244827",
+      "threadTitle": "さっきワイが落としたスマホ拾って届けてくれた人ありがとう‼�‼�‼�",
+      "metadentUpper": "YHzR",
+      "metadentLower": "LRC2",
+      "firstPostId": "LRCu3bk72",
+      "firstPostDateTime": "2026/04/27(月) 08:07:07.741"
+    },
+    {
+      "threadNumber": "1777244823",
+      "threadTitle": "バイトしてたら逆ナンされた🥺",
+      "metadentUpper": "ef18",
+      "metadentLower": "aq36",
+      "firstPostId": "aq3FnOwa6",
+      "firstPostDateTime": "2026/04/27(月) 08:07:03.451"
+    },
+    {
+      "threadNumber": "1777244819",
+      "threadTitle": "【悲報】中央線、イク",
+      "metadentUpper": "tcR1",
+      "metadentLower": "cJWv",
+      "firstPostId": "cJWf1S8Bv",
+      "firstPostDateTime": "2026/04/27(月) 08:06:59.348"
+    },
+    {
+      "threadNumber": "1777244814",
+      "threadTitle": "大雨×遅延で電車が臭すぎる",
+      "metadentUpper": "Gz2d",
+      "metadentLower": "RvMy",
+      "firstPostId": "RvMG1Ee0y",
+      "firstPostDateTime": "2026/04/27(月) 08:06:54.734"
+    },
+    {
+      "threadNumber": "1777244807",
+      "threadTitle": "フリーレン(あの手の豆...かなりやってるね...)",
+      "metadentUpper": "WVm3",
+      "metadentLower": "ofJV",
+      "firstPostId": "ofJjEh5aV",
+      "firstPostDateTime": "2026/04/27(月) 08:06:47.454"
+    },
+    {
+      "threadNumber": "1777244805",
+      "threadTitle": "喜多郁代←ライブドタキャンしてカラオケ行ってるクズ",
+      "metadentUpper": "YYeT",
+      "metadentLower": "AFlV",
+      "firstPostId": "AFlHjmzmV",
+      "firstPostDateTime": "2026/04/27(月) 08:06:45.228"
+    },
+    {
+      "threadNumber": "1777244799",
+      "threadTitle": "NOPEとわかば、めちゃくちゃ合う",
+      "metadentUpper": "E2hl",
+      "metadentLower": "nV6y",
+      "firstPostId": "nV69aInby",
+      "firstPostDateTime": "2026/04/27(月) 08:06:39.280"
+    },
+    {
+      "threadNumber": "1777244772",
+      "threadTitle": "🥺雨降ってるからゆめちゃんに買い出し行かせた",
+      "metadentUpper": "W8AO",
+      "metadentLower": "5rLz",
+      "firstPostId": "5rLEWBfYz",
+      "firstPostDateTime": "2026/04/27(月) 08:06:12.123"
+    },
+    {
+      "threadNumber": "1777244769",
+      "threadTitle": "スマホの画面に乾いた血がこびり付いてキュッキュしてるおじさんいるでしょ",
+      "metadentUpper": "Kj42",
+      "metadentLower": "ueWo",
+      "firstPostId": "ueWLmwf/o",
+      "firstPostDateTime": "2026/04/27(月) 08:06:09.052"
+    },
+    {
+      "threadNumber": "1777244768",
+      "threadTitle": "海物語楽しいです！😊共有できる人探してます！😊",
+      "metadentUpper": "7gwd",
+      "metadentLower": "ktWo",
+      "firstPostId": "ktWOl6D0o",
+      "firstPostDateTime": "2026/04/27(月) 08:06:08.167"
+    },
+    {
+      "threadNumber": "1777244765",
+      "threadTitle": "よう実1期最終回「お前が俺を仲間だと思っていても俺はお前を駒としか思っていない」ワイ「ヒューッ」",
+      "metadentUpper": "O05L",
+      "metadentLower": "CnvS",
+      "firstPostId": "CnvZ5TD1S",
+      "firstPostDateTime": "2026/04/27(月) 08:06:05.495"
+    },
+    {
+      "threadNumber": "1777244764",
+      "threadTitle": "12歳のファッションモデル(身長167cm)、かわいい",
+      "metadentUpper": "7JL6",
+      "metadentLower": "YVmo",
+      "firstPostId": "YVmUvlMbo",
+      "firstPostDateTime": "2026/04/27(月) 08:06:04.200"
+    },
     {
       "threadNumber": "1777244712",
       "threadTitle": "【画像】葬送のフリーレンのゼンゼちゃん、可愛い",
