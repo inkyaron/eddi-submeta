@@ -1,8 +1,304 @@
 {
-  "updatedAt": "2026-04-26T11:10:21.365618Z",
-  "totalRecords": 5384,
-  "addedCount": 25,
+  "updatedAt": "2026-04-26T11:15:20.957078Z",
+  "totalRecords": 5421,
+  "addedCount": 37,
   "records": [
+    {
+      "threadNumber": "1777202107",
+      "threadTitle": "妹「オイ！...オイって！」ワイ「HIKAKINが作った麦茶は？」妹「は？おにち...ｶｰｯ!!」顔を赤らめる",
+      "metadentUpper": "PL6l",
+      "metadentLower": "6wqy",
+      "firstPostId": "6wqHpE9Ly",
+      "firstPostDateTime": "2026/04/26(日) 20:15:07.341"
+    },
+    {
+      "threadNumber": "1777202106",
+      "threadTitle": "もんもスレ ゆめちゃんスレ 👈こいつら当たり前のようにいるけどなんなの？",
+      "metadentUpper": "GN1O",
+      "metadentLower": "lEMm",
+      "firstPostId": "lEMKe7ZVm",
+      "firstPostDateTime": "2026/04/26(日) 20:15:06.034"
+    },
+    {
+      "threadNumber": "1777202085",
+      "threadTitle": "【NHK】豊臣兄弟！ ★2",
+      "metadentUpper": "tnLU",
+      "metadentLower": "b700",
+      "firstPostId": "b70iqryF0",
+      "firstPostDateTime": "2026/04/26(日) 20:14:45.203"
+    },
+    {
+      "threadNumber": "1777202082",
+      "threadTitle": "ワイ「映画見ません本読みませんテレビ見ませんスポーツしません料理しません外食しませんセックスしませんオナニーしません」",
+      "metadentUpper": "ftKJ",
+      "metadentLower": "s5/f",
+      "firstPostId": "s5/gdZyXf",
+      "firstPostDateTime": "2026/04/26(日) 20:14:42.850"
+    },
+    {
+      "threadNumber": "1777202076",
+      "threadTitle": "上伊那ぼたん、酔へる姿は百合の花3話観た人ちょっと来て",
+      "metadentUpper": "c4j4",
+      "metadentLower": "/B.b",
+      "firstPostId": "/B.ZJgTSb",
+      "firstPostDateTime": "2026/04/26(日) 20:14:36.606"
+    },
+    {
+      "threadNumber": "1777202061",
+      "threadTitle": "30歳以上の独身結婚願望なしエッヂ民は何歳まで生きたいの？",
+      "metadentUpper": "DruG",
+      "metadentLower": "j/Qh",
+      "firstPostId": "j/QWId.Wh",
+      "firstPostDateTime": "2026/04/26(日) 20:14:21.364"
+    },
+    {
+      "threadNumber": "1777202049",
+      "threadTitle": "【疑問】なぜ｢ゲーム｣は衰退したのか？ゲーム性より画質を追い求めたゲーム会社の過ち",
+      "metadentUpper": "nWgK",
+      "metadentLower": "jt/o",
+      "firstPostId": "jt/jUpo5o",
+      "firstPostDateTime": "2026/04/26(日) 20:14:09.466"
+    },
+    {
+      "threadNumber": "1777202034",
+      "threadTitle": "来週一人で広島行くワイに美味しいお店おしえて",
+      "metadentUpper": "R0FC",
+      "metadentLower": "GXzg",
+      "firstPostId": "GXzVqaebg",
+      "firstPostDateTime": "2026/04/26(日) 20:13:54.265"
+    },
+    {
+      "threadNumber": "1777201983",
+      "threadTitle": "朗報エッヂ資産1000万越えがゴロゴロいるエリート板だった",
+      "metadentUpper": "tcR1",
+      "metadentLower": "GATi",
+      "firstPostId": "GATpY3bRi",
+      "firstPostDateTime": "2026/04/26(日) 20:13:03.489"
+    },
+    {
+      "threadNumber": "1777201977",
+      "threadTitle": "🤥　　　あっ、もんもの人だ！🥺",
+      "metadentUpper": "6i1L",
+      "metadentLower": "3cHE",
+      "firstPostId": "3cH5YYQOE",
+      "firstPostDateTime": "2026/04/26(日) 20:12:57.813"
+    },
+    {
+      "threadNumber": "1777201971",
+      "threadTitle": "そろそろ冬眠する🥺",
+      "metadentUpper": "YoUh",
+      "metadentLower": "WBvK",
+      "firstPostId": "WBv20kDdK",
+      "firstPostDateTime": "2026/04/26(日) 20:12:51.089"
+    },
+    {
+      "threadNumber": "1777201965",
+      "threadTitle": "座ったら必ず足組む身体障害者ウザいんだけど",
+      "metadentUpper": "15KX",
+      "metadentLower": "m/.K",
+      "firstPostId": "m/.7tyltK",
+      "firstPostDateTime": "2026/04/26(日) 20:12:45.967"
+    },
+    {
+      "threadNumber": "1777201959",
+      "threadTitle": "【速報】アベサンの「CHOZEBA」、出された食事をすべて食べ切るWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "SdwE",
+      "metadentLower": "8x00",
+      "firstPostId": "8x0VCgUT0",
+      "firstPostDateTime": "2026/04/26(日) 20:12:39.356"
+    },
+    {
+      "threadNumber": "1777201958",
+      "threadTitle": "【急募】北海道日本ハムファイターズがここからホークス倒して優勝する方法",
+      "metadentUpper": "EWFF",
+      "metadentLower": "8WGh",
+      "firstPostId": "8WG/ygE/h",
+      "firstPostDateTime": "2026/04/26(日) 20:12:38.089"
+    },
+    {
+      "threadNumber": "1777201956",
+      "threadTitle": "おしり拭いたか？",
+      "metadentUpper": "Gw8e",
+      "metadentLower": "zDLN",
+      "firstPostId": "zDLSeCs2N",
+      "firstPostDateTime": "2026/04/26(日) 20:12:36.023"
+    },
+    {
+      "threadNumber": "1777201951",
+      "threadTitle": "明日と明後日休みじゃない負け組ってエッヂにおるんか？www",
+      "metadentUpper": "aDoR",
+      "metadentLower": "1ud0",
+      "firstPostId": "1udN7YzE0",
+      "firstPostDateTime": "2026/04/26(日) 20:12:31.039"
+    },
+    {
+      "threadNumber": "1777201947",
+      "threadTitle": "ワイ「新卒ちゃん、髪切った？」新卒「キッショ豚死ねよ」",
+      "metadentUpper": "GB+1",
+      "metadentLower": "M6IL",
+      "firstPostId": "M6ICgq5BL",
+      "firstPostDateTime": "2026/04/26(日) 20:12:27.848"
+    },
+    {
+      "threadNumber": "1777201918",
+      "threadTitle": "ドライブするときに頭文字DのBGM流してたんやが地味に合わない",
+      "metadentUpper": "HRLM",
+      "metadentLower": "Wifa",
+      "firstPostId": "Wif0zp5Za",
+      "firstPostDateTime": "2026/04/26(日) 20:11:58.357"
+    },
+    {
+      "threadNumber": "1777201912",
+      "threadTitle": "ビールが安いのはスーパーAで野菜が安いのはスーパーBで肉が安いのはスーパーCなんやが",
+      "metadentUpper": "aqny",
+      "metadentLower": "knYK",
+      "firstPostId": "knYriJPTK",
+      "firstPostDateTime": "2026/04/26(日) 20:11:52.314"
+    },
+    {
+      "threadNumber": "1777201907",
+      "threadTitle": "“愛”の本質分かっちゃった...",
+      "metadentUpper": "Z5KF",
+      "metadentLower": "YElG",
+      "firstPostId": "YElfGc0vG",
+      "firstPostDateTime": "2026/04/26(日) 20:11:47.548"
+    },
+    {
+      "threadNumber": "1777201887",
+      "threadTitle": "【動画】元乃木坂46さん、謎の動画で発見される(お前らの想像の3倍謎)",
+      "metadentUpper": "hVvY",
+      "metadentLower": "4UxL",
+      "firstPostId": "4UxXrJqEL",
+      "firstPostDateTime": "2026/04/26(日) 20:11:27.072"
+    },
+    {
+      "threadNumber": "1777201886",
+      "threadTitle": "ガチで腹痛い時って耳鳴りするよな",
+      "metadentUpper": "V0sJ",
+      "metadentLower": "K9IP",
+      "firstPostId": "K9I.SGcnP",
+      "firstPostDateTime": "2026/04/26(日) 20:11:26.608"
+    },
+    {
+      "threadNumber": "1777201883",
+      "threadTitle": "船長に告白するか悩んでるんやが",
+      "metadentUpper": "lR1B",
+      "metadentLower": "j32a",
+      "firstPostId": "j325oMBka",
+      "firstPostDateTime": "2026/04/26(日) 20:11:23.430"
+    },
+    {
+      "threadNumber": "1777201873",
+      "threadTitle": "富山県立高岡高校→富山大学(人文学部)→富山県庁 贔屓は中日ドラゴンズ",
+      "metadentUpper": "N/Bf",
+      "metadentLower": "39mJ",
+      "firstPostId": "39mzRnPEJ",
+      "firstPostDateTime": "2026/04/26(日) 20:11:13.668"
+    },
+    {
+      "threadNumber": "1777201867",
+      "threadTitle": "韓国料理屋、潰れた後大体焼き肉屋になってる説",
+      "metadentUpper": "DNip",
+      "metadentLower": ".8rB",
+      "firstPostId": ".8rdK8wGB",
+      "firstPostDateTime": "2026/04/26(日) 20:11:07.005"
+    },
+    {
+      "threadNumber": "1777201866",
+      "threadTitle": "【悲報】中日・高橋宏斗「守備の人たちに助けらた」",
+      "metadentUpper": "NuIm",
+      "metadentLower": "P4S2",
+      "firstPostId": "P4Sr319L2",
+      "firstPostDateTime": "2026/04/26(日) 20:11:06.762"
+    },
+    {
+      "threadNumber": "1777201863",
+      "threadTitle": "でもおまえら一生独身でいるって才能あるじゃん",
+      "metadentUpper": "KCaS",
+      "metadentLower": "3WkL",
+      "firstPostId": "3WkgAAGVL",
+      "firstPostDateTime": "2026/04/26(日) 20:11:03.716"
+    },
+    {
+      "threadNumber": "1777201856",
+      "threadTitle": "ワイオタク、昨今のオタク文化に意義を唱える",
+      "metadentUpper": "jrfL",
+      "metadentLower": "0Kp1",
+      "firstPostId": "0Kp/dBG81",
+      "firstPostDateTime": "2026/04/26(日) 20:10:56.876"
+    },
+    {
+      "threadNumber": "1777201853",
+      "threadTitle": "イスラエル、冷静に考えてナチスとやってることがほぼ同じなのに何故か世界的に批判されて焦土になるまで焼き尽くされない",
+      "metadentUpper": "qcSV",
+      "metadentLower": "1Zvh",
+      "firstPostId": "1ZvtNOsuh",
+      "firstPostDateTime": "2026/04/26(日) 20:10:53.255"
+    },
+    {
+      "threadNumber": "1777201849",
+      "threadTitle": "エッヂ民「あ、一応東京住みっす」←どこに住んでる？",
+      "metadentUpper": "pMFf",
+      "metadentLower": "CAl4",
+      "firstPostId": "CAl61yqe4",
+      "firstPostDateTime": "2026/04/26(日) 20:10:49.523"
+    },
+    {
+      "threadNumber": "1777201848",
+      "threadTitle": "Dr.STONEで一番面白いのは宝島編（12～16巻）",
+      "metadentUpper": "gFD6",
+      "metadentLower": "itpe",
+      "firstPostId": "itpehvv9e",
+      "firstPostDateTime": "2026/04/26(日) 20:10:48.231"
+    },
+    {
+      "threadNumber": "1777201845",
+      "threadTitle": "【画像】FEif、人気キャラランキングがこちら",
+      "metadentUpper": "yEEF",
+      "metadentLower": "fyGJ",
+      "firstPostId": "fyGEh3S1J",
+      "firstPostDateTime": "2026/04/26(日) 20:10:45.383"
+    },
+    {
+      "threadNumber": "1777201834",
+      "threadTitle": "ウォシュレット中にレイジングストームのコマンド入力並みにケツを上下左右に振りまくる奴wwwwwwwwwwwwwwwwwwwww💩🚽",
+      "metadentUpper": "BGof",
+      "metadentLower": "V468",
+      "firstPostId": "V46B6khG8",
+      "firstPostDateTime": "2026/04/26(日) 20:10:34.288"
+    },
+    {
+      "threadNumber": "1777201830",
+      "threadTitle": "【動画】イッヌ、なぜか前に進めなくなってしまう",
+      "metadentUpper": "sm6V",
+      "metadentLower": "VGX0",
+      "firstPostId": "VGXvtfgW0",
+      "firstPostDateTime": "2026/04/26(日) 20:10:30.356"
+    },
+    {
+      "threadNumber": "1777201828",
+      "threadTitle": "ワイ、都内でタクシーに無料乗車成功する",
+      "metadentUpper": "VozI",
+      "metadentLower": "iyC8",
+      "firstPostId": "iyCMc0Fd8",
+      "firstPostDateTime": "2026/04/26(日) 20:10:28.046"
+    },
+    {
+      "threadNumber": "1777201818",
+      "threadTitle": "【朗報】明日が休みの日曜日、楽しすぎるｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "jBpE",
+      "metadentLower": "owe6",
+      "firstPostId": "owejTlab6",
+      "firstPostDateTime": "2026/04/26(日) 20:10:18.705"
+    },
+    {
+      "threadNumber": "1777201817",
+      "threadTitle": "ラーメン食べにいこうかなぁ🧑‍🦲👉👈",
+      "metadentUpper": "sQNb",
+      "metadentLower": "ZJWQ",
+      "firstPostId": "ZJWWGHA3Q",
+      "firstPostDateTime": "2026/04/26(日) 20:10:17.102"
+    },
     {
       "threadNumber": "1777201813",
       "threadTitle": "麻雀アプリ、流石に露骨すぎるwwwwww",
