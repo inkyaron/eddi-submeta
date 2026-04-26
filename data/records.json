@@ -1,8 +1,304 @@
 {
-  "updatedAt": "2026-04-26T13:30:14.110620Z",
-  "totalRecords": 6390,
-  "addedCount": 18,
+  "updatedAt": "2026-04-26T13:35:17.698277Z",
+  "totalRecords": 6427,
+  "addedCount": 37,
   "records": [
+    {
+      "threadNumber": "1777210488",
+      "threadTitle": "🐻「活動を再会しました」",
+      "metadentUpper": "usYC",
+      "metadentLower": "KeEE",
+      "firstPostId": "KeEppzswE",
+      "firstPostDateTime": "2026/04/26(日) 22:34:48.101"
+    },
+    {
+      "threadNumber": "1777210468",
+      "threadTitle": "羊が羊飼いの死の真相を調べる映画「ひつじ探偵団」←どんな内容？",
+      "metadentUpper": "P+r+",
+      "metadentLower": "VGX0",
+      "firstPostId": "VGXvtfgW0",
+      "firstPostDateTime": "2026/04/26(日) 22:34:28.851"
+    },
+    {
+      "threadNumber": "1777210466",
+      "threadTitle": "ZETA DIVISIONファン太氏、不倫認め契約解除で無期限活動休止ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "KZSn",
+      "metadentLower": "rH0i",
+      "firstPostId": "rH08hOn2i",
+      "firstPostDateTime": "2026/04/26(日) 22:34:26.907"
+    },
+    {
+      "threadNumber": "1777210460",
+      "threadTitle": "なあ塩って舐められてね？",
+      "metadentUpper": "tAJN",
+      "metadentLower": "iMut",
+      "firstPostId": "iMuth8O9t",
+      "firstPostDateTime": "2026/04/26(日) 22:34:20.268"
+    },
+    {
+      "threadNumber": "1777210458",
+      "threadTitle": "【悲報】レイザーラモンHG、ハードゲイなのに子供がいる",
+      "metadentUpper": "dYVa",
+      "metadentLower": "A.2X",
+      "firstPostId": "A.2HSz6dX",
+      "firstPostDateTime": "2026/04/26(日) 22:34:18.829"
+    },
+    {
+      "threadNumber": "1777210457",
+      "threadTitle": "【爆笑】中日ドラゴンズの死んだフリ作戦、成功ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗwwwwww",
+      "metadentUpper": "8RKL",
+      "metadentLower": "WhUq",
+      "firstPostId": "WhU2VF1uq",
+      "firstPostDateTime": "2026/04/26(日) 22:34:17.812"
+    },
+    {
+      "threadNumber": "1777210446",
+      "threadTitle": "ゲーミング松戸の怪人亜種が現れるw",
+      "metadentUpper": "eRU2",
+      "metadentLower": "YWAW",
+      "firstPostId": "YWAFnGG8W",
+      "firstPostDateTime": "2026/04/26(日) 22:34:06.610"
+    },
+    {
+      "threadNumber": "1777210444",
+      "threadTitle": "ギューしよ🫲🥺🫱",
+      "metadentUpper": "mXoA",
+      "metadentLower": "pHyh",
+      "firstPostId": "pHygTXrOh",
+      "firstPostDateTime": "2026/04/26(日) 22:34:04.883"
+    },
+    {
+      "threadNumber": "1777210410",
+      "threadTitle": "【悲報】高市早苗首相、視力検査に使われてしまう",
+      "metadentUpper": "/vmQ",
+      "metadentLower": "uwb1",
+      "firstPostId": "uwbW6DfS1",
+      "firstPostDateTime": "2026/04/26(日) 22:33:30.549"
+    },
+    {
+      "threadNumber": "1777210395",
+      "threadTitle": "ワイのツイッター、オススメこういうのしか出なくなったんやが助けて",
+      "metadentUpper": "2dTR",
+      "metadentLower": "QSI1",
+      "firstPostId": "QSIRa9Pm1",
+      "firstPostDateTime": "2026/04/26(日) 22:33:15.710"
+    },
+    {
+      "threadNumber": "1777210387",
+      "threadTitle": "クラスで2番目に可愛い女の子と友達になったとかいうアニメ",
+      "metadentUpper": "tDWl",
+      "metadentLower": "ULPp",
+      "firstPostId": "ULP4ZkAAp",
+      "firstPostDateTime": "2026/04/26(日) 22:33:07.332"
+    },
+    {
+      "threadNumber": "1777210383",
+      "threadTitle": "【疑問】岸田、石破が叩かれて高市が持て囃されてる理由",
+      "metadentUpper": "lpY+",
+      "metadentLower": "4Cj0",
+      "firstPostId": "4CjXdaCL0",
+      "firstPostDateTime": "2026/04/26(日) 22:33:03.346"
+    },
+    {
+      "threadNumber": "1777210381",
+      "threadTitle": "平沢大河(29)打率.378 本1 打点4 OPS.993",
+      "metadentUpper": "3mSK",
+      "metadentLower": "tOl4",
+      "firstPostId": "tOl2WlZk4",
+      "firstPostDateTime": "2026/04/26(日) 22:33:01.024"
+    },
+    {
+      "threadNumber": "1777210380",
+      "threadTitle": "ちるらんとかいうコスプレ時代劇",
+      "metadentUpper": "OVYa",
+      "metadentLower": "EzNk",
+      "firstPostId": "EzNWFAMqk",
+      "firstPostDateTime": "2026/04/26(日) 22:33:00.928"
+    },
+    {
+      "threadNumber": "1777210354",
+      "threadTitle": "ホラー映画のオチで｢ほんとに怖いのは人間でした｣っていうのを考えてみたんやが",
+      "metadentUpper": "wYOE",
+      "metadentLower": "L7Um",
+      "firstPostId": "L7U.kc9/m",
+      "firstPostDateTime": "2026/04/26(日) 22:32:34.831"
+    },
+    {
+      "threadNumber": "1777210334",
+      "threadTitle": "戸田恵梨香と吉高由里子の違いがわからん",
+      "metadentUpper": "hJSu",
+      "metadentLower": "UYWQ",
+      "firstPostId": "UYWaIL1IQ",
+      "firstPostDateTime": "2026/04/26(日) 22:32:14.045"
+    },
+    {
+      "threadNumber": "1777210332",
+      "threadTitle": "【悲報】トリッカル、ガチャがゆるすぎて終わる",
+      "metadentUpper": "8S8R",
+      "metadentLower": "emHh",
+      "firstPostId": "emHf.EzKh",
+      "firstPostDateTime": "2026/04/26(日) 22:32:12.088"
+    },
+    {
+      "threadNumber": "1777210324",
+      "threadTitle": "ゆめちゃん来たけどやること無いよぉ🤥",
+      "metadentUpper": "twAK",
+      "metadentLower": "0gsA",
+      "firstPostId": "0gsO66GgA",
+      "firstPostDateTime": "2026/04/26(日) 22:32:04.797"
+    },
+    {
+      "threadNumber": "1777210312",
+      "threadTitle": "はっきり言う、女子校の先生になりたい",
+      "metadentUpper": "gYje",
+      "metadentLower": "RWBU",
+      "firstPostId": "RWBYYzMxU",
+      "firstPostDateTime": "2026/04/26(日) 22:31:52.867"
+    },
+    {
+      "threadNumber": "1777210311",
+      "threadTitle": "22:22:22.222を出して00:00:00.000を取る自信をつけるスレ",
+      "metadentUpper": "VCHc",
+      "metadentLower": "zXJV",
+      "firstPostId": "zXJyTU3WV",
+      "firstPostDateTime": "2026/04/26(日) 22:31:51.335"
+    },
+    {
+      "threadNumber": "1777210310",
+      "threadTitle": "【悲報】ゴキカス、活動を始める",
+      "metadentUpper": "E2TD",
+      "metadentLower": "ozlx",
+      "firstPostId": "ozlzXObjx",
+      "firstPostDateTime": "2026/04/26(日) 22:31:50.338"
+    },
+    {
+      "threadNumber": "1777210306",
+      "threadTitle": "シャニマスで『性欲抜き』で付き合いたい(でも週1程度でセックス💕はしたい)アイドル「樋口円香」「芹沢あさひ」「杜野凛世」",
+      "metadentUpper": "cGGV",
+      "metadentLower": "vQkQ",
+      "firstPostId": "vQkmGFCBQ",
+      "firstPostDateTime": "2026/04/26(日) 22:31:46.379"
+    },
+    {
+      "threadNumber": "1777210304",
+      "threadTitle": "ワイ弱男の休日、虚無すぎる",
+      "metadentUpper": "3Wkj",
+      "metadentLower": "ep.n",
+      "firstPostId": "ep.XMF3on",
+      "firstPostDateTime": "2026/04/26(日) 22:31:44.261"
+    },
+    {
+      "threadNumber": "1777210302",
+      "threadTitle": "【画像】サイレンススズカ、貧乳なのにめちゃくちゃエロい【ウマ娘】 ",
+      "metadentUpper": "gXiW",
+      "metadentLower": "dSCQ",
+      "firstPostId": "dSCSnkZeQ",
+      "firstPostDateTime": "2026/04/26(日) 22:31:42.970"
+    },
+    {
+      "threadNumber": "1777210291",
+      "threadTitle": "ほらドルファンドルフィンドルフォン",
+      "metadentUpper": "lsMK",
+      "metadentLower": "c5RG",
+      "firstPostId": "c5RDKY82G",
+      "firstPostDateTime": "2026/04/26(日) 22:31:31.002"
+    },
+    {
+      "threadNumber": "1777210280",
+      "threadTitle": "【悲報】中国人、まだ土人だった　トイレに紙流さない",
+      "metadentUpper": "pKBM",
+      "metadentLower": "GYt1",
+      "firstPostId": "GYtqB3B51",
+      "firstPostDateTime": "2026/04/26(日) 22:31:20.719"
+    },
+    {
+      "threadNumber": "1777210278",
+      "threadTitle": "【定期】高市早苗、戦車で事故死した自衛隊員の葬送式には出席せず終日公邸で過ごす",
+      "metadentUpper": "Pc3+",
+      "metadentLower": "7jfp",
+      "firstPostId": "7jf76Tj3p",
+      "firstPostDateTime": "2026/04/26(日) 22:31:18.646"
+    },
+    {
+      "threadNumber": "1777210270",
+      "threadTitle": "【画像】昨今のⅤｔμｂｅｒ、限界突破ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "tcR1",
+      "metadentLower": "ECc8",
+      "firstPostId": "ECca6Eue8",
+      "firstPostDateTime": "2026/04/26(日) 22:31:10.165"
+    },
+    {
+      "threadNumber": "1777210263",
+      "threadTitle": "AveMujicaの八幡海鈴ちゃん ★2",
+      "metadentUpper": "8dou",
+      "metadentLower": "Sk3n",
+      "firstPostId": "Sk3VLRE0n",
+      "firstPostDateTime": "2026/04/26(日) 22:31:03.742"
+    },
+    {
+      "threadNumber": "1777210258",
+      "threadTitle": "【世田谷区民集合】「恵泉裏通り(恵泉通り)」、2028年3月に完成へ　土地の元所有者が明け渡しに合意",
+      "metadentUpper": "64HR",
+      "metadentLower": "LJPw",
+      "firstPostId": "LJPt9A47w",
+      "firstPostDateTime": "2026/04/26(日) 22:30:58.490"
+    },
+    {
+      "threadNumber": "1777210238",
+      "threadTitle": "シャニマスで”濃厚”セックスしたい娘",
+      "metadentUpper": "t3Oi",
+      "metadentLower": "diRT",
+      "firstPostId": "diR0F/MYT",
+      "firstPostDateTime": "2026/04/26(日) 22:30:38.950"
+    },
+    {
+      "threadNumber": "1777210233",
+      "threadTitle": "精子でたv(˶ᐢωᐢ˶)ว",
+      "metadentUpper": "nTWX",
+      "metadentLower": "NCOS",
+      "firstPostId": "NCO.409VS",
+      "firstPostDateTime": "2026/04/26(日) 22:30:33.215"
+    },
+    {
+      "threadNumber": "1777210226",
+      "threadTitle": "【悲報】自転車乗る人、激減WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "YiBQ",
+      "metadentLower": "xMzB",
+      "firstPostId": "xMzlRoGCB",
+      "firstPostDateTime": "2026/04/26(日) 22:30:26.312"
+    },
+    {
+      "threadNumber": "1777210225",
+      "threadTitle": "スバル「もう死に戻りは勘弁だ…これからはこいつらとずっとえっちして生きていく」",
+      "metadentUpper": "qo6d",
+      "metadentLower": "oCMT",
+      "firstPostId": "oCMUK7/MT",
+      "firstPostDateTime": "2026/04/26(日) 22:30:25.495"
+    },
+    {
+      "threadNumber": "1777210221",
+      "threadTitle": "なんE G​N​U​/​L​i​n​u​x​部",
+      "metadentUpper": "pzdi",
+      "metadentLower": "yC7x",
+      "firstPostId": "yC7mT7vrx",
+      "firstPostDateTime": "2026/04/26(日) 22:30:21.491"
+    },
+    {
+      "threadNumber": "1777210218",
+      "threadTitle": "遠回しに言う、あしながおじさんになりたい",
+      "metadentUpper": "htZs",
+      "metadentLower": "O8Jy",
+      "firstPostId": "O8JDnikby",
+      "firstPostDateTime": "2026/04/26(日) 22:30:18.522"
+    },
+    {
+      "threadNumber": "1777210215",
+      "threadTitle": "【急募】レッド吉田がここから再ブレークする方法",
+      "metadentUpper": "jBpE",
+      "metadentLower": "owe6",
+      "firstPostId": "owejTlab6",
+      "firstPostDateTime": "2026/04/26(日) 22:30:15.596"
+    },
     {
       "threadNumber": "1777210203",
       "threadTitle": "あ",
