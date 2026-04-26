@@ -1,8 +1,344 @@
 {
-  "updatedAt": "2026-04-26T14:10:22.575714Z",
-  "totalRecords": 6634,
-  "addedCount": 48,
+  "updatedAt": "2026-04-26T14:15:24.164237Z",
+  "totalRecords": 6676,
+  "addedCount": 42,
   "records": [
+    {
+      "threadNumber": "1777212903",
+      "threadTitle": "【朗報】AbemaPrime(アベプラ)、今週も豪華出演者",
+      "metadentUpper": "s8hI",
+      "metadentLower": "dg.h",
+      "firstPostId": "dg.cmQKUh",
+      "firstPostDateTime": "2026/04/26(日) 23:15:03.714"
+    },
+    {
+      "threadNumber": "1777212895",
+      "threadTitle": "エッヂGW中の映画部🍿🎬🎥【初心者歓迎🔰】★2",
+      "metadentUpper": "vBn3",
+      "metadentLower": "S7id",
+      "firstPostId": "S7i7PH2Wd",
+      "firstPostDateTime": "2026/04/26(日) 23:14:55.435"
+    },
+    {
+      "threadNumber": "1777212887",
+      "threadTitle": "すまんが「ナフサ」って言葉使うのやめてくれんか？",
+      "metadentUpper": "DHA4",
+      "metadentLower": "GWLm",
+      "firstPostId": "GWL1Mj7Im",
+      "firstPostDateTime": "2026/04/26(日) 23:14:47.359"
+    },
+    {
+      "threadNumber": "1777212884",
+      "threadTitle": "【速報】後2日仕事行けばゴールデンウィーク",
+      "metadentUpper": "YWZG",
+      "metadentLower": "uODO",
+      "firstPostId": "uODqn2UuO",
+      "firstPostDateTime": "2026/04/26(日) 23:14:44.801"
+    },
+    {
+      "threadNumber": "1777212883",
+      "threadTitle": "安倍晋三連呼民をぐちゃぐちゃにしたい",
+      "metadentUpper": "CIG2",
+      "metadentLower": "aiNM",
+      "firstPostId": "aiNUR1cFM",
+      "firstPostDateTime": "2026/04/26(日) 23:14:43.110"
+    },
+    {
+      "threadNumber": "1777212877",
+      "threadTitle": "iPhone13 miniとかいうこういうのでいいスマホ",
+      "metadentUpper": "GnTI",
+      "metadentLower": "BiN0",
+      "firstPostId": "BiN.n79D0",
+      "firstPostDateTime": "2026/04/26(日) 23:14:37.507"
+    },
+    {
+      "threadNumber": "1777212876",
+      "threadTitle": "【フジ】ONE PIECE【エルバフ編】",
+      "metadentUpper": "eKa/",
+      "metadentLower": "11TM",
+      "firstPostId": "11TEqRu8M",
+      "firstPostDateTime": "2026/04/26(日) 23:14:36.517"
+    },
+    {
+      "threadNumber": "1777212867",
+      "threadTitle": "【フジ】ONE PIECE",
+      "metadentUpper": "YVFz",
+      "metadentLower": "QrCt",
+      "firstPostId": "QrCrh/TOt",
+      "firstPostDateTime": "2026/04/26(日) 23:14:27.775"
+    },
+    {
+      "threadNumber": "1777212864",
+      "threadTitle": "１００万以上もするロレックス付けてるやつって自分で反社ですって言ってるようなもんやん",
+      "metadentUpper": "8lZS",
+      "metadentLower": "lG4Q",
+      "firstPostId": "lG42nMlfQ",
+      "firstPostDateTime": "2026/04/26(日) 23:14:24.954"
+    },
+    {
+      "threadNumber": "1777212859",
+      "threadTitle": "トッテナムが勝ってて今泣いてる",
+      "metadentUpper": "OFJ3",
+      "metadentLower": "C.uC",
+      "firstPostId": "C.uvptcmC",
+      "firstPostDateTime": "2026/04/26(日) 23:14:19.621"
+    },
+    {
+      "threadNumber": "1777212854",
+      "threadTitle": "GWニューハーフヘルス行くの楽しみすぎる",
+      "metadentUpper": "nx7I",
+      "metadentLower": "Kkgn",
+      "firstPostId": "KkgUteQjn",
+      "firstPostDateTime": "2026/04/26(日) 23:14:14.587"
+    },
+    {
+      "threadNumber": "1777212835",
+      "threadTitle": "やーやーやーやーやー🥺🥺🥺🥺",
+      "metadentUpper": "iUKb",
+      "metadentLower": "WPs0",
+      "firstPostId": "WPsAuySF0",
+      "firstPostDateTime": "2026/04/26(日) 23:13:55.886"
+    },
+    {
+      "threadNumber": "1777212833",
+      "threadTitle": "隣の部屋から「ｾﾞﾎﾞｯﾄｽ-ﾌﾟｻﾒﾀ、ﾂｸﾘﾅｵｼ」って聞こえるんやが",
+      "metadentUpper": "SdwE",
+      "metadentLower": "8x00",
+      "firstPostId": "8x0VCgUT0",
+      "firstPostDateTime": "2026/04/26(日) 23:13:53.089"
+    },
+    {
+      "threadNumber": "1777212826",
+      "threadTitle": "ニコニコ超会議とかいうスーパーオワコンイベントに参加してペットボトルなげつけられる←これ",
+      "metadentUpper": "0LGt",
+      "metadentLower": "eeC8",
+      "firstPostId": "eeCRCZpe8",
+      "firstPostDateTime": "2026/04/26(日) 23:13:46.638"
+    },
+    {
+      "threadNumber": "1777212824",
+      "threadTitle": "久しぶりにキレイな一本糞が出た🥺",
+      "metadentUpper": "gfhN",
+      "metadentLower": "Tc.4",
+      "firstPostId": "Tc.FSnN34",
+      "firstPostDateTime": "2026/04/26(日) 23:13:44.434"
+    },
+    {
+      "threadNumber": "1777212811",
+      "threadTitle": "すまん、SP500よりSOXのほうが良くないか？",
+      "metadentUpper": "NPgA",
+      "metadentLower": "8KrU",
+      "firstPostId": "8KrtsA5mU",
+      "firstPostDateTime": "2026/04/26(日) 23:13:31.431"
+    },
+    {
+      "threadNumber": "1777212809",
+      "threadTitle": "【悲報】レジェンド漫画「GTO」の続編、死ぬほど話題にならない…",
+      "metadentUpper": "E31i",
+      "metadentLower": "fAwI",
+      "firstPostId": "fAwCW0E3I",
+      "firstPostDateTime": "2026/04/26(日) 23:13:29.480"
+    },
+    {
+      "threadNumber": "1777212794",
+      "threadTitle": "【急募】29日のヤクルトvs.阪神の始球式に来る学歴系YouTuber「wakatteTV」さんに対抗できる学歴の選手",
+      "metadentUpper": "mSiF",
+      "metadentLower": "3Wnl",
+      "firstPostId": "3WnH.tyJl",
+      "firstPostDateTime": "2026/04/26(日) 23:13:14.298"
+    },
+    {
+      "threadNumber": "1777212786",
+      "threadTitle": "安倍昭恵「晋ちゃんそのメス誰ッッッ！？！？！？」←安倍晋三の隣に立ってそうなもの",
+      "metadentUpper": "CQZE",
+      "metadentLower": "lu3O",
+      "firstPostId": "lu3YemM3O",
+      "firstPostDateTime": "2026/04/26(日) 23:13:06.414"
+    },
+    {
+      "threadNumber": "1777212775",
+      "threadTitle": "「味噌ラーメン」←いや、味噌汁に麺をぶっこんだだけの手抜き料理だよね",
+      "metadentUpper": "XX8j",
+      "metadentLower": "WLv4",
+      "firstPostId": "WLvcAzPb4",
+      "firstPostDateTime": "2026/04/26(日) 23:12:55.581"
+    },
+    {
+      "threadNumber": "1777212774",
+      "threadTitle": "ufotable｢テイルズオブシリーズの新情報を発表します！」ワイ｢アニメかな？ソシャゲかな？」 ",
+      "metadentUpper": "fV3H",
+      "metadentLower": "sbAo",
+      "firstPostId": "sbArYqrGo",
+      "firstPostDateTime": "2026/04/26(日) 23:12:54.401"
+    },
+    {
+      "threadNumber": "1777212754",
+      "threadTitle": "今最も「生膣に精液注ぎ込みたい相手」の名前書いてもう寝ろWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "EWFF",
+      "metadentLower": "XDGb",
+      "firstPostId": "XDGUNiq8b",
+      "firstPostDateTime": "2026/04/26(日) 23:12:34.112"
+    },
+    {
+      "threadNumber": "1777212751",
+      "threadTitle": "【悲報】イーロンマスク「ワイが今期好きなアニメはこれやなw」",
+      "metadentUpper": "pMFf",
+      "metadentLower": "Capn",
+      "firstPostId": "Cap0Ef8.n",
+      "firstPostDateTime": "2026/04/26(日) 23:12:31.345"
+    },
+    {
+      "threadNumber": "1777212746",
+      "threadTitle": "【悲報】エッヂの「安倍晋三ノリ」、Xに奪われるWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "DHA4",
+      "metadentLower": "/vIs",
+      "firstPostId": "/vIYDAmzs",
+      "firstPostDateTime": "2026/04/26(日) 23:12:26.188"
+    },
+    {
+      "threadNumber": "1777212745",
+      "threadTitle": "【画像】今流行りの「魚介麻婆豆腐」、美味すぎるwwwwwwwwwwww",
+      "metadentUpper": "ymD+",
+      "metadentLower": "pUxw",
+      "firstPostId": "pUxgfmO3w",
+      "firstPostDateTime": "2026/04/26(日) 23:12:25.915"
+    },
+    {
+      "threadNumber": "1777212741",
+      "threadTitle": "液状の屁が出た",
+      "metadentUpper": "D6HL",
+      "metadentLower": "BD.n",
+      "firstPostId": "BD.wkDNmn",
+      "firstPostDateTime": "2026/04/26(日) 23:12:21.906"
+    },
+    {
+      "threadNumber": "1777212732",
+      "threadTitle": "鈴木誠也「wRC+181で日本人選手最強です」←誰も褒めてくれない理由ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "hVvY",
+      "metadentLower": "4UxL",
+      "firstPostId": "4UxXrJqEL",
+      "firstPostDateTime": "2026/04/26(日) 23:12:12.780"
+    },
+    {
+      "threadNumber": "1777212729",
+      "threadTitle": "精神障害者←いや脳の障害なんだから身体障害者だよね",
+      "metadentUpper": "gYje",
+      "metadentLower": "RWBU",
+      "firstPostId": "RWBYYzMxU",
+      "firstPostDateTime": "2026/04/26(日) 23:12:09.023"
+    },
+    {
+      "threadNumber": "1777212714",
+      "threadTitle": "おきりこみとかいう板ガムみたいな麺",
+      "metadentUpper": "sxXe",
+      "metadentLower": "pCbm",
+      "firstPostId": "pCbjqGy/m",
+      "firstPostDateTime": "2026/04/26(日) 23:11:54.422"
+    },
+    {
+      "threadNumber": "1777212700",
+      "threadTitle": "うんちいっぱいでた🧑‍🦲",
+      "metadentUpper": "sQNb",
+      "metadentLower": "ZJWQ",
+      "firstPostId": "ZJWWGHA3Q",
+      "firstPostDateTime": "2026/04/26(日) 23:11:40.517"
+    },
+    {
+      "threadNumber": "1777212695",
+      "threadTitle": "彼女可愛いけど",
+      "metadentUpper": "oYa2",
+      "metadentLower": "nl05",
+      "firstPostId": "nl0EczZ55",
+      "firstPostDateTime": "2026/04/26(日) 23:11:35.234"
+    },
+    {
+      "threadNumber": "1777212694",
+      "threadTitle": "【緊急】アベノミクスの果実がどこで手に入るのか分からなくて詰まってるんやが",
+      "metadentUpper": "oCFG",
+      "metadentLower": "yKST",
+      "firstPostId": "yKS50GK0T",
+      "firstPostDateTime": "2026/04/26(日) 23:11:34.171"
+    },
+    {
+      "threadNumber": "1777212689",
+      "threadTitle": "人類はセックスに支配されている",
+      "metadentUpper": "Bru6",
+      "metadentLower": "qMes",
+      "firstPostId": "qMeUQ7LBs",
+      "firstPostDateTime": "2026/04/26(日) 23:11:29.227"
+    },
+    {
+      "threadNumber": "1777212665",
+      "threadTitle": "フリーザ「な…なに！？戦闘力114514！？弱スギィwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww」",
+      "metadentUpper": "15KX",
+      "metadentLower": "yfvX",
+      "firstPostId": "yfvYIg68X",
+      "firstPostDateTime": "2026/04/26(日) 23:11:05.365"
+    },
+    {
+      "threadNumber": "1777212658",
+      "threadTitle": "ぷゆのここ4日の夜ご飯🥺",
+      "metadentUpper": "L4ps",
+      "metadentLower": "heQ8",
+      "firstPostId": "heQGx1JP8",
+      "firstPostDateTime": "2026/04/26(日) 23:10:58.959"
+    },
+    {
+      "threadNumber": "1777212654",
+      "threadTitle": "有吉ぃぃeeeeeのときの有吉",
+      "metadentUpper": "sOHF",
+      "metadentLower": "jeOU",
+      "firstPostId": "jeOx0j6rU",
+      "firstPostDateTime": "2026/04/26(日) 23:10:54.796"
+    },
+    {
+      "threadNumber": "1777212649",
+      "threadTitle": "【衝撃】古代ローマ帝国🇮🇹、エグすぎるwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "MkMW",
+      "metadentLower": "dgpW",
+      "firstPostId": "dgpuXpv0W",
+      "firstPostDateTime": "2026/04/26(日) 23:10:49.256"
+    },
+    {
+      "threadNumber": "1777212646",
+      "threadTitle": "兜届いたンゴ！",
+      "metadentUpper": "HEep",
+      "metadentLower": "k9iq",
+      "firstPostId": "k9iLGXxoq",
+      "firstPostDateTime": "2026/04/26(日) 23:10:46.526"
+    },
+    {
+      "threadNumber": "1777212645",
+      "threadTitle": "🥺👉👈",
+      "metadentUpper": "CC8x",
+      "metadentLower": "tNxY",
+      "firstPostId": "tNxTr1IrY",
+      "firstPostDateTime": "2026/04/26(日) 23:10:45.490"
+    },
+    {
+      "threadNumber": "1777212644",
+      "threadTitle": "ラブライブ！サンシャイン！！って何でこんな衰退したんや？ ",
+      "metadentUpper": "X2DH",
+      "metadentLower": "pj1z",
+      "firstPostId": "pj1ZSlO8z",
+      "firstPostDateTime": "2026/04/26(日) 23:10:44.541"
+    },
+    {
+      "threadNumber": "1777212623",
+      "threadTitle": "ワイ「かわいいですね～、触ってもいいですか？」犬の散歩中の女「あっ、いいですよぉ～」",
+      "metadentUpper": "TcUd",
+      "metadentLower": "Iej0",
+      "firstPostId": "IejH0jEK0",
+      "firstPostDateTime": "2026/04/26(日) 23:10:23.705"
+    },
+    {
+      "threadNumber": "1777212622",
+      "threadTitle": "寝たら月曜日が始まる",
+      "metadentUpper": "rqD+",
+      "metadentLower": "qcrb",
+      "firstPostId": "qcrae8jkb",
+      "firstPostDateTime": "2026/04/26(日) 23:10:22.920"
+    },
     {
       "threadNumber": "1777212614",
       "threadTitle": "【速報】元ドリフターズの高木ブーさん(93)",
