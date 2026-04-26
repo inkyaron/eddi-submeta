@@ -1,8 +1,344 @@
 {
-  "updatedAt": "2026-04-26T13:50:13.312895Z",
-  "totalRecords": 6492,
-  "addedCount": 14,
+  "updatedAt": "2026-04-26T13:55:24.736581Z",
+  "totalRecords": 6534,
+  "addedCount": 42,
   "records": [
+    {
+      "threadNumber": "1777211689",
+      "threadTitle": "淡島百景の3話のキャラクターが誰が誰かわからん",
+      "metadentUpper": "GnXF",
+      "metadentLower": "PIWP",
+      "firstPostId": "PIWe6owdP",
+      "firstPostDateTime": "2026/04/26(日) 22:54:49.861"
+    },
+    {
+      "threadNumber": "1777211680",
+      "threadTitle": "中日関係がいきなり悪化した理由wwwwwwwwwwwwwww",
+      "metadentUpper": "UrB7",
+      "metadentLower": "ySJ1",
+      "firstPostId": "ySJQwDiA1",
+      "firstPostDateTime": "2026/04/26(日) 22:54:40.920"
+    },
+    {
+      "threadNumber": "1777211676",
+      "threadTitle": "このあとすぐの情熱大陸『今永昇太』が楽しみすぎて眠れない奴ｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "ik7j",
+      "metadentLower": "xbe0",
+      "firstPostId": "xbelsUw10",
+      "firstPostDateTime": "2026/04/26(日) 22:54:36.200"
+    },
+    {
+      "threadNumber": "1777211672",
+      "threadTitle": "【画像あり】表紙に女の子がいっぱい載ってる漫画買ってきた",
+      "metadentUpper": "IZAX",
+      "metadentLower": "2RQ0",
+      "firstPostId": "2RQcKTtG0",
+      "firstPostDateTime": "2026/04/26(日) 22:54:32.643"
+    },
+    {
+      "threadNumber": "1777211669",
+      "threadTitle": "クソ客「お姉さんかわいいねｗバイト何時まで？」 ホールの子「えっ…」 てんちょワイ「お客様どうかされましたか？」帽子ｽｯ",
+      "metadentUpper": "SdwE",
+      "metadentLower": "8x00",
+      "firstPostId": "8x0VCgUT0",
+      "firstPostDateTime": "2026/04/26(日) 22:54:29.809"
+    },
+    {
+      "threadNumber": "1777211659",
+      "threadTitle": "ケツ掘れワンワン🥺",
+      "metadentUpper": "CC8x",
+      "metadentLower": "tNxY",
+      "firstPostId": "tNxTr1IrY",
+      "firstPostDateTime": "2026/04/26(日) 22:54:19.378"
+    },
+    {
+      "threadNumber": "1777211653",
+      "threadTitle": "【朗報】業務用ポップコーン、家にあるだけで人生が捗る。",
+      "metadentUpper": "JjlR",
+      "metadentLower": "96k5",
+      "firstPostId": "96kyUAfu5",
+      "firstPostDateTime": "2026/04/26(日) 22:54:13.304"
+    },
+    {
+      "threadNumber": "1777211646",
+      "threadTitle": "電車で立つとき吊り革がぶら下がってる棒を掴んでる人いるでしょ",
+      "metadentUpper": "XaWP",
+      "metadentLower": "XPnV",
+      "firstPostId": "XPnyHagKV",
+      "firstPostDateTime": "2026/04/26(日) 22:54:06.431"
+    },
+    {
+      "threadNumber": "1777211639",
+      "threadTitle": "文系人材80万人過剰wwwwwwwwwwwwwww文系は無職になる時代wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "lduG",
+      "metadentLower": "V1m4",
+      "firstPostId": "V1mIeTzl4",
+      "firstPostDateTime": "2026/04/26(日) 22:53:59.343"
+    },
+    {
+      "threadNumber": "1777211637",
+      "threadTitle": "我がペニス（ワガペー）、そそり立つ",
+      "metadentUpper": "/XJW",
+      "metadentLower": "mQIw",
+      "firstPostId": "mQIC14wlw",
+      "firstPostDateTime": "2026/04/26(日) 22:53:57.399"
+    },
+    {
+      "threadNumber": "1777211624",
+      "threadTitle": "なんエヂ後頭部に掌を置いて暖を取る部",
+      "metadentUpper": "C0Gp",
+      "metadentLower": "Ulue",
+      "firstPostId": "Ulu3clCve",
+      "firstPostDateTime": "2026/04/26(日) 22:53:44.973"
+    },
+    {
+      "threadNumber": "1777211617",
+      "threadTitle": "もう寝るね",
+      "metadentUpper": "Nzft",
+      "metadentLower": "kLhv",
+      "firstPostId": "kLha.5CCv",
+      "firstPostDateTime": "2026/04/26(日) 22:53:37.373"
+    },
+    {
+      "threadNumber": "1777211592",
+      "threadTitle": "岡くん「ユピィィィッス！岡でーす！サルートン！」⬅YouTubeでこれやれば年収1000万以上という事実",
+      "metadentUpper": "k4Z7",
+      "metadentLower": "CXp0",
+      "firstPostId": "CXpSKLmH0",
+      "firstPostDateTime": "2026/04/26(日) 22:53:12.493"
+    },
+    {
+      "threadNumber": "1777211589",
+      "threadTitle": "夜はストーブつけてるけど",
+      "metadentUpper": "hOY9",
+      "metadentLower": "TInP",
+      "firstPostId": "TInhMiG2P",
+      "firstPostDateTime": "2026/04/26(日) 22:53:09.997"
+    },
+    {
+      "threadNumber": "1777211581",
+      "threadTitle": "IIJMIO←イイジミオだと思ってたアホ、俺以外にいる？！？",
+      "metadentUpper": "DAB6",
+      "metadentLower": "v7jH",
+      "firstPostId": "v7jQrogaH",
+      "firstPostDateTime": "2026/04/26(日) 22:53:01.624"
+    },
+    {
+      "threadNumber": "1777211580",
+      "threadTitle": "エッヂやってたら幸せになれるよね？",
+      "metadentUpper": "bb95",
+      "metadentLower": "MpEE",
+      "firstPostId": "MpEnUpinE",
+      "firstPostDateTime": "2026/04/26(日) 22:53:00.790"
+    },
+    {
+      "threadNumber": "1777211571",
+      "threadTitle": "ダンガンロンパ114514にありがちな事wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "Ywux",
+      "metadentLower": "KnSl",
+      "firstPostId": "KnSnU5Zhl",
+      "firstPostDateTime": "2026/04/26(日) 22:52:51.359"
+    },
+    {
+      "threadNumber": "1777211549",
+      "threadTitle": "【悲報】自衛隊員さん寮に\"アレ\"を持ち込んでしまうwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "+a8k",
+      "metadentLower": "Q0BS",
+      "firstPostId": "Q0B/943jS",
+      "firstPostDateTime": "2026/04/26(日) 22:52:29.831"
+    },
+    {
+      "threadNumber": "1777211538",
+      "threadTitle": "パリストンとジンの話どうなったん？",
+      "metadentUpper": "qK84",
+      "metadentLower": "5bbR",
+      "firstPostId": "5bb671DQR",
+      "firstPostDateTime": "2026/04/26(日) 22:52:18.090"
+    },
+    {
+      "threadNumber": "1777211536",
+      "threadTitle": "日向坂46の丹生明里ちゃん",
+      "metadentUpper": "1mVu",
+      "metadentLower": "w7On",
+      "firstPostId": "w7OSLyQMn",
+      "firstPostDateTime": "2026/04/26(日) 22:52:16.060"
+    },
+    {
+      "threadNumber": "1777211524",
+      "threadTitle": "それは催眠術　いわゆるダイビング　←これユーチューブショートでめちゃめちゃ聴いたわ",
+      "metadentUpper": "0UeP",
+      "metadentLower": "8sdI",
+      "firstPostId": "8sdyo8f/I",
+      "firstPostDateTime": "2026/04/26(日) 22:52:04.020"
+    },
+    {
+      "threadNumber": "1777211512",
+      "threadTitle": "Adoの顔出しが速攻で話題にならなくなった理由",
+      "metadentUpper": "tAJN",
+      "metadentLower": "iMut",
+      "firstPostId": "iMuth8O9t",
+      "firstPostDateTime": "2026/04/26(日) 22:51:52.613"
+    },
+    {
+      "threadNumber": "1777211511",
+      "threadTitle": "鬼滅キッズ「鬼滅の刃は友情・努力・勝利、そして敵キャラに哀しき過去がある完全神漫画ダァ！」←こいつら",
+      "metadentUpper": "V0sJ",
+      "metadentLower": "EW.Y",
+      "firstPostId": "EW.ijJzEY",
+      "firstPostDateTime": "2026/04/26(日) 22:51:51.549"
+    },
+    {
+      "threadNumber": "1777211510",
+      "threadTitle": "【悲報】ホロライブ、また何か起きた可能性😨",
+      "metadentUpper": "eR8I",
+      "metadentLower": "2Ovc",
+      "firstPostId": "2OvtO9RAc",
+      "firstPostDateTime": "2026/04/26(日) 22:51:50.699"
+    },
+    {
+      "threadNumber": "1777211509",
+      "threadTitle": "もし世界が性知識ゼロの男女2人きりになったとしたら",
+      "metadentUpper": "fdCA",
+      "metadentLower": "sO0q",
+      "firstPostId": "sO0L3CaNq",
+      "firstPostDateTime": "2026/04/26(日) 22:51:49.215"
+    },
+    {
+      "threadNumber": "1777211505",
+      "threadTitle": "同い年の先輩にタメ口でLINE送ったらブチ切られた",
+      "metadentUpper": "vMJo",
+      "metadentLower": "kyP6",
+      "firstPostId": "kyP2KPBR6",
+      "firstPostDateTime": "2026/04/26(日) 22:51:45.421"
+    },
+    {
+      "threadNumber": "1777211497",
+      "threadTitle": "【悲報】2023日本「円は1970年代以来の最悪の状況」→2026日本「円は統計始まって以来最悪の状況」WWWWWWWWWWWWW",
+      "metadentUpper": "pMFf",
+      "metadentLower": "Capn",
+      "firstPostId": "Cap0Ef8.n",
+      "firstPostDateTime": "2026/04/26(日) 22:51:37.461"
+    },
+    {
+      "threadNumber": "1777211484",
+      "threadTitle": "クリスチャンのエッヂャー集合しろ！",
+      "metadentUpper": "jIVi",
+      "metadentLower": "2xed",
+      "firstPostId": "2xepy03Od",
+      "firstPostDateTime": "2026/04/26(日) 22:51:24.784"
+    },
+    {
+      "threadNumber": "1777211482",
+      "threadTitle": "安倍晋三「あれほしい」←ほしそうなもの",
+      "metadentUpper": "0LGt",
+      "metadentLower": "eeC8",
+      "firstPostId": "eeCRCZpe8",
+      "firstPostDateTime": "2026/04/26(日) 22:51:22.948"
+    },
+    {
+      "threadNumber": "1777211467",
+      "threadTitle": "【動画】JKさん、練習中にドラム奏者を大声で恫喝してしまう",
+      "metadentUpper": "P+r+",
+      "metadentLower": "VGX0",
+      "firstPostId": "VGXvtfgW0",
+      "firstPostDateTime": "2026/04/26(日) 22:51:07.866"
+    },
+    {
+      "threadNumber": "1777211462",
+      "threadTitle": "ワイの好きなタイプが『手島優』『椎名林檎』なんやが",
+      "metadentUpper": "hJSu",
+      "metadentLower": "UYWQ",
+      "firstPostId": "UYWaIL1IQ",
+      "firstPostDateTime": "2026/04/26(日) 22:51:02.992"
+    },
+    {
+      "threadNumber": "1777211458",
+      "threadTitle": "【MX】魔法の姉妹ルルットリリィ→前橋ウィッチーズ(再)→株式会社マジルミエ(再)→ニワトリ･ファイター→ゴーコン→★5",
+      "metadentUpper": "2pFB",
+      "metadentLower": "Vip3",
+      "firstPostId": "VipFreu53",
+      "firstPostDateTime": "2026/04/26(日) 22:50:58.536"
+    },
+    {
+      "threadNumber": "1777211455",
+      "threadTitle": "ワイのニックネームが「アンチ太」なんやが",
+      "metadentUpper": "pBj9",
+      "metadentLower": "cOZ0",
+      "firstPostId": "cOZM423G0",
+      "firstPostDateTime": "2026/04/26(日) 22:50:55.832"
+    },
+    {
+      "threadNumber": "1777211454",
+      "threadTitle": "近鉄「沿線の観光地になんば、京都、奈良、吉野、伊勢、志摩、伊賀、名古屋、津があります」",
+      "metadentUpper": "vyDg",
+      "metadentLower": "GWLm",
+      "firstPostId": "GWL1Mj7Im",
+      "firstPostDateTime": "2026/04/26(日) 22:50:54.582"
+    },
+    {
+      "threadNumber": "1777211448",
+      "threadTitle": "佐々木朗希 5先発 1勝2敗 防御率6.35 被打率.304 K/BB 1.69 WHIP1.81",
+      "metadentUpper": "tcR1",
+      "metadentLower": "iLWF",
+      "firstPostId": "iLWzcLcQF",
+      "firstPostDateTime": "2026/04/26(日) 22:50:48.769"
+    },
+    {
+      "threadNumber": "1777211435",
+      "threadTitle": "のり弁ってあまりにも揚げ物偏重すぎないか？🥺",
+      "metadentUpper": "DL1h",
+      "metadentLower": "VKtq",
+      "firstPostId": "VKt3Ojldq",
+      "firstPostDateTime": "2026/04/26(日) 22:50:35.840"
+    },
+    {
+      "threadNumber": "1777211433",
+      "threadTitle": "近所の小学生が「ナマステー🙏」って言ってきた",
+      "metadentUpper": "f2Sv",
+      "metadentLower": "w9Kf",
+      "firstPostId": "w9KLDFX8f",
+      "firstPostDateTime": "2026/04/26(日) 22:50:33.836"
+    },
+    {
+      "threadNumber": "1777211431",
+      "threadTitle": "高市が皆保険潰すらしいな",
+      "metadentUpper": "XLcx",
+      "metadentLower": "2ZkG",
+      "firstPostId": "2ZkNHQ1FG",
+      "firstPostDateTime": "2026/04/26(日) 22:50:31.990"
+    },
+    {
+      "threadNumber": "1777211415",
+      "threadTitle": "一般スポーツ「危険なことしたら退場+出場停止です」野球「バットで頭フルスイングしたやつが普通に出れます」←これ",
+      "metadentUpper": "uWP3",
+      "metadentLower": "0xxV",
+      "firstPostId": "0xx217QqV",
+      "firstPostDateTime": "2026/04/26(日) 22:50:15.684"
+    },
+    {
+      "threadNumber": "1777211414",
+      "threadTitle": "和泉風花　月城日花　宮下早紀",
+      "metadentUpper": "ZOvn",
+      "metadentLower": "gsnn",
+      "firstPostId": "gsnuDnh2n",
+      "firstPostDateTime": "2026/04/26(日) 22:50:14.470"
+    },
+    {
+      "threadNumber": "1777211413",
+      "threadTitle": "最上あいの思い出",
+      "metadentUpper": "DDpt",
+      "metadentLower": "lGBy",
+      "firstPostId": "lGB9XzWQy",
+      "firstPostDateTime": "2026/04/26(日) 22:50:13.954"
+    },
+    {
+      "threadNumber": "1777211411",
+      "threadTitle": "神奈川県立外語短期大学付属高等学校→横浜国立大学(経営学部)→神奈川県庁 贔屓は横浜DeNAベイスターズ",
+      "metadentUpper": "N/Bf",
+      "metadentLower": "39mJ",
+      "firstPostId": "39mzRnPEJ",
+      "firstPostDateTime": "2026/04/26(日) 22:50:11.485"
+    },
     {
       "threadNumber": "1777211398",
       "threadTitle": "cytubeスレは何で廃れたんやろな？",
