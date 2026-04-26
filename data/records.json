@@ -1,8 +1,392 @@
 {
-  "updatedAt": "2026-04-26T08:55:19.278141Z",
-  "totalRecords": 4374,
-  "addedCount": 37,
+  "updatedAt": "2026-04-26T09:00:26.139783Z",
+  "totalRecords": 4422,
+  "addedCount": 48,
   "records": [
+    {
+      "threadNumber": "1777194012",
+      "threadTitle": "【悲報】艦隊これくしょん、サービス終了",
+      "metadentUpper": "VUW/",
+      "metadentLower": "hY9i",
+      "firstPostId": "hY9O404Fi",
+      "firstPostDateTime": "2026/04/26(日) 18:00:12.310"
+    },
+    {
+      "threadNumber": "1777194010",
+      "threadTitle": "ワイ「黛冬優子では抜けない」←これ",
+      "metadentUpper": "v4nd",
+      "metadentLower": "x0zG",
+      "firstPostId": "x0z8JSIaG",
+      "firstPostDateTime": "2026/04/26(日) 18:00:10.959"
+    },
+    {
+      "threadNumber": "1777194005",
+      "threadTitle": "【悲報】大谷翔平さん、肩に死球を受けてから明らかに打撃がおかしくなってしまう",
+      "metadentUpper": "r4Ri",
+      "metadentLower": "cHdT",
+      "firstPostId": "cHdFbE7mT",
+      "firstPostDateTime": "2026/04/26(日) 18:00:05.161"
+    },
+    {
+      "threadNumber": "1777194003",
+      "threadTitle": "【画像】エッヂ系Vtuberの百音心愛さん、エチエチコスプレを披露する",
+      "metadentUpper": "YIRB",
+      "metadentLower": "rTZx",
+      "firstPostId": "rTZoL6gex",
+      "firstPostDateTime": "2026/04/26(日) 18:00:03.486"
+    },
+    {
+      "threadNumber": "1777193998",
+      "threadTitle": "スターリンソートの上位互換とされるAbeソートとは",
+      "metadentUpper": "DLmQ",
+      "metadentLower": "nPdg",
+      "firstPostId": "nPdcNptGg",
+      "firstPostDateTime": "2026/04/26(日) 17:59:58.172"
+    },
+    {
+      "threadNumber": "1777193987",
+      "threadTitle": "●勝てない",
+      "metadentUpper": "MfLn",
+      "metadentLower": "fxgh",
+      "firstPostId": "fxgmBBe4h",
+      "firstPostDateTime": "2026/04/26(日) 17:59:47.605"
+    },
+    {
+      "threadNumber": "1777193986",
+      "threadTitle": "●怪物ロマンチックウォリアー",
+      "metadentUpper": "GNPK",
+      "metadentLower": "NMOx",
+      "firstPostId": "NMOxWOdgx",
+      "firstPostDateTime": "2026/04/26(日) 17:59:46.862"
+    },
+    {
+      "threadNumber": "1777193982",
+      "threadTitle": "もんもれば　桜散るほど　滑ったよぉ🤥",
+      "metadentUpper": "tcR1",
+      "metadentLower": "1qBW",
+      "firstPostId": "1qBL0zM7W",
+      "firstPostDateTime": "2026/04/26(日) 17:59:42.024"
+    },
+    {
+      "threadNumber": "1777193977",
+      "threadTitle": "自分のおならを自分で嗅いでそうな女キャラ",
+      "metadentUpper": "9YiU",
+      "metadentLower": "pEd0",
+      "firstPostId": "pEdYg6C20",
+      "firstPostDateTime": "2026/04/26(日) 17:59:37.203"
+    },
+    {
+      "threadNumber": "1777193974",
+      "threadTitle": "なんか無性に安倍晋三したくなる時あるんやが",
+      "metadentUpper": "5on8",
+      "metadentLower": "OZh7",
+      "firstPostId": "OZhHt9ND7",
+      "firstPostDateTime": "2026/04/26(日) 17:59:34.719"
+    },
+    {
+      "threadNumber": "1777193963",
+      "threadTitle": "【朗報】ワイ、数学の常識を塗り替えてしまう……",
+      "metadentUpper": "mZy3",
+      "metadentLower": "2KXh",
+      "firstPostId": "2KX6bnwZh",
+      "firstPostDateTime": "2026/04/26(日) 17:59:23.150"
+    },
+    {
+      "threadNumber": "1777193961",
+      "threadTitle": "まるカス→キチガイ一家★1",
+      "metadentUpper": "mvmb",
+      "metadentLower": "S7id",
+      "firstPostId": "S7i7PH2Wd",
+      "firstPostDateTime": "2026/04/26(日) 17:59:21.298"
+    },
+    {
+      "threadNumber": "1777193959",
+      "threadTitle": "【フジ】まるカス→キチガイ一家★1",
+      "metadentUpper": "RYhK",
+      "metadentLower": ".T.7",
+      "firstPostId": ".T.pnQVQ7",
+      "firstPostDateTime": "2026/04/26(日) 17:59:19.201"
+    },
+    {
+      "threadNumber": "1777193958",
+      "threadTitle": "【フジ】ガイジ→キチガイ★1",
+      "metadentUpper": "oGPu",
+      "metadentLower": "Jn7R",
+      "firstPostId": "Jn7vyuMOR",
+      "firstPostDateTime": "2026/04/26(日) 17:59:18.303"
+    },
+    {
+      "threadNumber": "1777193954",
+      "threadTitle": "オチンポなめなめモンスター殺す",
+      "metadentUpper": "C0Gp",
+      "metadentLower": "Ulue",
+      "firstPostId": "Ulu3clCve",
+      "firstPostDateTime": "2026/04/26(日) 17:59:14.394"
+    },
+    {
+      "threadNumber": "1777193944",
+      "threadTitle": "世界遺産",
+      "metadentUpper": "bJN1",
+      "metadentLower": "WpDY",
+      "firstPostId": "WpD5COjzY",
+      "firstPostDateTime": "2026/04/26(日) 17:59:04.963"
+    },
+    {
+      "threadNumber": "1777193943",
+      "threadTitle": "ネット上の「サラリーマンが並ぶ店は間違いない」みたいな誤った情報嫌い",
+      "metadentUpper": "pBip",
+      "metadentLower": "R8ay",
+      "firstPostId": "R8a7Vm2Fy",
+      "firstPostDateTime": "2026/04/26(日) 17:59:03.564"
+    },
+    {
+      "threadNumber": "1777193942",
+      "threadTitle": "🫀👈🥺これゆめちゃんに使うドナー",
+      "metadentUpper": "jaZk",
+      "metadentLower": "SXKU",
+      "firstPostId": "SXKONSf4U",
+      "firstPostDateTime": "2026/04/26(日) 17:59:02.232"
+    },
+    {
+      "threadNumber": "1777193939",
+      "threadTitle": "ヒロアカで一番可愛いキャラ",
+      "metadentUpper": "WRtE",
+      "metadentLower": "gUAq",
+      "firstPostId": "gUArIxlqq",
+      "firstPostDateTime": "2026/04/26(日) 17:58:59.994"
+    },
+    {
+      "threadNumber": "1777193923",
+      "threadTitle": "【BS】豊臣兄弟❗�",
+      "metadentUpper": "HRLM",
+      "metadentLower": "Wifa",
+      "firstPostId": "Wif0zp5Za",
+      "firstPostDateTime": "2026/04/26(日) 17:58:43.007"
+    },
+    {
+      "threadNumber": "1777193915",
+      "threadTitle": "ドラマ『白い巨塔』見始めたワイ「話難しい。よく分からない」",
+      "metadentUpper": "+UYE",
+      "metadentLower": "mW1u",
+      "firstPostId": "mW14nItdu",
+      "firstPostDateTime": "2026/04/26(日) 17:58:35.311"
+    },
+    {
+      "threadNumber": "1777193912",
+      "threadTitle": "「自由恋愛」←これ普通に国ぶっ壊してるのに規制されない理由",
+      "metadentUpper": "O9lB",
+      "metadentLower": "VkoR",
+      "firstPostId": "VkoxFRHeR",
+      "firstPostDateTime": "2026/04/26(日) 17:58:32.111"
+    },
+    {
+      "threadNumber": "1777193905",
+      "threadTitle": "くら寿司行ってきた😳",
+      "metadentUpper": "GB+1",
+      "metadentLower": "M6IL",
+      "firstPostId": "M6ICgq5BL",
+      "firstPostDateTime": "2026/04/26(日) 17:58:25.338"
+    },
+    {
+      "threadNumber": "1777193904",
+      "threadTitle": "近くの東京靴流通センターがガチの閉店してたんやが🥺",
+      "metadentUpper": "W8AO",
+      "metadentLower": "AOH1",
+      "firstPostId": "AOHGQgs51",
+      "firstPostDateTime": "2026/04/26(日) 17:58:24.074"
+    },
+    {
+      "threadNumber": "1777193893",
+      "threadTitle": "テイルズオブジアビスで誰が悪いかは置いといて誰がクソかと言ったら",
+      "metadentUpper": "IQ03",
+      "metadentLower": "eQb0",
+      "firstPostId": "eQbBy43Q0",
+      "firstPostDateTime": "2026/04/26(日) 17:58:13.391"
+    },
+    {
+      "threadNumber": "1777193879",
+      "threadTitle": "ちょっとだけシコりたくなってきちゃったかも😳",
+      "metadentUpper": "DHA4",
+      "metadentLower": "hdMV",
+      "firstPostId": "hdMAic.HV",
+      "firstPostDateTime": "2026/04/26(日) 17:57:59.117"
+    },
+    {
+      "threadNumber": "1777193875",
+      "threadTitle": "速報　村上宗、登録名を「Moonie Gods（ムーニー・ゴッズ）」に変更へ",
+      "metadentUpper": "4FP4",
+      "metadentLower": "XPFq",
+      "firstPostId": "XPFwEKmLq",
+      "firstPostDateTime": "2026/04/26(日) 17:57:55.671"
+    },
+    {
+      "threadNumber": "1777193863",
+      "threadTitle": "🫪👉　👈🌛",
+      "metadentUpper": "TLso",
+      "metadentLower": "pEZs",
+      "firstPostId": "pEZ7DYbDs",
+      "firstPostDateTime": "2026/04/26(日) 17:57:43.501"
+    },
+    {
+      "threadNumber": "1777193861",
+      "threadTitle": "【悲報】アニメ「ダイヤのA」、原作18話分を20分にまとめる荒業ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "Cd1R",
+      "metadentLower": "NmkN",
+      "firstPostId": "Nmk7.P0eN",
+      "firstPostDateTime": "2026/04/26(日) 17:57:41.063"
+    },
+    {
+      "threadNumber": "1777193856",
+      "threadTitle": "MOROHAの喋る方って要らなくね？",
+      "metadentUpper": "C4il",
+      "metadentLower": "mldM",
+      "firstPostId": "mldEYNhnM",
+      "firstPostDateTime": "2026/04/26(日) 17:57:36.724"
+    },
+    {
+      "threadNumber": "1777193848",
+      "threadTitle": "彡(ﾟ)(ﾟ)「人生終わってる部に対抗して人生取り戻す部を作ろうと思う。」",
+      "metadentUpper": "htZ6",
+      "metadentLower": "kyi1",
+      "firstPostId": "kyigCgfF1",
+      "firstPostDateTime": "2026/04/26(日) 17:57:28.592"
+    },
+    {
+      "threadNumber": "1777193843",
+      "threadTitle": "刑務官はマジでやめとけ　矯正の仕事に興味があるならせめて法務教官か心理技官",
+      "metadentUpper": "pMFf",
+      "metadentLower": "xfjF",
+      "firstPostId": "xfj94GG8F",
+      "firstPostDateTime": "2026/04/26(日) 17:57:23.093"
+    },
+    {
+      "threadNumber": "1777193836",
+      "threadTitle": "トーキング・ヘッズとかいうカッコいいバンド",
+      "metadentUpper": "+Ecw",
+      "metadentLower": "2Nbm",
+      "firstPostId": "2NbHMhWvm",
+      "firstPostDateTime": "2026/04/26(日) 17:57:16.445"
+    },
+    {
+      "threadNumber": "1777193828",
+      "threadTitle": "シコったら冷静になった",
+      "metadentUpper": "MCav",
+      "metadentLower": "Si5b",
+      "firstPostId": "Si5jEOfDb",
+      "firstPostDateTime": "2026/04/26(日) 17:57:08.244"
+    },
+    {
+      "threadNumber": "1777193826",
+      "threadTitle": "1日2回シコってる部 🥺",
+      "metadentUpper": "H6/B",
+      "metadentLower": "nvM0",
+      "firstPostId": "nvMStlDd0",
+      "firstPostDateTime": "2026/04/26(日) 17:57:06.589"
+    },
+    {
+      "threadNumber": "1777193823",
+      "threadTitle": "ufotable｢テイルズオブシリーズの新情報を発表します！」ワイ｢アニメかな？ソシャゲかな？」 ",
+      "metadentUpper": "fV3H",
+      "metadentLower": "sbAo",
+      "firstPostId": "sbArYqrGo",
+      "firstPostDateTime": "2026/04/26(日) 17:57:03.002"
+    },
+    {
+      "threadNumber": "1777193822",
+      "threadTitle": "【悲報】攘夷運動、今になって幕末以来の最盛期を迎える",
+      "metadentUpper": "Xw0E",
+      "metadentLower": "5s6s",
+      "firstPostId": "5s6UvX4gs",
+      "firstPostDateTime": "2026/04/26(日) 17:57:02.598"
+    },
+    {
+      "threadNumber": "1777193818",
+      "threadTitle": "【正論】高市早苗「暴力は、世界のいかなる場所でも、決して容認できません。」 ",
+      "metadentUpper": "DoLa",
+      "metadentLower": "3nIq",
+      "firstPostId": "3nIB4VA9q",
+      "firstPostDateTime": "2026/04/26(日) 17:56:58.447"
+    },
+    {
+      "threadNumber": "1777193800",
+      "threadTitle": "優勝候補北海道日本ハムファイターズ、最下位候補筆頭のロッテと並ぶ",
+      "metadentUpper": "Fq4o",
+      "metadentLower": "k8RW",
+      "firstPostId": "k8RhXbEqW",
+      "firstPostDateTime": "2026/04/26(日) 17:56:40.730"
+    },
+    {
+      "threadNumber": "1777193797",
+      "threadTitle": "幼馴染や学生時代からのパートナーとそのまま結婚←結局これが最強という事実",
+      "metadentUpper": "FuS8",
+      "metadentLower": "Y2MA",
+      "firstPostId": "Y2Mfq2TsA",
+      "firstPostDateTime": "2026/04/26(日) 17:56:37.051"
+    },
+    {
+      "threadNumber": "1777193795",
+      "threadTitle": "本日邪悪球団全勝ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "Pbg3",
+      "metadentLower": "V30Y",
+      "firstPostId": "V30nE90bY",
+      "firstPostDateTime": "2026/04/26(日) 17:56:35.174"
+    },
+    {
+      "threadNumber": "1777193782",
+      "threadTitle": "弱男自称しとるやつらって西村賢太の苦役列車読んだことなさそう",
+      "metadentUpper": "sQNb",
+      "metadentLower": "ZJWQ",
+      "firstPostId": "ZJWWGHA3Q",
+      "firstPostDateTime": "2026/04/26(日) 17:56:22.654"
+    },
+    {
+      "threadNumber": "1777193780",
+      "threadTitle": "生産的なことに嫌な記憶が関連づいた時の対処法",
+      "metadentUpper": "iM3E",
+      "metadentLower": "J801",
+      "firstPostId": "J80/ef8E1",
+      "firstPostDateTime": "2026/04/26(日) 17:56:20.197"
+    },
+    {
+      "threadNumber": "1777193779",
+      "threadTitle": "ワイ、ノッキングマスターになりたい😖",
+      "metadentUpper": "7wXt",
+      "metadentLower": "6K.Q",
+      "firstPostId": "6K.SgqoGQ",
+      "firstPostDateTime": "2026/04/26(日) 17:56:19.117"
+    },
+    {
+      "threadNumber": "1777193728",
+      "threadTitle": "最近エッヂの中に安倍晋三紛れてないか？",
+      "metadentUpper": "5on8",
+      "metadentLower": "OZh7",
+      "firstPostId": "OZhHt9ND7",
+      "firstPostDateTime": "2026/04/26(日) 17:55:28.920"
+    },
+    {
+      "threadNumber": "1777193727",
+      "threadTitle": "【受験生向け】　『枕草子』　抜けるもの　現代語訳",
+      "metadentUpper": "fctj",
+      "metadentLower": "IOst",
+      "firstPostId": "IOsIfEqRt",
+      "firstPostDateTime": "2026/04/26(日) 17:55:27.723"
+    },
+    {
+      "threadNumber": "1777193726",
+      "threadTitle": "ゆめちゃんきたよぉ🤥",
+      "metadentUpper": "Cz3+",
+      "metadentLower": "tNxY",
+      "firstPostId": "tNxTr1IrY",
+      "firstPostDateTime": "2026/04/26(日) 17:55:26.780"
+    },
+    {
+      "threadNumber": "1777193722",
+      "threadTitle": "「10万円お貸りします！」の巨乳のあの子",
+      "metadentUpper": "B7Kq",
+      "metadentLower": "DK0b",
+      "firstPostId": "DK0PwsVUb",
+      "firstPostDateTime": "2026/04/26(日) 17:55:22.844"
+    },
     {
       "threadNumber": "1777193703",
       "threadTitle": "【悲報】駅で火事を起こし消防車を盗んだ男（57）を逮捕",
