@@ -1,8 +1,288 @@
 {
-  "updatedAt": "2026-04-26T11:35:18.920577Z",
-  "totalRecords": 5542,
-  "addedCount": 36,
+  "updatedAt": "2026-04-26T11:40:22.103824Z",
+  "totalRecords": 5577,
+  "addedCount": 35,
   "records": [
+    {
+      "threadNumber": "1777203601",
+      "threadTitle": "揚げたてのカレーパンって異常にうまいよな？",
+      "metadentUpper": "7JL6",
+      "metadentLower": "P1Wy",
+      "firstPostId": "P1WOxh30y",
+      "firstPostDateTime": "2026/04/26(日) 20:40:01.162"
+    },
+    {
+      "threadNumber": "1777203599",
+      "threadTitle": "🥒夜のきうりスレ🥒",
+      "metadentUpper": "LJWd",
+      "metadentLower": "0ZnK",
+      "firstPostId": "0ZnULD6HK",
+      "firstPostDateTime": "2026/04/26(日) 20:39:59.515"
+    },
+    {
+      "threadNumber": "1777203582",
+      "threadTitle": "「顔デカ」とかいう人生詰む要素",
+      "metadentUpper": "EWFF",
+      "metadentLower": "m9yn",
+      "firstPostId": "m9yK8VfAn",
+      "firstPostDateTime": "2026/04/26(日) 20:39:42.623"
+    },
+    {
+      "threadNumber": "1777203580",
+      "threadTitle": "【急募】レズの女の子を落とす方法",
+      "metadentUpper": "1mVu",
+      "metadentLower": "w7On",
+      "firstPostId": "w7OSLyQMn",
+      "firstPostDateTime": "2026/04/26(日) 20:39:40.153"
+    },
+    {
+      "threadNumber": "1777203575",
+      "threadTitle": "いい歳して「大人の電話」「大人のメール」ができないやつw",
+      "metadentUpper": "IsAC",
+      "metadentLower": "zRm0",
+      "firstPostId": "zRmkN2yV0",
+      "firstPostDateTime": "2026/04/26(日) 20:39:35.112"
+    },
+    {
+      "threadNumber": "1777203573",
+      "threadTitle": "投機投資部 月曜の準備",
+      "metadentUpper": "kHVf",
+      "metadentLower": "LBI2",
+      "firstPostId": "LBIQ/.VR2",
+      "firstPostDateTime": "2026/04/26(日) 20:39:33.135"
+    },
+    {
+      "threadNumber": "1777203549",
+      "threadTitle": "運転免許学科試験で覚えるべきこと",
+      "metadentUpper": "O8x6",
+      "metadentLower": "gYKV",
+      "firstPostId": "gYKlrvtuV",
+      "firstPostDateTime": "2026/04/26(日) 20:39:09.954"
+    },
+    {
+      "threadNumber": "1777203542",
+      "threadTitle": "はっきり言う、これは「勘」でやってるってモノ",
+      "metadentUpper": "TiUg",
+      "metadentLower": "Atoq",
+      "firstPostId": "Ato//bjHq",
+      "firstPostDateTime": "2026/04/26(日) 20:39:02.097"
+    },
+    {
+      "threadNumber": "1777203530",
+      "threadTitle": "トランプ「銃撃は許されない。平和的な解決を求む」←いや、お前も戦争で銃撃してるやん",
+      "metadentUpper": "dlE3",
+      "metadentLower": "yx8V",
+      "firstPostId": "yx8i2Ho7V",
+      "firstPostDateTime": "2026/04/26(日) 20:38:50.443"
+    },
+    {
+      "threadNumber": "1777203522",
+      "threadTitle": "【画像】ヒカルの碁強さランキグんwww",
+      "metadentUpper": "8S8R",
+      "metadentLower": "emHh",
+      "firstPostId": "emHf.EzKh",
+      "firstPostDateTime": "2026/04/26(日) 20:38:42.895"
+    },
+    {
+      "threadNumber": "1777203510",
+      "threadTitle": "ぷゆちゃんきて🥺",
+      "metadentUpper": "PTHP",
+      "metadentLower": "YfXq",
+      "firstPostId": "YfXORZ34q",
+      "firstPostDateTime": "2026/04/26(日) 20:38:30.947"
+    },
+    {
+      "threadNumber": "1777203502",
+      "threadTitle": "エッヂ初心者「安倍晋三」中級者「安倍晋三ネタいい加減飽きたわ」上級者「○○○」←ここに入る言葉",
+      "metadentUpper": "EI5q",
+      "metadentLower": "jQ7o",
+      "firstPostId": "jQ7hPA7Io",
+      "firstPostDateTime": "2026/04/26(日) 20:38:22.102"
+    },
+    {
+      "threadNumber": "1777203498",
+      "threadTitle": "自殺したいなあ",
+      "metadentUpper": "DruG",
+      "metadentLower": "j/Qh",
+      "firstPostId": "j/QWId.Wh",
+      "firstPostDateTime": "2026/04/26(日) 20:38:18.295"
+    },
+    {
+      "threadNumber": "1777203497",
+      "threadTitle": "【BS15】劇場版「SHIROBAKO」   ",
+      "metadentUpper": "ISDs",
+      "metadentLower": "OnJk",
+      "firstPostId": "OnJSd1osk",
+      "firstPostDateTime": "2026/04/26(日) 20:38:17.163"
+    },
+    {
+      "threadNumber": "1777203494",
+      "threadTitle": "なぱた、ホムンクルス、hamao、たかやki",
+      "metadentUpper": "J/YO",
+      "metadentLower": "sPtW",
+      "firstPostId": "sPtr45kuW",
+      "firstPostDateTime": "2026/04/26(日) 20:38:14.431"
+    },
+    {
+      "threadNumber": "1777203492",
+      "threadTitle": "ホラン千秋はいい加減謝れ",
+      "metadentUpper": "ZURt",
+      "metadentLower": "Ixp3",
+      "firstPostId": "IxpJxJoS3",
+      "firstPostDateTime": "2026/04/26(日) 20:38:12.732"
+    },
+    {
+      "threadNumber": "1777203487",
+      "threadTitle": "【BS15】劇場版「SHIROBAKO」",
+      "metadentUpper": "Wozn",
+      "metadentLower": "kmh7",
+      "firstPostId": "kmhM9jJ77",
+      "firstPostDateTime": "2026/04/26(日) 20:38:07.413"
+    },
+    {
+      "threadNumber": "1777203485",
+      "threadTitle": "「もんも🤥」って元ネタ何？",
+      "metadentUpper": "W8AO",
+      "metadentLower": "AOH1",
+      "firstPostId": "AOHGQgs51",
+      "firstPostDateTime": "2026/04/26(日) 20:38:05.674"
+    },
+    {
+      "threadNumber": "1777203480",
+      "threadTitle": "時間が解決してくれる問題を人に頼ろうとするのは未熟だよねぇ",
+      "metadentUpper": "mpq5",
+      "metadentLower": "kWWm",
+      "firstPostId": "kWW0jM2Bm",
+      "firstPostDateTime": "2026/04/26(日) 20:38:00.130"
+    },
+    {
+      "threadNumber": "1777203475",
+      "threadTitle": "エッヂ民の10人に1人が経験していそうなことｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "58WB",
+      "metadentLower": "gqzw",
+      "firstPostId": "gqzlDRnww",
+      "firstPostDateTime": "2026/04/26(日) 20:37:55.805"
+    },
+    {
+      "threadNumber": "1777203463",
+      "threadTitle": "もう寝るけど🥺",
+      "metadentUpper": "jMca",
+      "metadentLower": "f8hO",
+      "firstPostId": "f8hvw0GEO",
+      "firstPostDateTime": "2026/04/26(日) 20:37:43.183"
+    },
+    {
+      "threadNumber": "1777203443",
+      "threadTitle": "佐藤水菜、つよい",
+      "metadentUpper": "Wor2",
+      "metadentLower": "Hxbx",
+      "firstPostId": "HxbknAyZx",
+      "firstPostDateTime": "2026/04/26(日) 20:37:23.830"
+    },
+    {
+      "threadNumber": "1777203429",
+      "threadTitle": "「あっこいつ糖質だな」って奴にありがちなこと",
+      "metadentUpper": "50WJ",
+      "metadentLower": "oEps",
+      "firstPostId": "oEpGvc8qs",
+      "firstPostDateTime": "2026/04/26(日) 20:37:09.821"
+    },
+    {
+      "threadNumber": "1777203422",
+      "threadTitle": "【動画大量】なぜかJK同士でキスチャレンジが流行してしまう😍",
+      "metadentUpper": "pMFf",
+      "metadentLower": "CAl4",
+      "firstPostId": "CAl61yqe4",
+      "firstPostDateTime": "2026/04/26(日) 20:37:02.900"
+    },
+    {
+      "threadNumber": "1777203419",
+      "threadTitle": "棒立ちトリックプレー、ついに怪我人が出るwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "NFJ9",
+      "metadentLower": "AWnH",
+      "firstPostId": "AWnvZNqDH",
+      "firstPostDateTime": "2026/04/26(日) 20:36:59.896"
+    },
+    {
+      "threadNumber": "1777203399",
+      "threadTitle": "【NHK】豊臣兄弟！ ★4",
+      "metadentUpper": "lFoQ",
+      "metadentLower": "Ia5E",
+      "firstPostId": "Ia52TKaWE",
+      "firstPostDateTime": "2026/04/26(日) 20:36:39.195"
+    },
+    {
+      "threadNumber": "1777203392",
+      "threadTitle": "世界最下位「男女平等は十分に進んだ」と思う日本人、なんとたったの28％！ 世界から取り残される日本のリアル ",
+      "metadentUpper": "93pi",
+      "metadentLower": "ODG4",
+      "firstPostId": "ODGoQGAZ4",
+      "firstPostDateTime": "2026/04/26(日) 20:36:32.646"
+    },
+    {
+      "threadNumber": "1777203389",
+      "threadTitle": "水ダウでいくらキッズに大人気のカブトムシでも弁当箱に入ってたら怖がる説あったやん",
+      "metadentUpper": "iOqZ",
+      "metadentLower": "iaAV",
+      "firstPostId": "iaABTtvtV",
+      "firstPostDateTime": "2026/04/26(日) 20:36:29.319"
+    },
+    {
+      "threadNumber": "1777203383",
+      "threadTitle": "まのさばの黒部ナノカ「……戦うためには、武器が必要ね。悪しき妖魔を撃ち抜く──銀の弾丸 <ｼﾙﾊﾞｰﾌﾞﾚｯﾄ> が」←これ",
+      "metadentUpper": "4uGy",
+      "metadentLower": "jqHb",
+      "firstPostId": "jqHU9S4jb",
+      "firstPostDateTime": "2026/04/26(日) 20:36:23.284"
+    },
+    {
+      "threadNumber": "1777203381",
+      "threadTitle": "エアプなソシャゲのキャラでオナニー中にキャラの名前が出てこない緊急事態が発生",
+      "metadentUpper": "cZ6g",
+      "metadentLower": "qBIZ",
+      "firstPostId": "qBIm8Zx3Z",
+      "firstPostDateTime": "2026/04/26(日) 20:36:21.384"
+    },
+    {
+      "threadNumber": "1777203354",
+      "threadTitle": "Android用の爆サイリーダーを作った",
+      "metadentUpper": "x24+",
+      "metadentLower": "sVbq",
+      "firstPostId": "sVb2erGMq",
+      "firstPostDateTime": "2026/04/26(日) 20:35:54.290"
+    },
+    {
+      "threadNumber": "1777203340",
+      "threadTitle": "キチガイきたよぉ🤥",
+      "metadentUpper": "hfR/",
+      "metadentLower": "Tbv8",
+      "firstPostId": "TbvBorFT8",
+      "firstPostDateTime": "2026/04/26(日) 20:35:40.865"
+    },
+    {
+      "threadNumber": "1777203339",
+      "threadTitle": "【動画】立浪さん、試合中にピッツァを食べるｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "hVvY",
+      "metadentLower": "4UxL",
+      "firstPostId": "4UxXrJqEL",
+      "firstPostDateTime": "2026/04/26(日) 20:35:39.203"
+    },
+    {
+      "threadNumber": "1777203329",
+      "threadTitle": "なぜか女性から避けられるけど🥺",
+      "metadentUpper": "bb95",
+      "metadentLower": "MpEE",
+      "firstPostId": "MpEnUpinE",
+      "firstPostDateTime": "2026/04/26(日) 20:35:29.748"
+    },
+    {
+      "threadNumber": "1777203318",
+      "threadTitle": "パソコンの机に詳しい人きて😳",
+      "metadentUpper": "4Fwy",
+      "metadentLower": "4ltQ",
+      "firstPostId": "4ltfZzBFQ",
+      "firstPostDateTime": "2026/04/26(日) 20:35:18.679"
+    },
     {
       "threadNumber": "1777203305",
       "threadTitle": "阪神ファン「死球数でいえば被害者側なのになんで煽られるんねん」11球団ファン「あのな…」",
