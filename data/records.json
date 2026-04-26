@@ -1,8 +1,376 @@
 {
-  "updatedAt": "2026-04-26T10:30:17.209487Z",
-  "totalRecords": 5072,
-  "addedCount": 17,
+  "updatedAt": "2026-04-26T10:35:22.462007Z",
+  "totalRecords": 5118,
+  "addedCount": 46,
   "records": [
+    {
+      "threadNumber": "1777199711",
+      "threadTitle": "牛「チギュアアアア」←なにがあった？",
+      "metadentUpper": "vBn3",
+      "metadentLower": "1Wr1",
+      "firstPostId": "1Wr7rfIP1",
+      "firstPostDateTime": "2026/04/26(日) 19:35:11.543"
+    },
+    {
+      "threadNumber": "1777199704",
+      "threadTitle": "ワイのメシエコードが「TNK4545」なんやが",
+      "metadentUpper": "GB+1",
+      "metadentLower": "M6IL",
+      "firstPostId": "M6ICgq5BL",
+      "firstPostDateTime": "2026/04/26(日) 19:35:04.479"
+    },
+    {
+      "threadNumber": "1777199699",
+      "threadTitle": "Vtuberの本番足湯ASMRがヤバすぎるwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "nyB5",
+      "metadentLower": "7.yQ",
+      "firstPostId": "7.yh.Wh0Q",
+      "firstPostDateTime": "2026/04/26(日) 19:34:59.887"
+    },
+    {
+      "threadNumber": "1777199690",
+      "threadTitle": "🤥🕳",
+      "metadentUpper": "h6cI",
+      "metadentLower": "byuJ",
+      "firstPostId": "byuJAyCYJ",
+      "firstPostDateTime": "2026/04/26(日) 19:34:50.103"
+    },
+    {
+      "threadNumber": "1777199685",
+      "threadTitle": "sekiroワイ獅子猿が倒せなくて咽び泣く",
+      "metadentUpper": "euo1",
+      "metadentLower": "sV.J",
+      "firstPostId": "sV.ES3suJ",
+      "firstPostDateTime": "2026/04/26(日) 19:34:45.102"
+    },
+    {
+      "threadNumber": "1777199682",
+      "threadTitle": "【緊急】阪神ファン集合【近本骨折】",
+      "metadentUpper": "7NQ2",
+      "metadentLower": "JwOS",
+      "firstPostId": "JwOj7H6sS",
+      "firstPostDateTime": "2026/04/26(日) 19:34:42.019"
+    },
+    {
+      "threadNumber": "1777199673",
+      "threadTitle": "永瀬（27）、親友の結婚式に黒ネクタイで出席",
+      "metadentUpper": "7y4A",
+      "metadentLower": "VbFz",
+      "firstPostId": "VbFSJVwhz",
+      "firstPostDateTime": "2026/04/26(日) 19:34:33.893"
+    },
+    {
+      "threadNumber": "1777199668",
+      "threadTitle": "近本、左手首の骨折",
+      "metadentUpper": "C5N6",
+      "metadentLower": "MdbH",
+      "firstPostId": "MdbSC1HXH",
+      "firstPostDateTime": "2026/04/26(日) 19:34:28.162"
+    },
+    {
+      "threadNumber": "1777199666",
+      "threadTitle": "【速報】ワイ、下痢ピーして1日分のうんこを出しきる",
+      "metadentUpper": "DNip",
+      "metadentLower": "Fobv",
+      "firstPostId": "FobkoOW.v",
+      "firstPostDateTime": "2026/04/26(日) 19:34:26.185"
+    },
+    {
+      "threadNumber": "1777199650",
+      "threadTitle": "エビって背中曲がってるのにエビフライになるとまっすぐになるのはなんでなん？",
+      "metadentUpper": "RYhK",
+      "metadentLower": ".T.7",
+      "firstPostId": ".T.pnQVQ7",
+      "firstPostDateTime": "2026/04/26(日) 19:34:10.152"
+    },
+    {
+      "threadNumber": "1777199642",
+      "threadTitle": "【画像】令和最新版、国民的妹声優・鬼頭明里(31)",
+      "metadentUpper": "tcR1",
+      "metadentLower": "iLWF",
+      "firstPostId": "iLWzcLcQF",
+      "firstPostDateTime": "2026/04/26(日) 19:34:02.528"
+    },
+    {
+      "threadNumber": "1777199639",
+      "threadTitle": "🥺←ハゲハゲ言うけどこいつに髪ある方がキモいだろ",
+      "metadentUpper": "8Syg",
+      "metadentLower": "fVRU",
+      "firstPostId": "fVRQlF4BU",
+      "firstPostDateTime": "2026/04/26(日) 19:33:59.803"
+    },
+    {
+      "threadNumber": "1777199636",
+      "threadTitle": "ごめんなさい許してください",
+      "metadentUpper": "1LLN",
+      "metadentLower": "Yeh8",
+      "firstPostId": "YehPb9PW8",
+      "firstPostDateTime": "2026/04/26(日) 19:33:56.179"
+    },
+    {
+      "threadNumber": "1777199633",
+      "threadTitle": "トイレに行く時スマホ持ち込む奴wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "gnpg",
+      "metadentLower": "9OAO",
+      "firstPostId": "9OA6r4VuO",
+      "firstPostDateTime": "2026/04/26(日) 19:33:53.842"
+    },
+    {
+      "threadNumber": "1777199624",
+      "threadTitle": "アラサーワイ、今週の射精記録17で首位をキープ",
+      "metadentUpper": "pMFf",
+      "metadentLower": "6G.0",
+      "firstPostId": "6G.BKOLg0",
+      "firstPostDateTime": "2026/04/26(日) 19:33:44.116"
+    },
+    {
+      "threadNumber": "1777199620",
+      "threadTitle": "デスノート拾った🥺📓",
+      "metadentUpper": "Cz3+",
+      "metadentLower": "tNxY",
+      "firstPostId": "tNxTr1IrY",
+      "firstPostDateTime": "2026/04/26(日) 19:33:40.340"
+    },
+    {
+      "threadNumber": "1777199581",
+      "threadTitle": "無限に下痢便出るけど",
+      "metadentUpper": "3mSK",
+      "metadentLower": "tOl4",
+      "firstPostId": "tOl2WlZk4",
+      "firstPostDateTime": "2026/04/26(日) 19:33:01.060"
+    },
+    {
+      "threadNumber": "1777199570",
+      "threadTitle": "【画像】ワイがガチ恋してるアイドルみてWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "RVN9",
+      "metadentLower": "IR2j",
+      "firstPostId": "IR2Ties7j",
+      "firstPostDateTime": "2026/04/26(日) 19:32:50.330"
+    },
+    {
+      "threadNumber": "1777199558",
+      "threadTitle": "現役のアクションスターの後釜問題",
+      "metadentUpper": "1C29",
+      "metadentLower": "ZSm8",
+      "firstPostId": "ZSmBWk5/8",
+      "firstPostDateTime": "2026/04/26(日) 19:32:38.853"
+    },
+    {
+      "threadNumber": "1777199546",
+      "threadTitle": "「井上の塩」+「立浪の米」=？？？",
+      "metadentUpper": "lduG",
+      "metadentLower": "V1m4",
+      "firstPostId": "V1mIeTzl4",
+      "firstPostDateTime": "2026/04/26(日) 19:32:26.872"
+    },
+    {
+      "threadNumber": "1777199545",
+      "threadTitle": "【動画】エッヂ公認Vtuber息根とめるさん、ガワ絵師と2人で旅行に行っていた事をうっかり配信で漏らししまいパニくるｗｗｗｗ",
+      "metadentUpper": "334Z",
+      "metadentLower": "rb/b",
+      "firstPostId": "rb/Lb0qEb",
+      "firstPostDateTime": "2026/04/26(日) 19:32:25.434"
+    },
+    {
+      "threadNumber": "1777199544",
+      "threadTitle": "PS4・5のアイコンにかわいい女の子いるじゃん？",
+      "metadentUpper": "U/kr",
+      "metadentLower": "36mo",
+      "firstPostId": "36mi6Zk5o",
+      "firstPostDateTime": "2026/04/26(日) 19:32:24.855"
+    },
+    {
+      "threadNumber": "1777199542",
+      "threadTitle": "黛冬優子とか樋口円香とか大崎甘奈が恋愛ごっこしてる間に桑山千雪に『セックス』でP奪われちゃうやつ",
+      "metadentUpper": "BaNY",
+      "metadentLower": "cCK1",
+      "firstPostId": "cCK0s2Uy1",
+      "firstPostDateTime": "2026/04/26(日) 19:32:22.655"
+    },
+    {
+      "threadNumber": "1777199541",
+      "threadTitle": "鳴潮のダーニャちゃんで凄い射精した",
+      "metadentUpper": "tcFx",
+      "metadentLower": "A857",
+      "firstPostId": "A85p1OLc7",
+      "firstPostDateTime": "2026/04/26(日) 19:32:21.106"
+    },
+    {
+      "threadNumber": "1777199533",
+      "threadTitle": "気が付いたら全裸でオナホに腰振った",
+      "metadentUpper": "Gz2d",
+      "metadentLower": "TG60",
+      "firstPostId": "TG6S0Vs80",
+      "firstPostDateTime": "2026/04/26(日) 19:32:13.562"
+    },
+    {
+      "threadNumber": "1777199520",
+      "threadTitle": "明日行けばGWに入るやつが多いか🫪",
+      "metadentUpper": "uzmZ",
+      "metadentLower": "xVpC",
+      "firstPostId": "xVprfwA9C",
+      "firstPostDateTime": "2026/04/26(日) 19:32:00.756"
+    },
+    {
+      "threadNumber": "1777199508",
+      "threadTitle": "AGIに極振りするね🥺",
+      "metadentUpper": "iUKb",
+      "metadentLower": "WPs0",
+      "firstPostId": "WPsAuySF0",
+      "firstPostDateTime": "2026/04/26(日) 19:31:48.490"
+    },
+    {
+      "threadNumber": "1777199503",
+      "threadTitle": "🥺🤥←この人らの声優さん",
+      "metadentUpper": "LrEG",
+      "metadentLower": "GIC3",
+      "firstPostId": "GICv54jf3",
+      "firstPostDateTime": "2026/04/26(日) 19:31:43.473"
+    },
+    {
+      "threadNumber": "1777199498",
+      "threadTitle": "高市政府、中国に敵対する国々へ銃器や弾薬や護衛艦を無償で提供すると発表 [245325974] ",
+      "metadentUpper": "0LGt",
+      "metadentLower": "eeC8",
+      "firstPostId": "eeCRCZpe8",
+      "firstPostDateTime": "2026/04/26(日) 19:31:38.794"
+    },
+    {
+      "threadNumber": "1777199496",
+      "threadTitle": "destroyだのvirusだのめちゃくちゃ不穏なURLあるでしょ？",
+      "metadentUpper": "WuCi",
+      "metadentLower": "2tDx",
+      "firstPostId": "2tDygp0wx",
+      "firstPostDateTime": "2026/04/26(日) 19:31:36.847"
+    },
+    {
+      "threadNumber": "1777199495",
+      "threadTitle": "プラグマタを着た悪魔",
+      "metadentUpper": "wTXr",
+      "metadentLower": "S1pw",
+      "firstPostId": "S1p4n8EDw",
+      "firstPostDateTime": "2026/04/26(日) 19:31:35.073"
+    },
+    {
+      "threadNumber": "1777199483",
+      "threadTitle": "西川遥輝.205 1本 OPS.751　←取りに行かなかった球団ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "8RKL",
+      "metadentLower": "WhUq",
+      "firstPostId": "WhU2VF1uq",
+      "firstPostDateTime": "2026/04/26(日) 19:31:23.852"
+    },
+    {
+      "threadNumber": "1777199480",
+      "threadTitle": "嫌儲とXにいると性格悪くなるよ",
+      "metadentUpper": "WxZn",
+      "metadentLower": "Wytn",
+      "firstPostId": "Wytub2arn",
+      "firstPostDateTime": "2026/04/26(日) 19:31:20.422"
+    },
+    {
+      "threadNumber": "1777199472",
+      "threadTitle": "【速報】霜降りせいやの女体版、ガチで現る",
+      "metadentUpper": "Fyii",
+      "metadentLower": "NR6T",
+      "firstPostId": "NR6YzLNHT",
+      "firstPostDateTime": "2026/04/26(日) 19:31:12.972"
+    },
+    {
+      "threadNumber": "1777199471",
+      "threadTitle": "【悲報】ワイ馬鹿、金欠なのにデロンギの10万のエスプレッソマシンを買ってしまう",
+      "metadentUpper": "GD+l",
+      "metadentLower": "oRW3",
+      "firstPostId": "oRWEleU13",
+      "firstPostDateTime": "2026/04/26(日) 19:31:11.945"
+    },
+    {
+      "threadNumber": "1777199445",
+      "threadTitle": "新婚ハルヒ「お帰りなさいキョン！ご飯にする？お風呂にする？それとも…あ・た・し？」→10年後",
+      "metadentUpper": "EWFF",
+      "metadentLower": "oHjS",
+      "firstPostId": "oHj0U86nS",
+      "firstPostDateTime": "2026/04/26(日) 19:30:45.190"
+    },
+    {
+      "threadNumber": "1777199437",
+      "threadTitle": "【悲報】X、カスみたいなポストでもバズる",
+      "metadentUpper": "Rdrr",
+      "metadentLower": "Up7t",
+      "firstPostId": "Up7HO7mIt",
+      "firstPostDateTime": "2026/04/26(日) 19:30:37.864"
+    },
+    {
+      "threadNumber": "1777199434",
+      "threadTitle": "1999年「アンゴルモアの大王により世界は滅亡する」←これどうやって乗り切ったの？",
+      "metadentUpper": "m720",
+      "metadentLower": "fTR6",
+      "firstPostId": "fTRgcHeD6",
+      "firstPostDateTime": "2026/04/26(日) 19:30:34.764"
+    },
+    {
+      "threadNumber": "1777199432",
+      "threadTitle": "女の子「指ワッカでしてあげるね」",
+      "metadentUpper": "lVAL",
+      "metadentLower": "0w80",
+      "firstPostId": "0w8T36dO0",
+      "firstPostDateTime": "2026/04/26(日) 19:30:32.020"
+    },
+    {
+      "threadNumber": "1777199431",
+      "threadTitle": "【爆笑】　「ヘルプマーク」、若者の間でファッションアイテムになるwwwwwwwwwwwwwwww",
+      "metadentUpper": "jBpE",
+      "metadentLower": "7fny",
+      "firstPostId": "7fnzZADQy",
+      "firstPostDateTime": "2026/04/26(日) 19:30:31.672"
+    },
+    {
+      "threadNumber": "1777199430",
+      "threadTitle": "「肛門舐めたい女子アナ」早い者勝ち🤗",
+      "metadentUpper": "uIpO",
+      "metadentLower": "WLv4",
+      "firstPostId": "WLvcAzPb4",
+      "firstPostDateTime": "2026/04/26(日) 19:30:30.475"
+    },
+    {
+      "threadNumber": "1777199428",
+      "threadTitle": "エッヂでのワイ　.310 54本 130点 59盗塁",
+      "metadentUpper": "k5kG",
+      "metadentLower": "8dMo",
+      "firstPostId": "8dMLPgGzo",
+      "firstPostDateTime": "2026/04/26(日) 19:30:28.774"
+    },
+    {
+      "threadNumber": "1777199427",
+      "threadTitle": "【朗報】UDK姉貴、ニコニコ超会議に参加している所をクッキー☆本スレ民に発見される",
+      "metadentUpper": "LfbL",
+      "metadentLower": "aooZ",
+      "firstPostId": "aoodCauNZ",
+      "firstPostDateTime": "2026/04/26(日) 19:30:27.623"
+    },
+    {
+      "threadNumber": "1777199422",
+      "threadTitle": "🖐🏿👺アナル麻疹(あさしん)だ！！",
+      "metadentUpper": "mpq5",
+      "metadentLower": "uWhQ",
+      "firstPostId": "uWh95sfxQ",
+      "firstPostDateTime": "2026/04/26(日) 19:30:22.489"
+    },
+    {
+      "threadNumber": "1777199420",
+      "threadTitle": "きゅうりキムチ",
+      "metadentUpper": "asq2",
+      "metadentLower": "hsLg",
+      "firstPostId": "hsLr.At7g",
+      "firstPostDateTime": "2026/04/26(日) 19:30:20.495"
+    },
+    {
+      "threadNumber": "1777199414",
+      "threadTitle": "【AI】Sora2、本日終了",
+      "metadentUpper": "LqFc",
+      "metadentLower": "uXMN",
+      "firstPostId": "uXMjlJwSN",
+      "firstPostDateTime": "2026/04/26(日) 19:30:14.466"
+    },
     {
       "threadNumber": "1777199402",
       "threadTitle": "エッヂ民はデスノート拾ったら最初誰で試す？",
