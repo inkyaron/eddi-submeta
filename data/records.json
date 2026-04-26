@@ -1,8 +1,160 @@
 {
-  "updatedAt": "2026-04-26T00:10:13.959122Z",
-  "totalRecords": 1206,
-  "addedCount": 17,
+  "updatedAt": "2026-04-26T00:15:15.573050Z",
+  "totalRecords": 1225,
+  "addedCount": 19,
   "records": [
+    {
+      "threadNumber": "1777162493",
+      "threadTitle": "【悲報】安倍晋三、値上げ",
+      "metadentUpper": "A8MF",
+      "metadentLower": "MvyI",
+      "firstPostId": "MvyCHkeqI",
+      "firstPostDateTime": "2026/04/26(日) 09:14:53.546"
+    },
+    {
+      "threadNumber": "1777162473",
+      "threadTitle": "エッヂ民って開業医とか弁護士とか会社経営者とかプロスポーツ選手がゴロゴロいるじゃん？",
+      "metadentUpper": "tcR1",
+      "metadentLower": "4Ycz",
+      "firstPostId": "4YczoT8Hz",
+      "firstPostDateTime": "2026/04/26(日) 09:14:33.096"
+    },
+    {
+      "threadNumber": "1777162463",
+      "threadTitle": "陰の実力者になりたくて！とかいうゲロ糞面白い作品",
+      "metadentUpper": "wZBw",
+      "metadentLower": "kbIQ",
+      "firstPostId": "kbIqzUSvQ",
+      "firstPostDateTime": "2026/04/26(日) 09:14:23.087"
+    },
+    {
+      "threadNumber": "1777162455",
+      "threadTitle": "30代後半独身男の休日wwwwwwwwwwww",
+      "metadentUpper": "WRtE",
+      "metadentLower": "hZUq",
+      "firstPostId": "hZUcBew1q",
+      "firstPostDateTime": "2026/04/26(日) 09:14:15.247"
+    },
+    {
+      "threadNumber": "1777162427",
+      "threadTitle": "安倍晋三おはよう",
+      "metadentUpper": "sLmu",
+      "metadentLower": "aiNM",
+      "firstPostId": "aiNUR1cFM",
+      "firstPostDateTime": "2026/04/26(日) 09:13:47.067"
+    },
+    {
+      "threadNumber": "1777162408",
+      "threadTitle": "【地震】ふたたびトカラが震え出す。",
+      "metadentUpper": "Uzyd",
+      "metadentLower": "MdDH",
+      "firstPostId": "MdDX.dd9H",
+      "firstPostDateTime": "2026/04/26(日) 09:13:28.291"
+    },
+    {
+      "threadNumber": "1777162385",
+      "threadTitle": "自認ブサイクやが",
+      "metadentUpper": "yqA3",
+      "metadentLower": "8ZBy",
+      "firstPostId": "8ZBz4cB/y",
+      "firstPostDateTime": "2026/04/26(日) 09:13:05.461"
+    },
+    {
+      "threadNumber": "1777162361",
+      "threadTitle": "ワイ、5chから卒業完了！w",
+      "metadentUpper": "tZlZ",
+      "metadentLower": "fXiU",
+      "firstPostId": "fXiA/MBpU",
+      "firstPostDateTime": "2026/04/26(日) 09:12:41.331"
+    },
+    {
+      "threadNumber": "1777162359",
+      "threadTitle": "「食用菊ばらまいて炎上」←これよりしょうもない炎上ある？",
+      "metadentUpper": "IsAC",
+      "metadentLower": "zRm0",
+      "firstPostId": "zRmkN2yV0",
+      "firstPostDateTime": "2026/04/26(日) 09:12:39.426"
+    },
+    {
+      "threadNumber": "1777162340",
+      "threadTitle": "本当のオナニーは3日前から始まってるんだよ🥺",
+      "metadentUpper": "WxZn",
+      "metadentLower": "Wytn",
+      "firstPostId": "Wytub2arn",
+      "firstPostDateTime": "2026/04/26(日) 09:12:20.709"
+    },
+    {
+      "threadNumber": "1777162339",
+      "threadTitle": "ドスケベ淫乱レイプ速報です。強いレイプに警戒してください。",
+      "metadentUpper": "SdwE",
+      "metadentLower": "Ko/t",
+      "firstPostId": "Ko/ZSgfjt",
+      "firstPostDateTime": "2026/04/26(日) 09:12:19.332"
+    },
+    {
+      "threadNumber": "1777162329",
+      "threadTitle": "【悲報】BBSPINK、ひっそりと復活するも過疎",
+      "metadentUpper": "7ws4",
+      "metadentLower": "pkGu",
+      "firstPostId": "pkGY94Tau",
+      "firstPostDateTime": "2026/04/26(日) 09:12:09.956"
+    },
+    {
+      "threadNumber": "1777162322",
+      "threadTitle": "マンシーwwwwwwwwwwwwwwwwwwwwwwwwwww🐻",
+      "metadentUpper": "BGof",
+      "metadentLower": "V468",
+      "firstPostId": "V46B6khG8",
+      "firstPostDateTime": "2026/04/26(日) 09:12:02.227"
+    },
+    {
+      "threadNumber": "1777162296",
+      "threadTitle": "【NHKBS】CHC@LAD【大谷 鈴木 佐々木先発】 ★5",
+      "metadentUpper": "L/Gy",
+      "metadentLower": "KcPq",
+      "firstPostId": "KcPfAgbbq",
+      "firstPostDateTime": "2026/04/26(日) 09:11:36.312"
+    },
+    {
+      "threadNumber": "1777162284",
+      "threadTitle": "トランプ「誰が責任者なのか分からないからイランとの協議見送るわ」",
+      "metadentUpper": "L8i7",
+      "metadentLower": "5Pxp",
+      "firstPostId": "5PxsyE7up",
+      "firstPostDateTime": "2026/04/26(日) 09:11:24.898"
+    },
+    {
+      "threadNumber": "1777162273",
+      "threadTitle": "おっさんだけど可愛いものが好きなんやが",
+      "metadentUpper": "Etna",
+      "metadentLower": "kIyZ",
+      "firstPostId": "kIyW1xO8Z",
+      "firstPostDateTime": "2026/04/26(日) 09:11:13.084"
+    },
+    {
+      "threadNumber": "1777162253",
+      "threadTitle": "【平成】「なんかそんなのあったな…」ってオモチャ",
+      "metadentUpper": "mpq5",
+      "metadentLower": "uWhQ",
+      "firstPostId": "uWh95sfxQ",
+      "firstPostDateTime": "2026/04/26(日) 09:10:53.610"
+    },
+    {
+      "threadNumber": "1777162244",
+      "threadTitle": "ラノベ発ファンタジーアニメ、もうリゼロしか残ってない模様",
+      "metadentUpper": "2gz4",
+      "metadentLower": "VT6a",
+      "firstPostId": "VT6kOMZxa",
+      "firstPostDateTime": "2026/04/26(日) 09:10:44.543"
+    },
+    {
+      "threadNumber": "1777162221",
+      "threadTitle": "プリキュアスレのガイジども一括NGに出来ないんか？",
+      "metadentUpper": "ageD",
+      "metadentLower": "FJDi",
+      "firstPostId": "FJDMVGCUi",
+      "firstPostDateTime": "2026/04/26(日) 09:10:21.889"
+    },
     {
       "threadNumber": "1777162185",
       "threadTitle": "ロシアパンはスパイだ💢",
