@@ -1,8 +1,352 @@
 {
-  "updatedAt": "2026-04-26T12:45:23.689039Z",
-  "totalRecords": 6061,
-  "addedCount": 42,
+  "updatedAt": "2026-04-26T12:50:26.171401Z",
+  "totalRecords": 6104,
+  "addedCount": 43,
   "records": [
+    {
+      "threadNumber": "1777207816",
+      "threadTitle": "頭皮から獣の匂いがする🥺",
+      "metadentUpper": "Pjea",
+      "metadentLower": "taGR",
+      "firstPostId": "taG/f7L7R",
+      "firstPostDateTime": "2026/04/26(日) 21:50:16.675"
+    },
+    {
+      "threadNumber": "1777207813",
+      "threadTitle": "【速報】ウメハラ、思想がアカギすぎると話題にWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "HRLM",
+      "metadentLower": "/vIs",
+      "firstPostId": "/vIYDAmzs",
+      "firstPostDateTime": "2026/04/26(日) 21:50:13.998"
+    },
+    {
+      "threadNumber": "1777207801",
+      "threadTitle": "X民「日本人って今までNPC扱いされてきたけどさぁ…」",
+      "metadentUpper": "ypRY",
+      "metadentLower": "0/rq",
+      "firstPostId": "0/rOmgpEq",
+      "firstPostDateTime": "2026/04/26(日) 21:50:01.628"
+    },
+    {
+      "threadNumber": "1777207797",
+      "threadTitle": "【謎】トランプ銃撃犯、銃撃12時間前になぜかイスラエルでめっちゃ検索されてた",
+      "metadentUpper": "FWrK",
+      "metadentLower": "8LlH",
+      "firstPostId": "8LlH1pOYH",
+      "firstPostDateTime": "2026/04/26(日) 21:49:57.103"
+    },
+    {
+      "threadNumber": "1777207795",
+      "threadTitle": "エッヂから自殺未遂した事ない奴は出て行けよ",
+      "metadentUpper": "mpq5",
+      "metadentLower": "kWWm",
+      "firstPostId": "kWW0jM2Bm",
+      "firstPostDateTime": "2026/04/26(日) 21:49:55.315"
+    },
+    {
+      "threadNumber": "1777207787",
+      "threadTitle": "フォートナイトFNCSグランドファイナル見た部",
+      "metadentUpper": "U4mb",
+      "metadentLower": "klRx",
+      "firstPostId": "klRAlX.tx",
+      "firstPostDateTime": "2026/04/26(日) 21:49:47.328"
+    },
+    {
+      "threadNumber": "1777207772",
+      "threadTitle": "【Eテレ】能とか狂言とかワイしか観てない",
+      "metadentUpper": "pMFf",
+      "metadentLower": "5U99",
+      "firstPostId": "5U9sgO829",
+      "firstPostDateTime": "2026/04/26(日) 21:49:32.371"
+    },
+    {
+      "threadNumber": "1777207764",
+      "threadTitle": "【NHK】臨海世界 韓国最大のスラム ★反省会",
+      "metadentUpper": "lFoQ",
+      "metadentLower": "Ia5E",
+      "firstPostId": "Ia52TKaWE",
+      "firstPostDateTime": "2026/04/26(日) 21:49:24.571"
+    },
+    {
+      "threadNumber": "1777207758",
+      "threadTitle": "【NHK】臨海世界 韓国最大のスラム ★反省会",
+      "metadentUpper": "tDsg",
+      "metadentLower": "keJ0",
+      "firstPostId": "keJN2mmB0",
+      "firstPostDateTime": "2026/04/26(日) 21:49:18.165"
+    },
+    {
+      "threadNumber": "1777207755",
+      "threadTitle": "【NHK】臨海世界 韓国最大のスラム ★5",
+      "metadentUpper": "tVbN",
+      "metadentLower": "KCXx",
+      "firstPostId": "KCXATDPIx",
+      "firstPostDateTime": "2026/04/26(日) 21:49:15.282"
+    },
+    {
+      "threadNumber": "1777207753",
+      "threadTitle": "【不審者情報】4月24日、藤沢市湘南台で男子生徒に声掛け→不審な男「ベイスターズが勝ちました、連勝しました。」",
+      "metadentUpper": "70P7",
+      "metadentLower": "MSQl",
+      "firstPostId": "MSQqhIp9l",
+      "firstPostDateTime": "2026/04/26(日) 21:49:13.633"
+    },
+    {
+      "threadNumber": "1777207752",
+      "threadTitle": "彼女欲しいならデブを狙えば相手にしてくれるぞ",
+      "metadentUpper": "fXtm",
+      "metadentLower": "hxkV",
+      "firstPostId": "hxkcpabfV",
+      "firstPostDateTime": "2026/04/26(日) 21:49:12.345"
+    },
+    {
+      "threadNumber": "1777207731",
+      "threadTitle": "🫪←こういうのが出てくる実写洋画なんやっけ",
+      "metadentUpper": "Q71V",
+      "metadentLower": "xVZw",
+      "firstPostId": "xVZXrrwiw",
+      "firstPostDateTime": "2026/04/26(日) 21:48:51.996"
+    },
+    {
+      "threadNumber": "1777207728",
+      "threadTitle": "ワードウルフ部【初心者歓迎】",
+      "metadentUpper": "nzkL",
+      "metadentLower": "YQPn",
+      "firstPostId": "YQP0Bgn6n",
+      "firstPostDateTime": "2026/04/26(日) 21:48:48.001"
+    },
+    {
+      "threadNumber": "1777207723",
+      "threadTitle": "岡山県民、運転が下手過ぎてダサい標示を付けられてしまう……… ",
+      "metadentUpper": "qKj6",
+      "metadentLower": "Y85N",
+      "firstPostId": "Y85L16qGN",
+      "firstPostDateTime": "2026/04/26(日) 21:48:43.590"
+    },
+    {
+      "threadNumber": "1777207698",
+      "threadTitle": "マンション買ったｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "t1/P",
+      "metadentLower": "4hWj",
+      "firstPostId": "4hW6BZl.j",
+      "firstPostDateTime": "2026/04/26(日) 21:48:18.057"
+    },
+    {
+      "threadNumber": "1777207697",
+      "threadTitle": "あなたは/好きですか？",
+      "metadentUpper": "+RMJ",
+      "metadentLower": "vUaC",
+      "firstPostId": "vUalGTzGC",
+      "firstPostDateTime": "2026/04/26(日) 21:48:17.053"
+    },
+    {
+      "threadNumber": "1777207696",
+      "threadTitle": "中日ドラゴンズが息を吹き返した理由",
+      "metadentUpper": "WYH1",
+      "metadentLower": "RKvb",
+      "firstPostId": "RKvFYLHNb",
+      "firstPostDateTime": "2026/04/26(日) 21:48:16.306"
+    },
+    {
+      "threadNumber": "1777207692",
+      "threadTitle": "エッヂ20後半～30代でまだ童貞部(素人童貞も含む)",
+      "metadentUpper": "LLVr",
+      "metadentLower": "B068",
+      "firstPostId": "B06/i6rn8",
+      "firstPostDateTime": "2026/04/26(日) 21:48:12.979"
+    },
+    {
+      "threadNumber": "1777207690",
+      "threadTitle": "トランプ好き",
+      "metadentUpper": "tcR1",
+      "metadentLower": "mLxm",
+      "firstPostId": "mLxuCQ/ym",
+      "firstPostDateTime": "2026/04/26(日) 21:48:10.699"
+    },
+    {
+      "threadNumber": "1777207685",
+      "threadTitle": "上司「その資料はなんだよ」「意味のない会議だよ」",
+      "metadentUpper": "vyDg",
+      "metadentLower": "GWLm",
+      "firstPostId": "GWL1Mj7Im",
+      "firstPostDateTime": "2026/04/26(日) 21:48:05.116"
+    },
+    {
+      "threadNumber": "1777207669",
+      "threadTitle": "NPBシーズン成績早押しクイズやるで",
+      "metadentUpper": "K6qI",
+      "metadentLower": "A.yy",
+      "firstPostId": "A.ybl65Ly",
+      "firstPostDateTime": "2026/04/26(日) 21:47:49.610"
+    },
+    {
+      "threadNumber": "1777207667",
+      "threadTitle": "災害・事件等発生！男「うわあ！！」←まあわかる　女「きゃーーー！！！（大絶叫）」←なんなの？",
+      "metadentUpper": "9SJi",
+      "metadentLower": "6vOr",
+      "firstPostId": "6vOcn3eHr",
+      "firstPostDateTime": "2026/04/26(日) 21:47:47.746"
+    },
+    {
+      "threadNumber": "1777207645",
+      "threadTitle": "安倍晋三",
+      "metadentUpper": "6rsk",
+      "metadentLower": "bvHv",
+      "firstPostId": "bvHwPO6Uv",
+      "firstPostDateTime": "2026/04/26(日) 21:47:25.784"
+    },
+    {
+      "threadNumber": "1777207639",
+      "threadTitle": "「ワッシャー」ってなんかエッチよな",
+      "metadentUpper": "NFJ9",
+      "metadentLower": "AWnH",
+      "firstPostId": "AWnvZNqDH",
+      "firstPostDateTime": "2026/04/26(日) 21:47:19.200"
+    },
+    {
+      "threadNumber": "1777207633",
+      "threadTitle": "ちっうっせーな反省してまーすのコンボキメたい",
+      "metadentUpper": "2T52",
+      "metadentLower": ".WlQ",
+      "firstPostId": ".WlzAGavQ",
+      "firstPostDateTime": "2026/04/26(日) 21:47:13.247"
+    },
+    {
+      "threadNumber": "1777207623",
+      "threadTitle": "北海道産マシュマロKカップ女の子がAVデビュー",
+      "metadentUpper": "YWZG",
+      "metadentLower": "uODO",
+      "firstPostId": "uODqn2UuO",
+      "firstPostDateTime": "2026/04/26(日) 21:47:03.964"
+    },
+    {
+      "threadNumber": "1777207618",
+      "threadTitle": "なんエヂどうしても妻の元カレのちんぽのサイズを聞き出したい部",
+      "metadentUpper": "n9Zn",
+      "metadentLower": "P3w0",
+      "firstPostId": "P3wM0JsU0",
+      "firstPostDateTime": "2026/04/26(日) 21:46:58.543"
+    },
+    {
+      "threadNumber": "1777207600",
+      "threadTitle": "シャニマスで自分の愛液でシャボン玉を作ろうとして酸欠で倒れてそうなキャラ",
+      "metadentUpper": "v4nd",
+      "metadentLower": "x0zG",
+      "firstPostId": "x0z8JSIaG",
+      "firstPostDateTime": "2026/04/26(日) 21:46:40.955"
+    },
+    {
+      "threadNumber": "1777207594",
+      "threadTitle": "もんもとかしてそう",
+      "metadentUpper": "m0pJ",
+      "metadentLower": "6o.i",
+      "firstPostId": "6o./W9rPi",
+      "firstPostDateTime": "2026/04/26(日) 21:46:34.350"
+    },
+    {
+      "threadNumber": "1777207588",
+      "threadTitle": "エッヂ短期離職部",
+      "metadentUpper": "0Fjd",
+      "metadentLower": ".JO0",
+      "firstPostId": ".JOTZrZy0",
+      "firstPostDateTime": "2026/04/26(日) 21:46:28.594"
+    },
+    {
+      "threadNumber": "1777207584",
+      "threadTitle": "なんエヂ1日中オナサポ聴いてる部",
+      "metadentUpper": "B6eY",
+      "metadentLower": "QLVn",
+      "firstPostId": "QLV1Tdukn",
+      "firstPostDateTime": "2026/04/26(日) 21:46:24.859"
+    },
+    {
+      "threadNumber": "1777207582",
+      "threadTitle": "次にフェミニストが噛み付いてギャオりそうなネタといえば？",
+      "metadentUpper": "tcR1",
+      "metadentLower": "4Ycz",
+      "firstPostId": "4YczoT8Hz",
+      "firstPostDateTime": "2026/04/26(日) 21:46:22.006"
+    },
+    {
+      "threadNumber": "1777207580",
+      "threadTitle": "岸井ゆきのってもっと若いと思ってたわ",
+      "metadentUpper": "7l3R",
+      "metadentLower": "TAVq",
+      "firstPostId": "TAVylPBGq",
+      "firstPostDateTime": "2026/04/26(日) 21:46:20.164"
+    },
+    {
+      "threadNumber": "1777207559",
+      "threadTitle": "プロジェクトヘイルメアリーとかいう虚無映画ｗｗｗｗｗ",
+      "metadentUpper": "nt1b",
+      "metadentLower": "gEdm",
+      "firstPostId": "gEdrHTBFm",
+      "firstPostDateTime": "2026/04/26(日) 21:45:59.480"
+    },
+    {
+      "threadNumber": "1777207557",
+      "threadTitle": "ワイの耳、逝く",
+      "metadentUpper": "9TSB",
+      "metadentLower": "jZ/p",
+      "firstPostId": "jZ/546xFp",
+      "firstPostDateTime": "2026/04/26(日) 21:45:57.949"
+    },
+    {
+      "threadNumber": "1777207553",
+      "threadTitle": "オナニー依存性やからオナニーのスレばっか立ててごめん",
+      "metadentUpper": "Gz2d",
+      "metadentLower": "TG60",
+      "firstPostId": "TG6S0Vs80",
+      "firstPostDateTime": "2026/04/26(日) 21:45:53.129"
+    },
+    {
+      "threadNumber": "1777207549",
+      "threadTitle": "20歳なりたてワイ「初めてワイン飲むで！(きっと濃くてまろやかなぶどうジュースみたいな味なんやろなぁ…😊)」",
+      "metadentUpper": "O5KD",
+      "metadentLower": "SlnQ",
+      "firstPostId": "Sln6sj7JQ",
+      "firstPostDateTime": "2026/04/26(日) 21:45:49.224"
+    },
+    {
+      "threadNumber": "1777207546",
+      "threadTitle": "エッヂGW中の映画部🍿🎬🎥【初心者歓迎🔰】",
+      "metadentUpper": "ZOvn",
+      "metadentLower": "BTrj",
+      "firstPostId": "BTrd3dKRj",
+      "firstPostDateTime": "2026/04/26(日) 21:45:46.183"
+    },
+    {
+      "threadNumber": "1777207531",
+      "threadTitle": "まだゴールデンウィークの予定決まってないやつｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "a4Bh",
+      "metadentLower": "xtR1",
+      "firstPostId": "xtRuAgL.1",
+      "firstPostDateTime": "2026/04/26(日) 21:45:31.917"
+    },
+    {
+      "threadNumber": "1777207523",
+      "threadTitle": "井上尚弥（33）さん、いよいよ1週間後全てを失う！w",
+      "metadentUpper": "0wTq",
+      "metadentLower": "d2zQ",
+      "firstPostId": "d2zNTX5nQ",
+      "firstPostDateTime": "2026/04/26(日) 21:45:23.774"
+    },
+    {
+      "threadNumber": "1777207522",
+      "threadTitle": "今回の襲撃からトランプを護った男、判明する",
+      "metadentUpper": "ef18",
+      "metadentLower": "r.u8",
+      "firstPostId": "r.uC4vvL8",
+      "firstPostDateTime": "2026/04/26(日) 21:45:22.317"
+    },
+    {
+      "threadNumber": "1777207521",
+      "threadTitle": "エッヂ民の白米にチョコレートソースをかける妖怪ワイ「白米にチョコを、かけるよぉ」←こいつの倒し方",
+      "metadentUpper": "cxTq",
+      "metadentLower": "Abtm",
+      "firstPostId": "AbtLo2ylm",
+      "firstPostDateTime": "2026/04/26(日) 21:45:21.993"
+    },
     {
       "threadNumber": "1777207510",
       "threadTitle": "チンチンがふっくらしてきた🥺",
