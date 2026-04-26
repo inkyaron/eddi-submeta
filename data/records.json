@@ -1,8 +1,360 @@
 {
-  "updatedAt": "2026-04-26T14:20:14.971100Z",
-  "totalRecords": 6706,
-  "addedCount": 30,
+  "updatedAt": "2026-04-26T14:25:19.616164Z",
+  "totalRecords": 6750,
+  "addedCount": 44,
   "records": [
+    {
+      "threadNumber": "1777213512",
+      "threadTitle": "【悲報】にじさんじVtuber「野球ってよく知らんけど主力に当てて怪我させちゃえばよくね？」",
+      "metadentUpper": "tcR1",
+      "metadentLower": "lIDz",
+      "firstPostId": "lIDaJ.UJz",
+      "firstPostDateTime": "2026/04/26(日) 23:25:12.489"
+    },
+    {
+      "threadNumber": "1777213503",
+      "threadTitle": "【日テレ】ダウンタウンのガキの使いやあらへんで！",
+      "metadentUpper": "eKa/",
+      "metadentLower": "11TM",
+      "firstPostId": "11TEqRu8M",
+      "firstPostDateTime": "2026/04/26(日) 23:25:03.739"
+    },
+    {
+      "threadNumber": "1777213498",
+      "threadTitle": "M!LKとか言うアイドルwww",
+      "metadentUpper": "saUK",
+      "metadentLower": "1wUg",
+      "firstPostId": "1wUGJ90pg",
+      "firstPostDateTime": "2026/04/26(日) 23:24:58.514"
+    },
+    {
+      "threadNumber": "1777213483",
+      "threadTitle": "ホロライブの角巻わためちゃんについて知っていること",
+      "metadentUpper": "yG4y",
+      "metadentLower": "hueO",
+      "firstPostId": "hueoFWdKO",
+      "firstPostDateTime": "2026/04/26(日) 23:24:43.944"
+    },
+    {
+      "threadNumber": "1777213480",
+      "threadTitle": "いつの間にか\"日本一\"じゃなくなっていたものｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "opnX",
+      "metadentLower": "u0vn",
+      "firstPostId": "u0vKG/LLn",
+      "firstPostDateTime": "2026/04/26(日) 23:24:40.500"
+    },
+    {
+      "threadNumber": "1777213471",
+      "threadTitle": "久し振りに「DoAsInfinity」の曲を聴いた😊",
+      "metadentUpper": "mXSM",
+      "metadentLower": "BD6h",
+      "firstPostId": "BD6bt/zrh",
+      "firstPostDateTime": "2026/04/26(日) 23:24:31.183"
+    },
+    {
+      "threadNumber": "1777213466",
+      "threadTitle": "大谷山本佐々木を語るスレ",
+      "metadentUpper": "2Ro2",
+      "metadentLower": "Oazy",
+      "firstPostId": "Oaz6oYW7y",
+      "firstPostDateTime": "2026/04/26(日) 23:24:26.539"
+    },
+    {
+      "threadNumber": "1777213462",
+      "threadTitle": "催眠ニー試してみたけど",
+      "metadentUpper": "ZNY0",
+      "metadentLower": "hWp0",
+      "firstPostId": "hWpy0wN90",
+      "firstPostDateTime": "2026/04/26(日) 23:24:22.659"
+    },
+    {
+      "threadNumber": "1777213459",
+      "threadTitle": "『おでん』の擬人化って無いよな(おでんくんは違う)",
+      "metadentUpper": "50WJ",
+      "metadentLower": "oEps",
+      "firstPostId": "oEpGvc8qs",
+      "firstPostDateTime": "2026/04/26(日) 23:24:19.648"
+    },
+    {
+      "threadNumber": "1777213455",
+      "threadTitle": "【悲報】橋本環奈さん「Xが無理になってきた」",
+      "metadentUpper": "aTCe",
+      "metadentLower": "pUxw",
+      "firstPostId": "pUxgfmO3w",
+      "firstPostDateTime": "2026/04/26(日) 23:24:15.150"
+    },
+    {
+      "threadNumber": "1777213442",
+      "threadTitle": "ワイもライトニングカウントって呼ばれたい",
+      "metadentUpper": "5KRd",
+      "metadentLower": "xjWb",
+      "firstPostId": "xjWOjnMdb",
+      "firstPostDateTime": "2026/04/26(日) 23:24:02.406"
+    },
+    {
+      "threadNumber": "1777213441",
+      "threadTitle": "外食しようと思っても家で作れば200円じゃんって思っちゃう",
+      "metadentUpper": "tAJN",
+      "metadentLower": "iMut",
+      "firstPostId": "iMuth8O9t",
+      "firstPostDateTime": "2026/04/26(日) 23:24:01.072"
+    },
+    {
+      "threadNumber": "1777213433",
+      "threadTitle": "「ベイスターズが勝ちました、連勝しました」男が生徒に声をかける事案発生",
+      "metadentUpper": "8JTl",
+      "metadentLower": "mM03",
+      "firstPostId": "mM0qlfCI3",
+      "firstPostDateTime": "2026/04/26(日) 23:23:53.893"
+    },
+    {
+      "threadNumber": "1777213429",
+      "threadTitle": "「性欲を全開放する！今、ここで！！！」となった作品",
+      "metadentUpper": "H5YF",
+      "metadentLower": "Bhh0",
+      "firstPostId": "BhhyRcjr0",
+      "firstPostDateTime": "2026/04/26(日) 23:23:49.995"
+    },
+    {
+      "threadNumber": "1777213428",
+      "threadTitle": "野田佳彦「中道とは池田大作先生の教え、池田先生は私の師」←エッヂはリベラル、人間革命読んだよな",
+      "metadentUpper": "jliR",
+      "metadentLower": "jaBq",
+      "firstPostId": "jaB4vecAq",
+      "firstPostDateTime": "2026/04/26(日) 23:23:48.232"
+    },
+    {
+      "threadNumber": "1777213425",
+      "threadTitle": "undisputedっていうボクシングゲー面白い🤤",
+      "metadentUpper": "fXtm",
+      "metadentLower": "hxkV",
+      "firstPostId": "hxkcpabfV",
+      "firstPostDateTime": "2026/04/26(日) 23:23:45.080"
+    },
+    {
+      "threadNumber": "1777213423",
+      "threadTitle": "Xの通知が消えなくて困ってる",
+      "metadentUpper": "CFoH",
+      "metadentLower": "vbM7",
+      "firstPostId": "vbMefRqC7",
+      "firstPostDateTime": "2026/04/26(日) 23:23:43.954"
+    },
+    {
+      "threadNumber": "1777213422",
+      "threadTitle": "ゆめちゃん馬鹿だからよく分かんないんだけどもしかして今寝て次起きたらお仕事なの？🤥",
+      "metadentUpper": "JN0O",
+      "metadentLower": "Q/x0",
+      "firstPostId": "Q/xtt0Q60",
+      "firstPostDateTime": "2026/04/26(日) 23:23:42.913"
+    },
+    {
+      "threadNumber": "1777213420",
+      "threadTitle": "明日会社だけど行きたくないよな",
+      "metadentUpper": "GVVL",
+      "metadentLower": "9q9b",
+      "firstPostId": "9q9ksBRNb",
+      "firstPostDateTime": "2026/04/26(日) 23:23:40.177"
+    },
+    {
+      "threadNumber": "1777213416",
+      "threadTitle": "【画像】閻魔あい、エロ",
+      "metadentUpper": "DoLa",
+      "metadentLower": "3nIq",
+      "firstPostId": "3nIB4VA9q",
+      "firstPostDateTime": "2026/04/26(日) 23:23:36.976"
+    },
+    {
+      "threadNumber": "1777213403",
+      "threadTitle": "史上最底の3000安打打者決定するwww",
+      "metadentUpper": "XEJW",
+      "metadentLower": "10.t",
+      "firstPostId": "10.6gl6Gt",
+      "firstPostDateTime": "2026/04/26(日) 23:23:23.085"
+    },
+    {
+      "threadNumber": "1777213401",
+      "threadTitle": "「好きくない」「おいしそうすぎる」「(付き合い始めたの意味で)付き合った」←こういう日本語ｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "gebw",
+      "metadentLower": ".fvK",
+      "firstPostId": ".fvLUwyKK",
+      "firstPostDateTime": "2026/04/26(日) 23:23:21.920"
+    },
+    {
+      "threadNumber": "1777213394",
+      "threadTitle": "【悲報】書籍、廃れる",
+      "metadentUpper": "gnpg",
+      "metadentLower": "9OAO",
+      "firstPostId": "9OA6r4VuO",
+      "firstPostDateTime": "2026/04/26(日) 23:23:14.002"
+    },
+    {
+      "threadNumber": "1777213392",
+      "threadTitle": "食べ物に虫混入　日本人「SNSで晒してグチグチ言う」　アメリカ人「やった！当たりだ！」",
+      "metadentUpper": "lzzo",
+      "metadentLower": "oBcy",
+      "firstPostId": "oBcpNvoNy",
+      "firstPostDateTime": "2026/04/26(日) 23:23:12.805"
+    },
+    {
+      "threadNumber": "1777213365",
+      "threadTitle": "トリッカルの絵本路線",
+      "metadentUpper": "KoTd",
+      "metadentLower": "T1fw",
+      "firstPostId": "T1fBTQ4xw",
+      "firstPostDateTime": "2026/04/26(日) 23:22:45.487"
+    },
+    {
+      "threadNumber": "1777213361",
+      "threadTitle": "ミッドナイトクラブヘブン🥺",
+      "metadentUpper": "8Syg",
+      "metadentLower": "fVRU",
+      "firstPostId": "fVRQlF4BU",
+      "firstPostDateTime": "2026/04/26(日) 23:22:41.280"
+    },
+    {
+      "threadNumber": "1777213360",
+      "threadTitle": "ufotable｢テイルズオブシリーズの新情報を発表します！」ワイ｢アニメかな？ソシャゲかな？」 ",
+      "metadentUpper": "fV3H",
+      "metadentLower": "sbAo",
+      "firstPostId": "sbArYqrGo",
+      "firstPostDateTime": "2026/04/26(日) 23:22:40.354"
+    },
+    {
+      "threadNumber": "1777213359",
+      "threadTitle": "【悲報】フルマラソンで2時間切り、100mあたり17秒のペース",
+      "metadentUpper": "TcUd",
+      "metadentLower": "Iej0",
+      "firstPostId": "IejH0jEK0",
+      "firstPostDateTime": "2026/04/26(日) 23:22:39.722"
+    },
+    {
+      "threadNumber": "1777213357",
+      "threadTitle": "モーガン戦時のルフィと最新話のウソップがタイマンしたらどっちが勝つと思う？",
+      "metadentUpper": "bawE",
+      "metadentLower": "MaMa",
+      "firstPostId": "MaMMzAcKa",
+      "firstPostDateTime": "2026/04/26(日) 23:22:37.341"
+    },
+    {
+      "threadNumber": "1777213345",
+      "threadTitle": "「医療脱毛」vs「美容脱毛」とかいう一生決まらない対決ｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "S4B9",
+      "metadentLower": "t151",
+      "firstPostId": "t15YR0Ce1",
+      "firstPostDateTime": "2026/04/26(日) 23:22:25.708"
+    },
+    {
+      "threadNumber": "1777213341",
+      "threadTitle": "娘の名前に「拓」を挿れたいんやが",
+      "metadentUpper": "vMJo",
+      "metadentLower": "kyP6",
+      "firstPostId": "kyP2KPBR6",
+      "firstPostDateTime": "2026/04/26(日) 23:22:21.396"
+    },
+    {
+      "threadNumber": "1777213329",
+      "threadTitle": "睡眠導入時、たまーに四角いスクリーン上で夢の映像が先バレで見えることあるじゃん",
+      "metadentUpper": "HLEk",
+      "metadentLower": "X/gH",
+      "firstPostId": "X/geYqnBH",
+      "firstPostDateTime": "2026/04/26(日) 23:22:09.373"
+    },
+    {
+      "threadNumber": "1777213325",
+      "threadTitle": "センスいいやつが見てるYouTube何",
+      "metadentUpper": "vBn3",
+      "metadentLower": "1Wr1",
+      "firstPostId": "1Wr7rfIP1",
+      "firstPostDateTime": "2026/04/26(日) 23:22:05.392"
+    },
+    {
+      "threadNumber": "1777213324",
+      "threadTitle": "新作覇権ソシャゲNTEの属性表、ガチで意味不明(お前らの想像の3倍意味不明)",
+      "metadentUpper": "iUKb",
+      "metadentLower": "WPs0",
+      "firstPostId": "WPsAuySF0",
+      "firstPostDateTime": "2026/04/26(日) 23:22:04.820"
+    },
+    {
+      "threadNumber": "1777213316",
+      "threadTitle": "ニガキンの鬼畜茶が発売決定",
+      "metadentUpper": "MM/R",
+      "metadentLower": "OZh7",
+      "firstPostId": "OZhHt9ND7",
+      "firstPostDateTime": "2026/04/26(日) 23:21:56.875"
+    },
+    {
+      "threadNumber": "1777213307",
+      "threadTitle": "【速報】ファン太さん、解雇 ★3",
+      "metadentUpper": "aF5/",
+      "metadentLower": "W/iy",
+      "firstPostId": "W/iG/sIYy",
+      "firstPostDateTime": "2026/04/26(日) 23:21:47.803"
+    },
+    {
+      "threadNumber": "1777213302",
+      "threadTitle": "【緊急】アベノミクスの果実がどこで手に入るのか分からなくて詰まってるんやが",
+      "metadentUpper": "oCFG",
+      "metadentLower": "yKST",
+      "firstPostId": "yKS50GK0T",
+      "firstPostDateTime": "2026/04/26(日) 23:21:42.235"
+    },
+    {
+      "threadNumber": "1777213290",
+      "threadTitle": "ワイ翔　パチスロを引退へ",
+      "metadentUpper": "uzmZ",
+      "metadentLower": "LKHQ",
+      "firstPostId": "LKHfJDA2Q",
+      "firstPostDateTime": "2026/04/26(日) 23:21:30.418"
+    },
+    {
+      "threadNumber": "1777213285",
+      "threadTitle": "ザ・ボーイズのスターライトちゃんという清楚系ヒロイン！！！",
+      "metadentUpper": "1mVu",
+      "metadentLower": "w7On",
+      "firstPostId": "w7OSLyQMn",
+      "firstPostDateTime": "2026/04/26(日) 23:21:25.607"
+    },
+    {
+      "threadNumber": "1777213282",
+      "threadTitle": "最近ドバチルばっかり聴いてる",
+      "metadentUpper": "+Ecw",
+      "metadentLower": "2Nbm",
+      "firstPostId": "2NbHMhWvm",
+      "firstPostDateTime": "2026/04/26(日) 23:21:22.685"
+    },
+    {
+      "threadNumber": "1777213266",
+      "threadTitle": "たまちゃんでまたまた抜いてしまった",
+      "metadentUpper": "QsnB",
+      "metadentLower": "Fpl4",
+      "firstPostId": "Fplr06UZ4",
+      "firstPostDateTime": "2026/04/26(日) 23:21:06.633"
+    },
+    {
+      "threadNumber": "1777213246",
+      "threadTitle": "【徹底討論】オナニーは無駄なのか、それとも無駄ではないのか？",
+      "metadentUpper": "gYje",
+      "metadentLower": "RWBU",
+      "firstPostId": "RWBYYzMxU",
+      "firstPostDateTime": "2026/04/26(日) 23:20:46.140"
+    },
+    {
+      "threadNumber": "1777213245",
+      "threadTitle": "アイドル「なんかおかしい…」医者「落ち着いて聞いてください… 貴女 頭が頭が良すぎるんです」 アイドル「( ﾟдﾟ)ﾊｯ!」",
+      "metadentUpper": "tcR1",
+      "metadentLower": "XDGb",
+      "firstPostId": "XDGUNiq8b",
+      "firstPostDateTime": "2026/04/26(日) 23:20:45.214"
+    },
+    {
+      "threadNumber": "1777213237",
+      "threadTitle": "【急募】ピアノの練習法",
+      "metadentUpper": "JKV9",
+      "metadentLower": "Vjnj",
+      "firstPostId": "VjnVhf9Rj",
+      "firstPostDateTime": "2026/04/26(日) 23:20:37.405"
+    },
     {
       "threadNumber": "1777213164",
       "threadTitle": "「面白い会話」が出来ないんやが…",
