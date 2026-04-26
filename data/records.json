@@ -1,8 +1,240 @@
 {
-  "updatedAt": "2026-04-26T12:05:26.845305Z",
-  "totalRecords": 5757,
-  "addedCount": 48,
+  "updatedAt": "2026-04-26T12:10:20.354110Z",
+  "totalRecords": 5786,
+  "addedCount": 29,
   "records": [
+    {
+      "threadNumber": "1777205412",
+      "threadTitle": "【悲報】リゼロ作者「なんでみんなレムレム言って、エミリアの人気出ねえんだよぉぉぉおおおお！！！！😭😭😭😭」",
+      "metadentUpper": "tcR1",
+      "metadentLower": "zzj4",
+      "firstPostId": "zzjOIXOd4",
+      "firstPostDateTime": "2026/04/26(日) 21:10:12.026"
+    },
+    {
+      "threadNumber": "1777205407",
+      "threadTitle": "ほらドルフィンドルフォンドルファン～",
+      "metadentUpper": "lsMK",
+      "metadentLower": "c5RG",
+      "firstPostId": "c5RDKY82G",
+      "firstPostDateTime": "2026/04/26(日) 21:10:07.306"
+    },
+    {
+      "threadNumber": "1777205397",
+      "threadTitle": "ニュース「GW2日目は～」←これ",
+      "metadentUpper": "XZAH",
+      "metadentLower": "HIER",
+      "firstPostId": "HIEGCUF0R",
+      "firstPostDateTime": "2026/04/26(日) 21:09:57.794"
+    },
+    {
+      "threadNumber": "1777205388",
+      "threadTitle": "弱男やけど経験人数100超えだけど質問ある？",
+      "metadentUpper": "V0sJ",
+      "metadentLower": "1oPg",
+      "firstPostId": "1oP3F/Yrg",
+      "firstPostDateTime": "2026/04/26(日) 21:09:48.493"
+    },
+    {
+      "threadNumber": "1777205387",
+      "threadTitle": "メルカリで300円程度の値段で物売ってる人いるだろ？",
+      "metadentUpper": "bc38",
+      "metadentLower": "eUgd",
+      "firstPostId": "eUgGgKT0d",
+      "firstPostDateTime": "2026/04/26(日) 21:09:47.423"
+    },
+    {
+      "threadNumber": "1777205376",
+      "threadTitle": "みいちゃんの作画変わるのって結局嘘やったん？",
+      "metadentUpper": "NeSo",
+      "metadentLower": "RJSW",
+      "firstPostId": "RJSbIw1SW",
+      "firstPostDateTime": "2026/04/26(日) 21:09:36.551"
+    },
+    {
+      "threadNumber": "1777205365",
+      "threadTitle": "【悲報】小学生のおやつ『100円』までになってしまう⋯⋯",
+      "metadentUpper": "KoTd",
+      "metadentLower": "T1fw",
+      "firstPostId": "T1fBTQ4xw",
+      "firstPostDateTime": "2026/04/26(日) 21:09:25.639"
+    },
+    {
+      "threadNumber": "1777205356",
+      "threadTitle": "なんか今日女とセックスしたくない？",
+      "metadentUpper": "PuTP",
+      "metadentLower": "L2ex",
+      "firstPostId": "L2eqkxENx",
+      "firstPostDateTime": "2026/04/26(日) 21:09:16.935"
+    },
+    {
+      "threadNumber": "1777205351",
+      "threadTitle": "【悲報】エッヂ、あまりにもROM専が多すぎる",
+      "metadentUpper": "UxB9",
+      "metadentLower": "h7or",
+      "firstPostId": "h7oEZzohr",
+      "firstPostDateTime": "2026/04/26(日) 21:09:11.743"
+    },
+    {
+      "threadNumber": "1777205348",
+      "threadTitle": "中卒ニートだけどどうせ働いても一生底辺固定だけど",
+      "metadentUpper": "YxBW",
+      "metadentLower": "jacx",
+      "firstPostId": "jacCsKhxx",
+      "firstPostDateTime": "2026/04/26(日) 21:09:08.621"
+    },
+    {
+      "threadNumber": "1777205345",
+      "threadTitle": "【BS16】劇場版「SHIROBAKO」    ",
+      "metadentUpper": "ISDs",
+      "metadentLower": "OnJk",
+      "firstPostId": "OnJSd1osk",
+      "firstPostDateTime": "2026/04/26(日) 21:09:05.830"
+    },
+    {
+      "threadNumber": "1777205342",
+      "threadTitle": "今日も見逃した♪",
+      "metadentUpper": "mpq5",
+      "metadentLower": "kWWm",
+      "firstPostId": "kWW0jM2Bm",
+      "firstPostDateTime": "2026/04/26(日) 21:09:02.151"
+    },
+    {
+      "threadNumber": "1777205338",
+      "threadTitle": "杉並区要らないから消す",
+      "metadentUpper": "/4qN",
+      "metadentLower": "gqUd",
+      "firstPostId": "gqU4rBx1d",
+      "firstPostDateTime": "2026/04/26(日) 21:08:58.428"
+    },
+    {
+      "threadNumber": "1777205327",
+      "threadTitle": "【参院選】自民党・松山三四六候補に文春砲ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ ",
+      "metadentUpper": "gXiW",
+      "metadentLower": "dSCQ",
+      "firstPostId": "dSCSnkZeQ",
+      "firstPostDateTime": "2026/04/26(日) 21:08:47.207"
+    },
+    {
+      "threadNumber": "1777205319",
+      "threadTitle": "【朗報】カワイーヌ、発見される",
+      "metadentUpper": "nlLM",
+      "metadentLower": "xiZ1",
+      "firstPostId": "xiZfZwMv1",
+      "firstPostDateTime": "2026/04/26(日) 21:08:39.282"
+    },
+    {
+      "threadNumber": "1777205301",
+      "threadTitle": "【衝撃】「ガンのリスクを急上昇させる生活習慣」ランキング、ついに発表されるwwwwwwwwwwwwwwww",
+      "metadentUpper": "Mf01",
+      "metadentLower": "KPeO",
+      "firstPostId": "KPeSAlMCO",
+      "firstPostDateTime": "2026/04/26(日) 21:08:21.196"
+    },
+    {
+      "threadNumber": "1777205295",
+      "threadTitle": "精子でたv(˶ᐢωᐢ˶)ว",
+      "metadentUpper": "nTWX",
+      "metadentLower": "NCOS",
+      "firstPostId": "NCO.409VS",
+      "firstPostDateTime": "2026/04/26(日) 21:08:15.707"
+    },
+    {
+      "threadNumber": "1777205290",
+      "threadTitle": "【朗報】陰キャ女さん達、合宿で謎の施設でエッヂな格好で歌い踊ってしまう",
+      "metadentUpper": "AkZO",
+      "metadentLower": "ZjSU",
+      "firstPostId": "ZjSqQJgjU",
+      "firstPostDateTime": "2026/04/26(日) 21:08:10.835"
+    },
+    {
+      "threadNumber": "1777205265",
+      "threadTitle": "教えてほしい。大卒の\"確実なメリット\"ってどこにあるんだろう。",
+      "metadentUpper": "lRar",
+      "metadentLower": "Q0BS",
+      "firstPostId": "Q0B/943jS",
+      "firstPostDateTime": "2026/04/26(日) 21:07:45.939"
+    },
+    {
+      "threadNumber": "1777205239",
+      "threadTitle": "ワイが是非とも乳を吸いたいリゼロキャラ3選が「エミリア」「ペトラ」「シャウラ」なんやが",
+      "metadentUpper": "yPKj",
+      "metadentLower": "LFY0",
+      "firstPostId": "LFYOQ4GV0",
+      "firstPostDateTime": "2026/04/26(日) 21:07:19.482"
+    },
+    {
+      "threadNumber": "1777205238",
+      "threadTitle": "ufotable｢テイルズオブシリーズの新情報を発表します！」ワイ｢アニメかな？ソシャゲかな？」 ",
+      "metadentUpper": "fV3H",
+      "metadentLower": "sbAo",
+      "firstPostId": "sbArYqrGo",
+      "firstPostDateTime": "2026/04/26(日) 21:07:18.871"
+    },
+    {
+      "threadNumber": "1777205214",
+      "threadTitle": "「俺をおかずに白米いくのがたまらんのですわｗ」って顔してるけど実際はいうほどなやつ",
+      "metadentUpper": "vK0V",
+      "metadentLower": "PjaI",
+      "firstPostId": "PjaMgIS8I",
+      "firstPostDateTime": "2026/04/26(日) 21:06:54.204"
+    },
+    {
+      "threadNumber": "1777205202",
+      "threadTitle": "憲法学者「安倍首相は、かつて日本国憲法を「恥ずかしい憲法」と言ったそうですが、恥ずかしいのは、安倍首相、あなたなのです」→",
+      "metadentUpper": "QsnB",
+      "metadentLower": "BqvR",
+      "firstPostId": "BqvVrTKKR",
+      "firstPostDateTime": "2026/04/26(日) 21:06:42.863"
+    },
+    {
+      "threadNumber": "1777205191",
+      "threadTitle": "大きな>>4を眺めたら、白い>>7が飛んでいた",
+      "metadentUpper": "7wQM",
+      "metadentLower": "4UL4",
+      "firstPostId": "4ULF7Z7W4",
+      "firstPostDateTime": "2026/04/26(日) 21:06:31.138"
+    },
+    {
+      "threadNumber": "1777205182",
+      "threadTitle": "ラーテル、ゾウにブチ切れて攻撃するも一撃で気絶させられてしまう…",
+      "metadentUpper": "K3xH",
+      "metadentLower": "ewgA",
+      "firstPostId": "ewgkJ8XIA",
+      "firstPostDateTime": "2026/04/26(日) 21:06:22.736"
+    },
+    {
+      "threadNumber": "1777205155",
+      "threadTitle": "Vtuber「マッチングアプリでさぁ」←これやめろ ",
+      "metadentUpper": "nyB5",
+      "metadentLower": "7.yQ",
+      "firstPostId": "7.yh.Wh0Q",
+      "firstPostDateTime": "2026/04/26(日) 21:05:55.574"
+    },
+    {
+      "threadNumber": "1777205148",
+      "threadTitle": "ユニクロのリネンシャツ初めて買ってみたけどかなり良いな",
+      "metadentUpper": "qjv+",
+      "metadentLower": "P1Wy",
+      "firstPostId": "P1WOxh30y",
+      "firstPostDateTime": "2026/04/26(日) 21:05:48.425"
+    },
+    {
+      "threadNumber": "1777205134",
+      "threadTitle": "シャニマスの放クラに一人おばさんいるけど",
+      "metadentUpper": "v4nd",
+      "metadentLower": "x0zG",
+      "firstPostId": "x0z8JSIaG",
+      "firstPostDateTime": "2026/04/26(日) 21:05:34.643"
+    },
+    {
+      "threadNumber": "1777205133",
+      "threadTitle": "【速報】ファン太さん、解雇",
+      "metadentUpper": "rz51",
+      "metadentLower": "C3hw",
+      "firstPostId": "C3hpQKqTw",
+      "firstPostDateTime": "2026/04/26(日) 21:05:33.488"
+    },
     {
       "threadNumber": "1777205116",
       "threadTitle": "【朗報】陰キャ女さん達、合宿で水着になってしまう",
