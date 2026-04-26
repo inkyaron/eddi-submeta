@@ -54,7 +54,7 @@ h1 {
 }
 
 .lead {
-  max-width: 52rem;
+  max-width: 60rem;
   margin: 14px 0 0;
   color: var(--muted);
   font-size: 1.02rem;
