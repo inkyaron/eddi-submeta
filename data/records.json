@@ -1,8 +1,168 @@
 {
-  "updatedAt": "2026-04-26T15:15:20.496914Z",
-  "totalRecords": 7047,
-  "addedCount": 33,
+  "updatedAt": "2026-04-26T15:20:15.423790Z",
+  "totalRecords": 7067,
+  "addedCount": 20,
   "records": [
+    {
+      "threadNumber": "1777216788",
+      "threadTitle": "ヴァンサバ新作、普通に面白い",
+      "metadentUpper": "bR7W",
+      "metadentLower": "5oDL",
+      "firstPostId": "5oDh4Jb3L",
+      "firstPostDateTime": "2026/04/27(月) 00:19:48.881"
+    },
+    {
+      "threadNumber": "1777216783",
+      "threadTitle": "夜勤中やけど今暇や",
+      "metadentUpper": "jE2y",
+      "metadentLower": "A/vY",
+      "firstPostId": "A/vFld85Y",
+      "firstPostDateTime": "2026/04/27(月) 00:19:43.244"
+    },
+    {
+      "threadNumber": "1777216778",
+      "threadTitle": "この週末で一番笑った出来事",
+      "metadentUpper": "aqny",
+      "metadentLower": "9ZcI",
+      "firstPostId": "9Zc6nmjGI",
+      "firstPostDateTime": "2026/04/27(月) 00:19:38.818"
+    },
+    {
+      "threadNumber": "1777216775",
+      "threadTitle": "村上の試合3:10から",
+      "metadentUpper": "7JDM",
+      "metadentLower": "920m",
+      "firstPostId": "920m.Ln4m",
+      "firstPostDateTime": "2026/04/27(月) 00:19:35.562"
+    },
+    {
+      "threadNumber": "1777216747",
+      "threadTitle": "【いつもの】この笑顔が眩しいエロゲヒロインｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "IZAX",
+      "metadentLower": "VGHy",
+      "firstPostId": "VGHRfh43y",
+      "firstPostDateTime": "2026/04/27(月) 00:19:07.320"
+    },
+    {
+      "threadNumber": "1777216745",
+      "threadTitle": "君のことが大大大大大好きな100人の彼女のオープニング",
+      "metadentUpper": "saUK",
+      "metadentLower": "/fWe",
+      "firstPostId": "/fWbv2Aje",
+      "firstPostDateTime": "2026/04/27(月) 00:19:05.886"
+    },
+    {
+      "threadNumber": "1777216735",
+      "threadTitle": "ワイの口癖が「命さえも弄ぶのか…」なんやが",
+      "metadentUpper": "5on8",
+      "metadentLower": "5pj5",
+      "firstPostId": "5pj1RGvt5",
+      "firstPostDateTime": "2026/04/27(月) 00:18:55.284"
+    },
+    {
+      "threadNumber": "1777216711",
+      "threadTitle": "【悲報】未だにニコニコ動画見てるエッヂ民、ワイしかいない",
+      "metadentUpper": "vyDg",
+      "metadentLower": "IbBk",
+      "firstPostId": "IbB2xPlnk",
+      "firstPostDateTime": "2026/04/27(月) 00:18:31.329"
+    },
+    {
+      "threadNumber": "1777216706",
+      "threadTitle": "【うまそう】山岡家にきた",
+      "metadentUpper": "lhT+",
+      "metadentLower": "csjo",
+      "firstPostId": "csjVkwbxo",
+      "firstPostDateTime": "2026/04/27(月) 00:18:26.414"
+    },
+    {
+      "threadNumber": "1777216689",
+      "threadTitle": "明日5時半起きなのにまだ寝てない😊",
+      "metadentUpper": "xQX1",
+      "metadentLower": "ktWo",
+      "firstPostId": "ktWOl6D0o",
+      "firstPostDateTime": "2026/04/27(月) 00:18:09.258"
+    },
+    {
+      "threadNumber": "1777216670",
+      "threadTitle": "【緊急】年収700万、手取りだと月45万円wwww",
+      "metadentUpper": "mkY4",
+      "metadentLower": "MBej",
+      "firstPostId": "MBeEBRNBj",
+      "firstPostDateTime": "2026/04/27(月) 00:17:50.330"
+    },
+    {
+      "threadNumber": "1777216669",
+      "threadTitle": "【朗報】ロバーツ監督「成績だけでは佐々木朗希の良さが伝わらない。今季最高の投球だった」",
+      "metadentUpper": "XiVZ",
+      "metadentLower": "rcfp",
+      "firstPostId": "rcf5M4ucp",
+      "firstPostDateTime": "2026/04/27(月) 00:17:49.044"
+    },
+    {
+      "threadNumber": "1777216667",
+      "threadTitle": "エッヂの外でお前らと繋がりたい",
+      "metadentUpper": "oCFG",
+      "metadentLower": "GB8R",
+      "firstPostId": "GB8ZW1F1R",
+      "firstPostDateTime": "2026/04/27(月) 00:17:47.980"
+    },
+    {
+      "threadNumber": "1777216663",
+      "threadTitle": "【画像】風俗に行くと毎回こういう\"恵体メロン\"お姉さんを指名してしまうんやが ",
+      "metadentUpper": "HlWz",
+      "metadentLower": "j16o",
+      "firstPostId": "j16vZwTco",
+      "firstPostDateTime": "2026/04/27(月) 00:17:43.184"
+    },
+    {
+      "threadNumber": "1777216655",
+      "threadTitle": "1985年の落合博満のホームラン数と三振数w",
+      "metadentUpper": "A/gV",
+      "metadentLower": "BBqT",
+      "firstPostId": "BBqcPsf8T",
+      "firstPostDateTime": "2026/04/27(月) 00:17:35.833"
+    },
+    {
+      "threadNumber": "1777216600",
+      "threadTitle": "村上、NPBが雑魚すぎてモチベ失ってただけ説が浮上",
+      "metadentUpper": "IQ03",
+      "metadentLower": "I/Py",
+      "firstPostId": "I/PJTX7Qy",
+      "firstPostDateTime": "2026/04/27(月) 00:16:40.928"
+    },
+    {
+      "threadNumber": "1777216577",
+      "threadTitle": "ぷゆろっかなぁ🫪",
+      "metadentUpper": "Skd3",
+      "metadentLower": "No8k",
+      "firstPostId": "No8Tr2URk",
+      "firstPostDateTime": "2026/04/27(月) 00:16:17.641"
+    },
+    {
+      "threadNumber": "1777216571",
+      "threadTitle": "【朗報】モールス信号、ガチで誰でも覚えられる機械が発売され話題に",
+      "metadentUpper": "xa+I",
+      "metadentLower": "nzCW",
+      "firstPostId": "nzCvHCWAW",
+      "firstPostDateTime": "2026/04/27(月) 00:16:11.992"
+    },
+    {
+      "threadNumber": "1777216542",
+      "threadTitle": "詐欺サイトに騙された人いる？🥺",
+      "metadentUpper": "9O2q",
+      "metadentLower": "MgkE",
+      "firstPostId": "MgkXdoSoE",
+      "firstPostDateTime": "2026/04/27(月) 00:15:42.747"
+    },
+    {
+      "threadNumber": "1777216528",
+      "threadTitle": "♪とーなーり同士あーなーたーとーあーたしさく",
+      "metadentUpper": "pMFf",
+      "metadentLower": "RVL2",
+      "firstPostId": "RVLJ1b/32",
+      "firstPostDateTime": "2026/04/27(月) 00:15:28.432"
+    },
     {
       "threadNumber": "1777216508",
       "threadTitle": "エッヂ、村上宗隆こと村GODについて語るスレ",
