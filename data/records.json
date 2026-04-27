@@ -1,8 +1,288 @@
 {
-  "updatedAt": "2026-04-27T06:00:16.390699Z",
-  "totalRecords": 10341,
-  "addedCount": 27,
+  "updatedAt": "2026-04-27T06:05:21.473730Z",
+  "totalRecords": 10376,
+  "addedCount": 35,
   "records": [
+    {
+      "threadNumber": "1777269891",
+      "threadTitle": "なんかつまんないを超えて不快にさせられるアニメってあるよな",
+      "metadentUpper": "97IU",
+      "metadentLower": "JUpG",
+      "firstPostId": "JUpLB237G",
+      "firstPostDateTime": "2026/04/27(月) 15:04:51.999"
+    },
+    {
+      "threadNumber": "1777269888",
+      "threadTitle": "●カーインライジング、来年はイギリスか",
+      "metadentUpper": "jaZk",
+      "metadentLower": "FJ7l",
+      "firstPostId": "FJ7HyG1Hl",
+      "firstPostDateTime": "2026/04/27(月) 15:04:48.010"
+    },
+    {
+      "threadNumber": "1777269887",
+      "threadTitle": "退職したパッパが元職場の女とLINEしてるんやが",
+      "metadentUpper": "lASq",
+      "metadentLower": "AUSG",
+      "firstPostId": "AUSwLHEAG",
+      "firstPostDateTime": "2026/04/27(月) 15:04:47.045"
+    },
+    {
+      "threadNumber": "1777269882",
+      "threadTitle": "ナンバーガールで5番目くらいに好きな曲",
+      "metadentUpper": "hNEh",
+      "metadentLower": "lc/r",
+      "firstPostId": "lc/v0V4Hr",
+      "firstPostDateTime": "2026/04/27(月) 15:04:42.987"
+    },
+    {
+      "threadNumber": "1777269875",
+      "threadTitle": "閃光のハサウェイキルケーの魔女、来週で上映終了",
+      "metadentUpper": "capH",
+      "metadentLower": "oI/X",
+      "firstPostId": "oI/6FGoHX",
+      "firstPostDateTime": "2026/04/27(月) 15:04:35.631"
+    },
+    {
+      "threadNumber": "1777269862",
+      "threadTitle": "SEEDAのLIVIN'とかいう曲wwwwwwwwww",
+      "metadentUpper": "lxtu",
+      "metadentLower": "LkiD",
+      "firstPostId": "Lkikt3C6D",
+      "firstPostDateTime": "2026/04/27(月) 15:04:22.343"
+    },
+    {
+      "threadNumber": "1777269861",
+      "threadTitle": "なんE G N U / L i n u x部",
+      "metadentUpper": "8QGZ",
+      "metadentLower": "JIdv",
+      "firstPostId": "JIdHMsGov",
+      "firstPostDateTime": "2026/04/27(月) 15:04:21.878"
+    },
+    {
+      "threadNumber": "1777269824",
+      "threadTitle": "まんさん、プールでエチエチな美脚を披露してしまう",
+      "metadentUpper": "EEBX",
+      "metadentLower": "nfXf",
+      "firstPostId": "nfXento7f",
+      "firstPostDateTime": "2026/04/27(月) 15:03:44.044"
+    },
+    {
+      "threadNumber": "1777269817",
+      "threadTitle": "GW地獄",
+      "metadentUpper": "2TUg",
+      "metadentLower": "v9gJ",
+      "firstPostId": "v9gCZSoiJ",
+      "firstPostDateTime": "2026/04/27(月) 15:03:37.588"
+    },
+    {
+      "threadNumber": "1777269815",
+      "threadTitle": "『かわいいだけじゃだめですか？』の反対ｗｗｗ",
+      "metadentUpper": "YlJD",
+      "metadentLower": "U9Hy",
+      "firstPostId": "U9H1sdVdy",
+      "firstPostDateTime": "2026/04/27(月) 15:03:35.409"
+    },
+    {
+      "threadNumber": "1777269804",
+      "threadTitle": "旭山動物園事件・夫「残らないよう燃やし尽くしてやるからな」妻「ヒェッ…」",
+      "metadentUpper": "tcR1",
+      "metadentLower": "Gib2",
+      "firstPostId": "GibC5GKY2",
+      "firstPostDateTime": "2026/04/27(月) 15:03:24.431"
+    },
+    {
+      "threadNumber": "1777269796",
+      "threadTitle": "高市早苗、土日はしっかり休む。自衛隊員死亡事故のそうしきには出ない",
+      "metadentUpper": "zSWQ",
+      "metadentLower": "Rd49",
+      "firstPostId": "Rd4ZtxMT9",
+      "firstPostDateTime": "2026/04/27(月) 15:03:16.336"
+    },
+    {
+      "threadNumber": "1777269795",
+      "threadTitle": "安倍晋三連呼してないやつが世の中のほとんどという事実 ",
+      "metadentUpper": "Nhay",
+      "metadentLower": "hnGg",
+      "firstPostId": "hnGfQzwRg",
+      "firstPostDateTime": "2026/04/27(月) 15:03:15.216"
+    },
+    {
+      "threadNumber": "1777269791",
+      "threadTitle": "石油、資源としてチートすぎる　コイツが枯渇したら間違いなく人類滅ぶ",
+      "metadentUpper": "u7s+",
+      "metadentLower": "8T5x",
+      "firstPostId": "8T5YRwTLx",
+      "firstPostDateTime": "2026/04/27(月) 15:03:11.340"
+    },
+    {
+      "threadNumber": "1777269749",
+      "threadTitle": "最近戦闘機めっちゃ飛んでね？",
+      "metadentUpper": "Mnhe",
+      "metadentLower": "PEK3",
+      "firstPostId": "PEKE2KQR3",
+      "firstPostDateTime": "2026/04/27(月) 15:02:29.412"
+    },
+    {
+      "threadNumber": "1777269748",
+      "threadTitle": "広島カープ　晒される",
+      "metadentUpper": "Mvhl",
+      "metadentLower": "RxZv",
+      "firstPostId": "RxZ2iAIsv",
+      "firstPostDateTime": "2026/04/27(月) 15:02:28.774"
+    },
+    {
+      "threadNumber": "1777269735",
+      "threadTitle": "近所のコンビニからNOPEコーナー無くなった",
+      "metadentUpper": "ewgH",
+      "metadentLower": "XtGW",
+      "firstPostId": "XtGWVni2W",
+      "firstPostDateTime": "2026/04/27(月) 15:02:15.189"
+    },
+    {
+      "threadNumber": "1777269734",
+      "threadTitle": "このキャラで抜いてるのワイだけだろってマイナーキャラ書け",
+      "metadentUpper": "VJlZ",
+      "metadentLower": "53U7",
+      "firstPostId": "53UaNUYP7",
+      "firstPostDateTime": "2026/04/27(月) 15:02:14.186"
+    },
+    {
+      "threadNumber": "1777269726",
+      "threadTitle": "ポケチャンプロデューサー「「開発陣はゲームに本当にベストを尽くそうとした」",
+      "metadentUpper": "evs5",
+      "metadentLower": "C7nk",
+      "firstPostId": "C7nYAjhMk",
+      "firstPostDateTime": "2026/04/27(月) 15:02:06.492"
+    },
+    {
+      "threadNumber": "1777269724",
+      "threadTitle": "知的障害者ムクガイジガイジ「無職の知的障害者だからエッジにしか居場所がない」",
+      "metadentUpper": "Gnkq",
+      "metadentLower": "Ogzg",
+      "firstPostId": "OgzKI6A1g",
+      "firstPostDateTime": "2026/04/27(月) 15:02:04.477"
+    },
+    {
+      "threadNumber": "1777269717",
+      "threadTitle": "【悲報】三島由紀夫の本質、ポルトガル人に看破される",
+      "metadentUpper": "M7eD",
+      "metadentLower": "W1fE",
+      "firstPostId": "W1f/BjFyE",
+      "firstPostDateTime": "2026/04/27(月) 15:01:57.930"
+    },
+    {
+      "threadNumber": "1777269716",
+      "threadTitle": "【画像】男の娘、余裕な顔でスカートをたくし上げるもパンツを履き忘れて小さなおちんちんを見せびからしてしまい顔真っ赤",
+      "metadentUpper": "8S8R",
+      "metadentLower": "U7Xf",
+      "firstPostId": "U7XVNYWrf",
+      "firstPostDateTime": "2026/04/27(月) 15:01:56.293"
+    },
+    {
+      "threadNumber": "1777269710",
+      "threadTitle": "もういいけど🥺",
+      "metadentUpper": "EWFF",
+      "metadentLower": "PTGS",
+      "firstPostId": "PTGHM0GLS",
+      "firstPostDateTime": "2026/04/27(月) 15:01:50.275"
+    },
+    {
+      "threadNumber": "1777269703",
+      "threadTitle": "【画像】新たなプロ野球ファン代表芸人、正式に決まるwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "XiVZ",
+      "metadentLower": "rcfp",
+      "firstPostId": "rcf5M4ucp",
+      "firstPostDateTime": "2026/04/27(月) 15:01:43.846"
+    },
+    {
+      "threadNumber": "1777269690",
+      "threadTitle": "公示",
+      "metadentUpper": "PLSV",
+      "metadentLower": "a5M6",
+      "firstPostId": "a5MCQJit6",
+      "firstPostDateTime": "2026/04/27(月) 15:01:30.589"
+    },
+    {
+      "threadNumber": "1777269688",
+      "threadTitle": "抹消",
+      "metadentUpper": "PbMS",
+      "metadentLower": "7Q60",
+      "firstPostId": "7Q6nh6xP0",
+      "firstPostDateTime": "2026/04/27(月) 15:01:28.237"
+    },
+    {
+      "threadNumber": "1777269671",
+      "threadTitle": "【動画】中国の飲食店、またやらかすｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "kItl",
+      "metadentLower": "TIk8",
+      "firstPostId": "TIkaOrvh8",
+      "firstPostDateTime": "2026/04/27(月) 15:01:11.780"
+    },
+    {
+      "threadNumber": "1777269668",
+      "threadTitle": "安倍晋三と間違えて夜廻三買っちゃった",
+      "metadentUpper": "+wBo",
+      "metadentLower": "7mTA",
+      "firstPostId": "7mTXlv8vA",
+      "firstPostDateTime": "2026/04/27(月) 15:01:08.935"
+    },
+    {
+      "threadNumber": "1777269666",
+      "threadTitle": "【悲報】ワイ宅、謎の鳥に囲まれるｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "L9mp",
+      "metadentLower": "EA5O",
+      "firstPostId": "EA5JTlmgO",
+      "firstPostDateTime": "2026/04/27(月) 15:01:06.533"
+    },
+    {
+      "threadNumber": "1777269641",
+      "threadTitle": "歯医者さんの前に歯を磨いていくね🥺",
+      "metadentUpper": "r80r",
+      "metadentLower": "hhWj",
+      "firstPostId": "hhW5s9yyj",
+      "firstPostDateTime": "2026/04/27(月) 15:00:41.672"
+    },
+    {
+      "threadNumber": "1777269631",
+      "threadTitle": "広告ブロックしてないやつが世の中のほとんどという事実",
+      "metadentUpper": "4mPo",
+      "metadentLower": "kK97",
+      "firstPostId": "kK9Y7HAk7",
+      "firstPostDateTime": "2026/04/27(月) 15:00:31.261"
+    },
+    {
+      "threadNumber": "1777269625",
+      "threadTitle": "アイシールドの水町「（ガムｸﾁｬｸﾁｬ）ペッ！よっし、用具に大命中！」",
+      "metadentUpper": "gFD6",
+      "metadentLower": "lP3c",
+      "firstPostId": "lP3qflIOc",
+      "firstPostDateTime": "2026/04/27(月) 15:00:25.212"
+    },
+    {
+      "threadNumber": "1777269624",
+      "threadTitle": "HoneyWorks feat.ハコニワリリィのご尊顔wwwwwwwwww",
+      "metadentUpper": "dCPQ",
+      "metadentLower": "mS6h",
+      "firstPostId": "mS6gK2MSh",
+      "firstPostDateTime": "2026/04/27(月) 15:00:24.525"
+    },
+    {
+      "threadNumber": "1777269616",
+      "threadTitle": "安倍晋三(殺処分)",
+      "metadentUpper": "pmf8",
+      "metadentLower": "XSLN",
+      "firstPostId": "XSLyA6KrN",
+      "firstPostDateTime": "2026/04/27(月) 15:00:16.404"
+    },
+    {
+      "threadNumber": "1777269611",
+      "threadTitle": "【画像】シャチメイドちゃん「こら！何見てんの？」「これオルカが悪いの？」",
+      "metadentUpper": "lbMQ",
+      "metadentLower": "l87r",
+      "firstPostId": "l87jfRqkr",
+      "firstPostDateTime": "2026/04/27(月) 15:00:11.542"
+    },
     {
       "threadNumber": "1777269598",
       "threadTitle": "今ヒトカラ来てるんやが中日贔屓が凄い",
