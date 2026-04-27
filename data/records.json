@@ -1,8 +1,624 @@
 {
-  "updatedAt": "2026-04-27T04:20:14.771691Z",
-  "totalRecords": 10139,
-  "addedCount": 18,
+  "updatedAt": "2026-04-27T05:34:45.634580Z",
+  "totalRecords": 10216,
+  "addedCount": 77,
   "records": [
+    {
+      "threadNumber": "1777268071",
+      "threadTitle": "トリッカルサ終…😭",
+      "metadentUpper": "eVyD",
+      "metadentLower": "sjrv",
+      "firstPostId": "sjrJcji1v",
+      "firstPostDateTime": "2026/04/27(月) 14:34:31.069"
+    },
+    {
+      "threadNumber": "1777268070",
+      "threadTitle": "面接官「尊敬する人は？」←こいつwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "OsIb",
+      "metadentLower": "Q/bf",
+      "firstPostId": "Q/b0OmUYf",
+      "firstPostDateTime": "2026/04/27(月) 14:34:30.751"
+    },
+    {
+      "threadNumber": "1777268068",
+      "threadTitle": "そろそろ東久留米の落合川源流に今年も行こうかな",
+      "metadentUpper": "aSYe",
+      "metadentLower": "/xIG",
+      "firstPostId": "/xIWZXZcG",
+      "firstPostDateTime": "2026/04/27(月) 14:34:28.159"
+    },
+    {
+      "threadNumber": "1777268061",
+      "threadTitle": "【悲報】安倍晋三、フランス人にバレる。ABEとして爆発的ヒット",
+      "metadentUpper": "+fVb",
+      "metadentLower": "EfgS",
+      "firstPostId": "Efg9FwwIS",
+      "firstPostDateTime": "2026/04/27(月) 14:34:21.869"
+    },
+    {
+      "threadNumber": "1777268043",
+      "threadTitle": "スクールシューティングの精度は高いのに大統領襲撃となると途端にカスエイムになるアメリカ人",
+      "metadentUpper": "f/ov",
+      "metadentLower": "m/r4",
+      "firstPostId": "m/r8jc7N4",
+      "firstPostDateTime": "2026/04/27(月) 14:34:03.763"
+    },
+    {
+      "threadNumber": "1777268017",
+      "threadTitle": "【正論】元文部科学事務次官「辺野古の事件を文部省が調査するのはおかしい！」",
+      "metadentUpper": "1wMj",
+      "metadentLower": "s7j2",
+      "firstPostId": "s7jjJMvL2",
+      "firstPostDateTime": "2026/04/27(月) 14:33:37.194"
+    },
+    {
+      "threadNumber": "1777268014",
+      "threadTitle": "🥺←こいつハゲ太郎とか言われてるけど絵文字は全員ハゲだろ",
+      "metadentUpper": "HFoP",
+      "metadentLower": "Gbwo",
+      "firstPostId": "GbwFcXm6o",
+      "firstPostDateTime": "2026/04/27(月) 14:33:34.273"
+    },
+    {
+      "threadNumber": "1777268012",
+      "threadTitle": "エッヂ便器の座る所のふちにおちんこ擦り付けて間接兜合わせ発生させてる部",
+      "metadentUpper": "8MU0",
+      "metadentLower": "X/2j",
+      "firstPostId": "X/2cXEtgj",
+      "firstPostDateTime": "2026/04/27(月) 14:33:32.798"
+    },
+    {
+      "threadNumber": "1777268010",
+      "threadTitle": "たれぞうの名言、「OC」と「死の水」しかない⋯",
+      "metadentUpper": "gWot",
+      "metadentLower": "Sq2v",
+      "firstPostId": "Sq2Krohkv",
+      "firstPostDateTime": "2026/04/27(月) 14:33:30.898"
+    },
+    {
+      "threadNumber": "1777267992",
+      "threadTitle": "【悲報】ばいこくの安倍晋三さん、山上徹也と同棲疑惑wwwwwwwwwww",
+      "metadentUpper": "cZ6g",
+      "metadentLower": "0/si",
+      "firstPostId": "0/sHWLa2i",
+      "firstPostDateTime": "2026/04/27(月) 14:33:12.285"
+    },
+    {
+      "threadNumber": "1777267967",
+      "threadTitle": "【画像】外人「日本で食べたこの食べ物の名前が分からない…もう一度食べたいんだけどこれ何？」",
+      "metadentUpper": "0hcq",
+      "metadentLower": "m6ky",
+      "firstPostId": "m6k7.8gwy",
+      "firstPostDateTime": "2026/04/27(月) 14:32:47.657"
+    },
+    {
+      "threadNumber": "1777267963",
+      "threadTitle": "日本にもフロリダのディズニーワールド並みにデカいテーマパーク作って欲しい",
+      "metadentUpper": "4uGy",
+      "metadentLower": "cAtZ",
+      "firstPostId": "cAtvFanLZ",
+      "firstPostDateTime": "2026/04/27(月) 14:32:43.014"
+    },
+    {
+      "threadNumber": "1777267954",
+      "threadTitle": "嗅ぎたばこのVELO始めたんやけど",
+      "metadentUpper": "m6b6",
+      "metadentLower": "0l4c",
+      "firstPostId": "0l46MnNsc",
+      "firstPostDateTime": "2026/04/27(月) 14:32:34.128"
+    },
+    {
+      "threadNumber": "1777267953",
+      "threadTitle": "【朗報】『FF10』の25周年特設サイトがオープン。スクエニ「色々と企画してます。お楽しみに！」",
+      "metadentUpper": "0xUm",
+      "metadentLower": "yZYg",
+      "firstPostId": "yZY4hyeag",
+      "firstPostDateTime": "2026/04/27(月) 14:32:33.940"
+    },
+    {
+      "threadNumber": "1777267937",
+      "threadTitle": "友達にPSPのUMD読み込みが早いやついたよな",
+      "metadentUpper": "1buI",
+      "metadentLower": "mlyd",
+      "firstPostId": "mlyh3ip3d",
+      "firstPostDateTime": "2026/04/27(月) 14:32:17.039"
+    },
+    {
+      "threadNumber": "1777267931",
+      "threadTitle": "Jリーグが叩かれると腹立つ奴ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "9bV2",
+      "metadentLower": "idBa",
+      "firstPostId": "idBFCtt0a",
+      "firstPostDateTime": "2026/04/27(月) 14:32:11.176"
+    },
+    {
+      "threadNumber": "1777267929",
+      "threadTitle": "ポケモンチャンピオンズ、テンプレコピペ厨パばっかりで終わる",
+      "metadentUpper": "JtgE",
+      "metadentLower": "RWFj",
+      "firstPostId": "RWFtYXB9j",
+      "firstPostDateTime": "2026/04/27(月) 14:32:09.432"
+    },
+    {
+      "threadNumber": "1777267892",
+      "threadTitle": "面接官「あなたを液体で例えるなら？右からどうぞ」面接官A「潤滑油です！」面接官B「ほぐし水です！」ワイ「あああ…」",
+      "metadentUpper": "Nhay",
+      "metadentLower": "hnGg",
+      "firstPostId": "hnGfQzwRg",
+      "firstPostDateTime": "2026/04/27(月) 14:31:32.882"
+    },
+    {
+      "threadNumber": "1777267891",
+      "threadTitle": "【動画】85歳の高齢者夫婦、車で暴走する様子を自ら撮影しネットに上げてしまう",
+      "metadentUpper": "O5KD",
+      "metadentLower": "VlpO",
+      "firstPostId": "Vlp1gVr4O",
+      "firstPostDateTime": "2026/04/27(月) 14:31:31.915"
+    },
+    {
+      "threadNumber": "1777267887",
+      "threadTitle": "エッヂG​​N​U​​/​L​​i​n​ux​部",
+      "metadentUpper": "4EQi",
+      "metadentLower": "JIdv",
+      "firstPostId": "JIdHMsGov",
+      "firstPostDateTime": "2026/04/27(月) 14:31:27.263"
+    },
+    {
+      "threadNumber": "1777267878",
+      "threadTitle": "【朗報】40歳男性医師、28歳美人女性と結婚する",
+      "metadentUpper": "K6qI",
+      "metadentLower": "EE.G",
+      "firstPostId": "EE.Mo7QSG",
+      "firstPostDateTime": "2026/04/27(月) 14:31:18.421"
+    },
+    {
+      "threadNumber": "1777267867",
+      "threadTitle": "「シュート」「パーム」「ナックル」←このへんのパワプロの中だけの存在になった変化球",
+      "metadentUpper": "DoLa",
+      "metadentLower": "i2X4",
+      "firstPostId": "i2X0rkC84",
+      "firstPostDateTime": "2026/04/27(月) 14:31:07.765"
+    },
+    {
+      "threadNumber": "1777267865",
+      "threadTitle": "もしかしてエッヂってやや左に偏ってるのか？",
+      "metadentUpper": "DFEm",
+      "metadentLower": "bQa8",
+      "firstPostId": "bQaTENpx8",
+      "firstPostDateTime": "2026/04/27(月) 14:31:05.558"
+    },
+    {
+      "threadNumber": "1777267856",
+      "threadTitle": "【事実】今月からデビューした新人声優やが既に中村悠一とか神谷浩史とか超えたわ",
+      "metadentUpper": "ksxr",
+      "metadentLower": "1WfS",
+      "firstPostId": "1WfyhfZUS",
+      "firstPostDateTime": "2026/04/27(月) 14:30:56.392"
+    },
+    {
+      "threadNumber": "1777267839",
+      "threadTitle": "【朗報】がんばれゴエモンコレクションに巻き戻し機能搭載WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "fx0T",
+      "metadentLower": "su6w",
+      "firstPostId": "su6r/cjvw",
+      "firstPostDateTime": "2026/04/27(月) 14:30:39.320"
+    },
+    {
+      "threadNumber": "1777267804",
+      "threadTitle": "ワイの晩御飯ドリンクバーwwwwwwwww",
+      "metadentUpper": "3akm",
+      "metadentLower": "VsFz",
+      "firstPostId": "VsF/3q4Cz",
+      "firstPostDateTime": "2026/04/27(月) 14:30:04.229"
+    },
+    {
+      "threadNumber": "1777267783",
+      "threadTitle": "ポケモンでおしりペンペンしたい女キャラ",
+      "metadentUpper": "O8x6",
+      "metadentLower": "aMGT",
+      "firstPostId": "aMG.DwtwT",
+      "firstPostDateTime": "2026/04/27(月) 14:29:43.096"
+    },
+    {
+      "threadNumber": "1777267775",
+      "threadTitle": "【悲報】ブサメンワイ、二重埋没とか言うプチ整形でガチで垢抜けてしまう",
+      "metadentUpper": "c+3S",
+      "metadentLower": "tnKh",
+      "firstPostId": "tnK/XRtrh",
+      "firstPostDateTime": "2026/04/27(月) 14:29:35.391"
+    },
+    {
+      "threadNumber": "1777267774",
+      "threadTitle": "｢ホラーノベルゲーム｣の思い出",
+      "metadentUpper": "nWgK",
+      "metadentLower": "Ec.m",
+      "firstPostId": "Ec.I5DWfm",
+      "firstPostDateTime": "2026/04/27(月) 14:29:34.968"
+    },
+    {
+      "threadNumber": "1777267758",
+      "threadTitle": "LINEで30代営業職の女性に「全力でつぶすぞ！カス」「お前終わらせたるからな！」などと暴言　26歳会社員を脅迫容疑で逮捕",
+      "metadentUpper": "gVin",
+      "metadentLower": "e.HI",
+      "firstPostId": "e.H292.UI",
+      "firstPostDateTime": "2026/04/27(月) 14:29:18.144"
+    },
+    {
+      "threadNumber": "1777267743",
+      "threadTitle": "台湾行きたい",
+      "metadentUpper": "hOY9",
+      "metadentLower": "cOxN",
+      "firstPostId": "cOxYmmNXN",
+      "firstPostDateTime": "2026/04/27(月) 14:29:03.077"
+    },
+    {
+      "threadNumber": "1777267741",
+      "threadTitle": "おいアペのクススレ乱立させてるガイジ出てこいよ",
+      "metadentUpper": "QlbW",
+      "metadentLower": "pcIb",
+      "firstPostId": "pcIpocHib",
+      "firstPostDateTime": "2026/04/27(月) 14:29:01.233"
+    },
+    {
+      "threadNumber": "1777267714",
+      "threadTitle": "Calude、高すぎる…😫",
+      "metadentUpper": "tCAd",
+      "metadentLower": "IRPR",
+      "firstPostId": "IRP4ekSZR",
+      "firstPostDateTime": "2026/04/27(月) 14:28:34.512"
+    },
+    {
+      "threadNumber": "1777267713",
+      "threadTitle": "【悲報】辻希美さん(38)「サクッとコンビニランチ」で炎上wwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "MFLX",
+      "metadentLower": "rEST",
+      "firstPostId": "rESwS8.xT",
+      "firstPostDateTime": "2026/04/27(月) 14:28:33.929"
+    },
+    {
+      "threadNumber": "1777267700",
+      "threadTitle": "PUDOロッカーの認証コードって届くの遅すぎよな",
+      "metadentUpper": "OBNY",
+      "metadentLower": "aMYp",
+      "firstPostId": "aMYufDEQp",
+      "firstPostDateTime": "2026/04/27(月) 14:28:20.994"
+    },
+    {
+      "threadNumber": "1777267679",
+      "threadTitle": "【画像】最近のフィギュア、プライズ品のクオリティが高いwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "XiVZ",
+      "metadentLower": "rcfp",
+      "firstPostId": "rcf5M4ucp",
+      "firstPostDateTime": "2026/04/27(月) 14:27:59.732"
+    },
+    {
+      "threadNumber": "1777267670",
+      "threadTitle": "「」パチスロキッズワイ、好きなスロット選んだらとんでもないことになる",
+      "metadentUpper": "fUqT",
+      "metadentLower": "DEUo",
+      "firstPostId": "DEUBctTxo",
+      "firstPostDateTime": "2026/04/27(月) 14:27:50.521"
+    },
+    {
+      "threadNumber": "1777267655",
+      "threadTitle": "【画像】バチャ豚「これを見たら分かるけど昔のvtuberは多様性があった」←10万いいね",
+      "metadentUpper": "nTWX",
+      "metadentLower": "Nh14",
+      "firstPostId": "Nh1Ezq6W4",
+      "firstPostDateTime": "2026/04/27(月) 14:27:35.747"
+    },
+    {
+      "threadNumber": "1777267626",
+      "threadTitle": "ナフサ←こいつ名前がムカつくんだけど👴🏻",
+      "metadentUpper": "jwvy",
+      "metadentLower": "AMG7",
+      "firstPostId": "AMGetpoM7",
+      "firstPostDateTime": "2026/04/27(月) 14:27:06.943"
+    },
+    {
+      "threadNumber": "1777267593",
+      "threadTitle": "【画像】人気Vチューバーさん、Miiで中身バレｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "kItl",
+      "metadentLower": "TIk8",
+      "firstPostId": "TIkaOrvh8",
+      "firstPostDateTime": "2026/04/27(月) 14:26:33.627"
+    },
+    {
+      "threadNumber": "1777267592",
+      "threadTitle": "ららぽーとって特別感あるよな",
+      "metadentUpper": "ZTmQ",
+      "metadentLower": "QHM1",
+      "firstPostId": "QHMlk91A1",
+      "firstPostDateTime": "2026/04/27(月) 14:26:32.581"
+    },
+    {
+      "threadNumber": "1777267549",
+      "threadTitle": "元巨人グリフィン、うっかりWSHのエースになってしまう",
+      "metadentUpper": "0Fgi",
+      "metadentLower": "fxi6",
+      "firstPostId": "fxi4jLSY6",
+      "firstPostDateTime": "2026/04/27(月) 14:25:49.973"
+    },
+    {
+      "threadNumber": "1777267519",
+      "threadTitle": "主人公のやってる事が【悪】だった衝撃の作品wwwwwwwwwwxwwxwxxwxwwwwwwwwwwwwxwwwxwwxwwwwww",
+      "metadentUpper": "5on8",
+      "metadentLower": "5pj5",
+      "firstPostId": "5pj1RGvt5",
+      "firstPostDateTime": "2026/04/27(月) 14:25:19.085"
+    },
+    {
+      "threadNumber": "1777267454",
+      "threadTitle": "営業やーやーなの！🥺",
+      "metadentUpper": "sOHF",
+      "metadentLower": "v2Zl",
+      "firstPostId": "v2ZnDdnFl",
+      "firstPostDateTime": "2026/04/27(月) 14:24:14.081"
+    },
+    {
+      "threadNumber": "1777267432",
+      "threadTitle": "【悲報】👨🏾‍🦱外国人「生まれた国で、人生の選択肢が決まるのはおかしいだろ！」👈正論過ぎると話題に....",
+      "metadentUpper": "tcR1",
+      "metadentLower": "jHU0",
+      "firstPostId": "jHUZ.YGW0",
+      "firstPostDateTime": "2026/04/27(月) 14:23:52.369"
+    },
+    {
+      "threadNumber": "1777267420",
+      "threadTitle": "マッチョ「鶏胸肉を食え！！鶏胸肉を！！！鶏胸肉を！！！！」",
+      "metadentUpper": "tcR1",
+      "metadentLower": "tSbx",
+      "firstPostId": "tSb6m0Ukx",
+      "firstPostDateTime": "2026/04/27(月) 14:23:40.813"
+    },
+    {
+      "threadNumber": "1777267419",
+      "threadTitle": "パワプロ2026のペナント、遂に二軍成績が実装される！",
+      "metadentUpper": "O9Ni",
+      "metadentLower": "LOQR",
+      "firstPostId": "LOQXViI8R",
+      "firstPostDateTime": "2026/04/27(月) 14:23:39.140"
+    },
+    {
+      "threadNumber": "1777267396",
+      "threadTitle": "ドラクエ8「無口、オーク、魔物、馬、爆乳、トランクス」←このパーティwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "IFzl",
+      "metadentLower": "azsg",
+      "firstPostId": "azs1y00Tg",
+      "firstPostDateTime": "2026/04/27(月) 14:23:16.417"
+    },
+    {
+      "threadNumber": "1777267379",
+      "threadTitle": "【悲報】餅、フランス人にバレる。MOCHIとして爆発的ヒット",
+      "metadentUpper": "b1XI",
+      "metadentLower": "t8/O",
+      "firstPostId": "t8/XmYY0O",
+      "firstPostDateTime": "2026/04/27(月) 14:22:59.807"
+    },
+    {
+      "threadNumber": "1777267364",
+      "threadTitle": " ホリエモン「“出禁リスト”を作ってて村上ファンドとかひろゆきが入れてある」",
+      "metadentUpper": "FLy8",
+      "metadentLower": "3dGG",
+      "firstPostId": "3dG7dOT/G",
+      "firstPostDateTime": "2026/04/27(月) 14:22:44.703"
+    },
+    {
+      "threadNumber": "1777267331",
+      "threadTitle": "【議論】27日はエロゲ発売日‼️エロゲが衰退した理由ってなに？",
+      "metadentUpper": "kHVf",
+      "metadentLower": "bVBt",
+      "firstPostId": "bVBOsSZtt",
+      "firstPostDateTime": "2026/04/27(月) 14:22:11.051"
+    },
+    {
+      "threadNumber": "1777267305",
+      "threadTitle": "ジョジョ５部の2つ目のOPかっけえ…",
+      "metadentUpper": "aTCe",
+      "metadentLower": "QoYA",
+      "firstPostId": "QoYNYNIqA",
+      "firstPostDateTime": "2026/04/27(月) 14:21:45.131"
+    },
+    {
+      "threadNumber": "1777267300",
+      "threadTitle": "ここだけフラエッテがでんきタイプのポケモンチャンピオンズ",
+      "metadentUpper": "uIOj",
+      "metadentLower": "B5bO",
+      "firstPostId": "B5bCrWDkO",
+      "firstPostDateTime": "2026/04/27(月) 14:21:40.609"
+    },
+    {
+      "threadNumber": "1777267288",
+      "threadTitle": "reddit「村上がホームラン打ってる投手は平均に満たない投手しかいない」←これ",
+      "metadentUpper": "Nu1k",
+      "metadentLower": "mgKW",
+      "firstPostId": "mgKVw1m.W",
+      "firstPostDateTime": "2026/04/27(月) 14:21:28.880"
+    },
+    {
+      "threadNumber": "1777267251",
+      "threadTitle": "Yahoo!フリマさん好き😳",
+      "metadentUpper": "me+P",
+      "metadentLower": "NAbw",
+      "firstPostId": "NAb2OIAjw",
+      "firstPostDateTime": "2026/04/27(月) 14:20:51.871"
+    },
+    {
+      "threadNumber": "1777267250",
+      "threadTitle": "坊主歴10年ワイ、遂にスキンヘッドにしようか数カ月迷う",
+      "metadentUpper": "nSZv",
+      "metadentLower": "bcv1",
+      "firstPostId": "bcvGtkVl1",
+      "firstPostDateTime": "2026/04/27(月) 14:20:50.997"
+    },
+    {
+      "threadNumber": "1777267249",
+      "threadTitle": "【PS1】「moon」とか言うアンチRPGを掲げたゲーム",
+      "metadentUpper": "t6Hp",
+      "metadentLower": "aXR1",
+      "firstPostId": "aXR8iXYM1",
+      "firstPostDateTime": "2026/04/27(月) 14:20:49.659"
+    },
+    {
+      "threadNumber": "1777267232",
+      "threadTitle": "【朗報】AGA治療を始めて4ヶ月経過",
+      "metadentUpper": "Ewlc",
+      "metadentLower": "dLNu",
+      "firstPostId": "dLNKXJ1hu",
+      "firstPostDateTime": "2026/04/27(月) 14:20:32.153"
+    },
+    {
+      "threadNumber": "1777267183",
+      "threadTitle": "マクドナルドがバーガーキングに勝っている要素「店舗数」「サムライマック」「ビッグマック」",
+      "metadentUpper": "1PCk",
+      "metadentLower": "NLcm",
+      "firstPostId": "NLcGXhAXm",
+      "firstPostDateTime": "2026/04/27(月) 14:19:43.373"
+    },
+    {
+      "threadNumber": "1777267129",
+      "threadTitle": "【画像】藤井聡太名人さん、昼飯になんJ民を食べてしまうwwwwwwwwwwwwwｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "Fvz6",
+      "metadentLower": "4F1o",
+      "firstPostId": "4F124AUwo",
+      "firstPostDateTime": "2026/04/27(月) 14:18:49.018"
+    },
+    {
+      "threadNumber": "1777267069",
+      "threadTitle": "面接官「あなたを液体で例えるなら？右からどうぞ」面接官A「潤滑油です！」面接官B「ほぐし水です！」ワイ「あわわ…」",
+      "metadentUpper": "SdwE",
+      "metadentLower": "IB9r",
+      "firstPostId": "IB9Arg/lr",
+      "firstPostDateTime": "2026/04/27(月) 14:17:49.011"
+    },
+    {
+      "threadNumber": "1777267044",
+      "threadTitle": "【朗報】パワプロ、ついにペナントに2軍成績実装",
+      "metadentUpper": "EWFF",
+      "metadentLower": "EsMZ",
+      "firstPostId": "EsMlHZCwZ",
+      "firstPostDateTime": "2026/04/27(月) 14:17:24.878"
+    },
+    {
+      "threadNumber": "1777267026",
+      "threadTitle": "涼宮ハルヒの憂鬱って見たほうがいい？",
+      "metadentUpper": "+wBo",
+      "metadentLower": "7mTA",
+      "firstPostId": "7mTXlv8vA",
+      "firstPostDateTime": "2026/04/27(月) 14:17:06.076"
+    },
+    {
+      "threadNumber": "1777266995",
+      "threadTitle": "童貞を卒業した女の名前を晒してけｗｗｗｗｗｗｗｗ童貞はバッバの名前でも晒しておけｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "DNip",
+      "metadentLower": "3mRV",
+      "firstPostId": "3mRTVb0WV",
+      "firstPostDateTime": "2026/04/27(月) 14:16:35.272"
+    },
+    {
+      "threadNumber": "1777266893",
+      "threadTitle": "【悲報】着ぐるみの女性に「仲良くなれるおまじないだよ」と言ってチンコ触らせた男、逮捕",
+      "metadentUpper": "b1XI",
+      "metadentLower": "t8/O",
+      "firstPostId": "t8/XmYY0O",
+      "firstPostDateTime": "2026/04/27(月) 14:14:53.003"
+    },
+    {
+      "threadNumber": "1777266734",
+      "threadTitle": "パチ屋の駐車場で思いっきりドアパンチして逃げ去る軽トラのジジイおったんやがｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "8qR6",
+      "metadentLower": "TKao",
+      "firstPostId": "TKa10iqlo",
+      "firstPostDateTime": "2026/04/27(月) 14:12:14.515"
+    },
+    {
+      "threadNumber": "1777266611",
+      "threadTitle": "ニコニコ超会議来場者過去5年で最多wwwwwwwww",
+      "metadentUpper": "xuQg",
+      "metadentLower": "lm7i",
+      "firstPostId": "lm7bJ3BXi",
+      "firstPostDateTime": "2026/04/27(月) 14:10:11.830"
+    },
+    {
+      "threadNumber": "1777266473",
+      "threadTitle": "坂本先生(45)がバイクの免許を取りにいってるらしいんやが",
+      "metadentUpper": "nEXP",
+      "metadentLower": "tnVo",
+      "firstPostId": "tnVUpaiHo",
+      "firstPostDateTime": "2026/04/27(月) 14:07:53.261"
+    },
+    {
+      "threadNumber": "1777266322",
+      "threadTitle": "【速報】羽生善治(55)、連勝ランキング1位独走wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "FpHQ",
+      "metadentLower": "5raP",
+      "firstPostId": "5raQUnXcP",
+      "firstPostDateTime": "2026/04/27(月) 14:05:22.428"
+    },
+    {
+      "threadNumber": "1777266198",
+      "threadTitle": "日本ハムファイターズ「怪我人ほとんど居ないのに5位です」←コイツ割と派手にヤバくね？",
+      "metadentUpper": "u7s+",
+      "metadentLower": "8T5x",
+      "firstPostId": "8T5YRwTLx",
+      "firstPostDateTime": "2026/04/27(月) 14:03:18.106"
+    },
+    {
+      "threadNumber": "1777266076",
+      "threadTitle": "【速報】マリナーズ、ABSチャレンジで判定が覆った直後に決勝弾！劇的勝利wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "DHA4",
+      "metadentLower": "Bbhq",
+      "firstPostId": "BbhqGnwTq",
+      "firstPostDateTime": "2026/04/27(月) 14:01:16.797"
+    },
+    {
+      "threadNumber": "1777266061",
+      "threadTitle": "銃撃犯の声明文「ペドフィリアや強姦犯が許せなく…」　トランプ「俺は強姦犯じゃない😡」　記者「え、それあなたの事なの？」",
+      "metadentUpper": "cMKV",
+      "metadentLower": "NJ8p",
+      "firstPostId": "NJ8eeRLAp",
+      "firstPostDateTime": "2026/04/27(月) 14:01:01.937"
+    },
+    {
+      "threadNumber": "1777265997",
+      "threadTitle": "【画像】プリコネのガルパンコラボ、人気トップ3の「生徒」がガチャに登場w",
+      "metadentUpper": "M0R4",
+      "metadentLower": "hyvo",
+      "firstPostId": "hyvsPGJro",
+      "firstPostDateTime": "2026/04/27(月) 13:59:57.917"
+    },
+    {
+      "threadNumber": "1777265697",
+      "threadTitle": "無職やが低身長やが低学歴やが童貞やがチズギュドやが友達いないやが家族と疎遠やがワイの人生",
+      "metadentUpper": "CQZE",
+      "metadentLower": "234M",
+      "firstPostId": "234i673GM",
+      "firstPostDateTime": "2026/04/27(月) 13:54:57.302"
+    },
+    {
+      "threadNumber": "1777264855",
+      "threadTitle": "エッヂ投資投機部 ★5",
+      "metadentUpper": "rn72",
+      "metadentLower": "q6ih",
+      "firstPostId": "q6iVYnAkh",
+      "firstPostDateTime": "2026/04/27(月) 13:40:55.704"
+    },
+    {
+      "threadNumber": "1777264518",
+      "threadTitle": "シャニマスの新ユニット出揃うｗｗｗｗｗｗw",
+      "metadentUpper": "5371",
+      "metadentLower": "tfx5",
+      "firstPostId": "tfx8C7YV5",
+      "firstPostDateTime": "2026/04/27(月) 13:35:18.497"
+    },
+    {
+      "threadNumber": "1777263712",
+      "threadTitle": "【爆笑】エッヂ覇権ゲーム「トリッカル（もちもちほっぺ大作戦）」、サ始200日記念なのにスレが落ちてしまうｗｗｗｗｗ",
+      "metadentUpper": "vMPn",
+      "metadentLower": "9Eo7",
+      "firstPostId": "9EoqOV1p7",
+      "firstPostDateTime": "2026/04/27(月) 13:21:52.593"
+    },
     {
       "threadNumber": "1777263603",
       "threadTitle": "最近ASDがどうたらみたいなスレ頻繁に立ってるやん？",
