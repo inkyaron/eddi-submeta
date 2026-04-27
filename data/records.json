@@ -1,8 +1,176 @@
 {
-  "updatedAt": "2026-04-27T00:35:14.508205Z",
-  "totalRecords": 8911,
+  "updatedAt": "2026-04-27T00:40:16.677010Z",
+  "totalRecords": 8932,
   "addedCount": 21,
   "records": [
+    {
+      "threadNumber": "1777250379",
+      "threadTitle": "娘多分ブスなんやが",
+      "metadentUpper": "pMFf",
+      "metadentLower": "2WGI",
+      "firstPostId": "2WGy1M1fI",
+      "firstPostDateTime": "2026/04/27(月) 09:39:39.577"
+    },
+    {
+      "threadNumber": "1777250373",
+      "threadTitle": "働きもせず平日の朝から安倍晋三連呼してる知的障害者←そうぞうした人物",
+      "metadentUpper": "CQZE",
+      "metadentLower": "234M",
+      "firstPostId": "234i673GM",
+      "firstPostDateTime": "2026/04/27(月) 09:39:33.885"
+    },
+    {
+      "threadNumber": "1777250368",
+      "threadTitle": "『ワーキングマン』見てないけど感想いうわ",
+      "metadentUpper": "tcR1",
+      "metadentLower": "tSbx",
+      "firstPostId": "tSb6m0Ukx",
+      "firstPostDateTime": "2026/04/27(月) 09:39:28.152"
+    },
+    {
+      "threadNumber": "1777250365",
+      "threadTitle": "安倍晋三物語を実写化←安倍晋三役にふさわしいのは？",
+      "metadentUpper": "An+M",
+      "metadentLower": "Jlkv",
+      "firstPostId": "JlkuKKAYv",
+      "firstPostDateTime": "2026/04/27(月) 09:39:25.106"
+    },
+    {
+      "threadNumber": "1777250360",
+      "threadTitle": "Vチューバーさん配信中とんでもないものを注文してしまう",
+      "metadentUpper": "CfFI",
+      "metadentLower": "GXrZ",
+      "firstPostId": "GXrO0hMmZ",
+      "firstPostDateTime": "2026/04/27(月) 09:39:20.453"
+    },
+    {
+      "threadNumber": "1777250351",
+      "threadTitle": "山里亮太さん、定期的にフィリピンに行く理由を告白「何か人生の経験をもって変な劣等感を消したい」",
+      "metadentUpper": "Mv8+",
+      "metadentLower": "McRm",
+      "firstPostId": "McREU2Hwm",
+      "firstPostDateTime": "2026/04/27(月) 09:39:11.392"
+    },
+    {
+      "threadNumber": "1777250349",
+      "threadTitle": "ニューヨークメッツ　コロロキにボコられて負け",
+      "metadentUpper": "R4w3",
+      "metadentLower": "Tmzs",
+      "firstPostId": "Tmzcw68Qs",
+      "firstPostDateTime": "2026/04/27(月) 09:39:09.455"
+    },
+    {
+      "threadNumber": "1777250338",
+      "threadTitle": "なんかいつもと違うと思ったらGWなんか",
+      "metadentUpper": "MaVi",
+      "metadentLower": "adsq",
+      "firstPostId": "adsLlgZmq",
+      "firstPostDateTime": "2026/04/27(月) 09:38:58.825"
+    },
+    {
+      "threadNumber": "1777250337",
+      "threadTitle": "有識者「高校物理は微積で解け」←これ信じていいの？",
+      "metadentUpper": "kSBm",
+      "metadentLower": "0e/g",
+      "firstPostId": "0e/eZCr4g",
+      "firstPostDateTime": "2026/04/27(月) 09:38:57.659"
+    },
+    {
+      "threadNumber": "1777250310",
+      "threadTitle": "ちんぽ",
+      "metadentUpper": "HCKo",
+      "metadentLower": "tOWy",
+      "firstPostId": "tOWaP3ZWy",
+      "firstPostDateTime": "2026/04/27(月) 09:38:30.435"
+    },
+    {
+      "threadNumber": "1777250301",
+      "threadTitle": "エッヂ民が「結婚は無理」ってなる彼女の経験人数",
+      "metadentUpper": "K6qI",
+      "metadentLower": "EE.G",
+      "firstPostId": "EE.Mo7QSG",
+      "firstPostDateTime": "2026/04/27(月) 09:38:21.482"
+    },
+    {
+      "threadNumber": "1777250280",
+      "threadTitle": "【画像】元アイドリング!!!6号の外岡えりかさん、かわいい",
+      "metadentUpper": "fPzC",
+      "metadentLower": "JNxk",
+      "firstPostId": "JNxXwfYUk",
+      "firstPostDateTime": "2026/04/27(月) 09:38:00.387"
+    },
+    {
+      "threadNumber": "1777250253",
+      "threadTitle": "景気の良いウンコが出た",
+      "metadentUpper": "wP+k",
+      "metadentLower": "Cdez",
+      "firstPostId": "CdeG56Wuz",
+      "firstPostDateTime": "2026/04/27(月) 09:37:33.463"
+    },
+    {
+      "threadNumber": "1777250226",
+      "threadTitle": "疲れてるのに眠れない←こういうときどうしてる？",
+      "metadentUpper": "nTWX",
+      "metadentLower": "y9dn",
+      "firstPostId": "y9dhQ.V7n",
+      "firstPostDateTime": "2026/04/27(月) 09:37:06.211"
+    },
+    {
+      "threadNumber": "1777250224",
+      "threadTitle": "ヤクルトスワローズオスナにバットで殴られた審判どうなった？？",
+      "metadentUpper": "rOxN",
+      "metadentLower": "tekl",
+      "firstPostId": "tek1.QeUl",
+      "firstPostDateTime": "2026/04/27(月) 09:37:04.527"
+    },
+    {
+      "threadNumber": "1777250202",
+      "threadTitle": "ローカル画像生成AI逝くｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "CLjY",
+      "metadentLower": "OliK",
+      "firstPostId": "OliD1MhEK",
+      "firstPostDateTime": "2026/04/27(月) 09:36:42.324"
+    },
+    {
+      "threadNumber": "1777250196",
+      "threadTitle": "ワイ、大学が辛過ぎて泣く",
+      "metadentUpper": "5Vfz",
+      "metadentLower": "Jfgc",
+      "firstPostId": "Jfg.nAm0c",
+      "firstPostDateTime": "2026/04/27(月) 09:36:36.151"
+    },
+    {
+      "threadNumber": "1777250182",
+      "threadTitle": "山下智久、爆乳になるw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w",
+      "metadentUpper": "tcR1",
+      "metadentLower": "ASQ2",
+      "firstPostId": "ASQHZJbU2",
+      "firstPostDateTime": "2026/04/27(月) 09:36:22.643"
+    },
+    {
+      "threadNumber": "1777250166",
+      "threadTitle": "【画像】ゆうや「トラック運転手はバカでも出来ると思ってる陰へ、これやってみてから言えよな✋」",
+      "metadentUpper": "L9mp",
+      "metadentLower": "EA5O",
+      "firstPostId": "EA5JTlmgO",
+      "firstPostDateTime": "2026/04/27(月) 09:36:06.824"
+    },
+    {
+      "threadNumber": "1777250163",
+      "threadTitle": "1人暮らし初めて好きになったモノ",
+      "metadentUpper": "dZrO",
+      "metadentLower": "IB9r",
+      "firstPostId": "IB9Arg/lr",
+      "firstPostDateTime": "2026/04/27(月) 09:36:03.125"
+    },
+    {
+      "threadNumber": "1777250152",
+      "threadTitle": "【画像】ワイがガチ恋してるアイドルみてWWWWWWWWWWWWWWWWW",
+      "metadentUpper": "RVN9",
+      "metadentLower": "X1Mh",
+      "firstPostId": "X1M8UxRwh",
+      "firstPostDateTime": "2026/04/27(月) 09:35:52.306"
+    },
     {
       "threadNumber": "1777250088",
       "threadTitle": "ヤクルトが急に弱くなった理由",
