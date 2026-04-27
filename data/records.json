@@ -1,8 +1,352 @@
 {
-  "updatedAt": "2026-04-27T09:40:22.973254Z",
-  "totalRecords": 11633,
-  "addedCount": 40,
+  "updatedAt": "2026-04-27T09:45:24.862697Z",
+  "totalRecords": 11676,
+  "addedCount": 43,
   "records": [
+    {
+      "threadNumber": "1777283112",
+      "threadTitle": "嘘はついてはいけないんやで",
+      "metadentUpper": "CzPb",
+      "metadentLower": "8u85",
+      "firstPostId": "8u8k0jM15",
+      "firstPostDateTime": "2026/04/27(月) 18:45:12.113"
+    },
+    {
+      "threadNumber": "1777283110",
+      "threadTitle": "会社に「都合のいい女」みたいに都合よく使われてるおじさんいるでしょ？",
+      "metadentUpper": "DoLa",
+      "metadentLower": "CHkd",
+      "firstPostId": "CHkVZpgqd",
+      "firstPostDateTime": "2026/04/27(月) 18:45:10.750"
+    },
+    {
+      "threadNumber": "1777283103",
+      "threadTitle": "実際フリーレンは抜ける抜けないどっちなんだい！",
+      "metadentUpper": "3jI5",
+      "metadentLower": "fbwG",
+      "firstPostId": "fbwTYdJCG",
+      "firstPostDateTime": "2026/04/27(月) 18:45:03.485"
+    },
+    {
+      "threadNumber": "1777283100",
+      "threadTitle": "【🦎喜劇】高市の本性見抜けず支持するバカ、本性知ってて支持するバカ",
+      "metadentUpper": "KXjL",
+      "metadentLower": "gKvR",
+      "firstPostId": "gKv8geJRR",
+      "firstPostDateTime": "2026/04/27(月) 18:45:00.492"
+    },
+    {
+      "threadNumber": "1777283081",
+      "threadTitle": "Teenage Fanclub(スコットランド)、 Ride(イギリス)、羊文学、スピッツ(日本)",
+      "metadentUpper": "MrcJ",
+      "metadentLower": "vfk0",
+      "firstPostId": "vfkiVGxB0",
+      "firstPostDateTime": "2026/04/27(月) 18:44:41.852"
+    },
+    {
+      "threadNumber": "1777283080",
+      "threadTitle": "和田監督５割で球宴へ、「12試合で9勝3敗」宣言！",
+      "metadentUpper": "9bV2",
+      "metadentLower": "idBa",
+      "firstPostId": "idBFCtt0a",
+      "firstPostDateTime": "2026/04/27(月) 18:44:40.266"
+    },
+    {
+      "threadNumber": "1777283070",
+      "threadTitle": "脇田潤「脇、発見w」",
+      "metadentUpper": "pxdL",
+      "metadentLower": "1Zh6",
+      "firstPostId": "1Zh5f.AE6",
+      "firstPostDateTime": "2026/04/27(月) 18:44:30.962"
+    },
+    {
+      "threadNumber": "1777283068",
+      "threadTitle": "何やっても楽しくないんやが",
+      "metadentUpper": "pMFf",
+      "metadentLower": "ka0z",
+      "firstPostId": "ka0OHAXvz",
+      "firstPostDateTime": "2026/04/27(月) 18:44:28.459"
+    },
+    {
+      "threadNumber": "1777283066",
+      "threadTitle": "辛い時辛いと言えたらいいのになぁ🥺",
+      "metadentUpper": "1dgE",
+      "metadentLower": "w/V2",
+      "firstPostId": "w/VbNpsX2",
+      "firstPostDateTime": "2026/04/27(月) 18:44:26.557"
+    },
+    {
+      "threadNumber": "1777283053",
+      "threadTitle": "今日までのおちごと終わってない🥺",
+      "metadentUpper": "r80r",
+      "metadentLower": "hhWj",
+      "firstPostId": "hhW5s9yyj",
+      "firstPostDateTime": "2026/04/27(月) 18:44:13.887"
+    },
+    {
+      "threadNumber": "1777283043",
+      "threadTitle": "【朗報】Vtuberさん「ドラえもんに憧れて押し入れの中で寝てたw」 ",
+      "metadentUpper": "nyB5",
+      "metadentLower": "gtPO",
+      "firstPostId": "gtPFfwd0O",
+      "firstPostDateTime": "2026/04/27(月) 18:44:03.466"
+    },
+    {
+      "threadNumber": "1777283017",
+      "threadTitle": "風呂出た瞬間>>5たわ",
+      "metadentUpper": "XUWH",
+      "metadentLower": "ok4L",
+      "firstPostId": "ok4Pz0QaL",
+      "firstPostDateTime": "2026/04/27(月) 18:43:37.154"
+    },
+    {
+      "threadNumber": "1777283014",
+      "threadTitle": ">>3「どうも～>>5の>>7で～す」",
+      "metadentUpper": "gBJA",
+      "metadentLower": "915f",
+      "firstPostId": "915UGXr7f",
+      "firstPostDateTime": "2026/04/27(月) 18:43:34.576"
+    },
+    {
+      "threadNumber": "1777283010",
+      "threadTitle": "【画像】toLOVEるのフィギュアのエロさ、限界突破",
+      "metadentUpper": "vK0V",
+      "metadentLower": "j52G",
+      "firstPostId": "j52Vx8NAG",
+      "firstPostDateTime": "2026/04/27(月) 18:43:30.723"
+    },
+    {
+      "threadNumber": "1777283007",
+      "threadTitle": "ケノン有識者来てくれ",
+      "metadentUpper": "ZdK1",
+      "metadentLower": "2I/P",
+      "firstPostId": "2I/jv/M2P",
+      "firstPostDateTime": "2026/04/27(月) 18:43:27.908"
+    },
+    {
+      "threadNumber": "1777283001",
+      "threadTitle": "ダイエットでランニングしたけど1分も走れない",
+      "metadentUpper": "vDO/",
+      "metadentLower": "FTK4",
+      "firstPostId": "FTKHNJbn4",
+      "firstPostDateTime": "2026/04/27(月) 18:43:21.217"
+    },
+    {
+      "threadNumber": "1777282978",
+      "threadTitle": "【料理上手民きて】キャベツ使ったうまいレシピ",
+      "metadentUpper": "t1/P",
+      "metadentLower": "qgDh",
+      "firstPostId": "qgD608wTh",
+      "firstPostDateTime": "2026/04/27(月) 18:42:58.123"
+    },
+    {
+      "threadNumber": "1777282974",
+      "threadTitle": "【許すな】Z世代さん、“安倍晋三連呼”をファッション感覚でやり始めるwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "Nhay",
+      "metadentLower": "hnGg",
+      "firstPostId": "hnGfQzwRg",
+      "firstPostDateTime": "2026/04/27(月) 18:42:54.748"
+    },
+    {
+      "threadNumber": "1777282971",
+      "threadTitle": "【画像】肝臓、症状が出たら断酒してもほとんど手遅れｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "a4Bh",
+      "metadentLower": "dIsz",
+      "firstPostId": "dIs9onjWz",
+      "firstPostDateTime": "2026/04/27(月) 18:42:51.482"
+    },
+    {
+      "threadNumber": "1777282967",
+      "threadTitle": "ア　　　　ホ　　　　が　　　　見　　　　る",
+      "metadentUpper": "O8x6",
+      "metadentLower": "aMGT",
+      "firstPostId": "aMG.DwtwT",
+      "firstPostDateTime": "2026/04/27(月) 18:42:47.915"
+    },
+    {
+      "threadNumber": "1777282964",
+      "threadTitle": "カズ三浦カズが代表落選した理由",
+      "metadentUpper": "s8hI",
+      "metadentLower": "6/5f",
+      "firstPostId": "6/5MIz4af",
+      "firstPostDateTime": "2026/04/27(月) 18:42:44.910"
+    },
+    {
+      "threadNumber": "1777282962",
+      "threadTitle": "父への贈り物",
+      "metadentUpper": "t1/P",
+      "metadentLower": "Uqkz",
+      "firstPostId": "UqkM6Hxkz",
+      "firstPostDateTime": "2026/04/27(月) 18:42:42.187"
+    },
+    {
+      "threadNumber": "1777282960",
+      "threadTitle": "誰かを愛することが許されないなら自分に酔うしかないだろうが",
+      "metadentUpper": "pMFf",
+      "metadentLower": "OHSg",
+      "firstPostId": "OHSD2oY1g",
+      "firstPostDateTime": "2026/04/27(月) 18:42:40.059"
+    },
+    {
+      "threadNumber": "1777282943",
+      "threadTitle": "超かぐや姫の特典スタッフイラスト集が5月1日から復刻らしい",
+      "metadentUpper": "IPmG",
+      "metadentLower": "Abad",
+      "firstPostId": "Aba1KTt7d",
+      "firstPostDateTime": "2026/04/27(月) 18:42:23.051"
+    },
+    {
+      "threadNumber": "1777282938",
+      "threadTitle": "仕事、辛い",
+      "metadentUpper": "skME",
+      "metadentLower": "qMXr",
+      "firstPostId": "qMXOOvohr",
+      "firstPostDateTime": "2026/04/27(月) 18:42:18.960"
+    },
+    {
+      "threadNumber": "1777282935",
+      "threadTitle": "お前らがお母さんをオカンと呼び始めたタイミング",
+      "metadentUpper": "DoLa",
+      "metadentLower": "M17o",
+      "firstPostId": "M174LGQbo",
+      "firstPostDateTime": "2026/04/27(月) 18:42:15.559"
+    },
+    {
+      "threadNumber": "1777282925",
+      "threadTitle": "ストリーマーGTA5　←これwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "Z5eJ",
+      "metadentLower": "wq97",
+      "firstPostId": "wq9ZmGda7",
+      "firstPostDateTime": "2026/04/27(月) 18:42:05.355"
+    },
+    {
+      "threadNumber": "1777282920",
+      "threadTitle": "ソニーのZV-E10Ⅱ買うかキャノンのR50V買うか迷ってるんやけど…",
+      "metadentUpper": "4rhJ",
+      "metadentLower": "T359",
+      "firstPostId": "T35EcI2.9",
+      "firstPostDateTime": "2026/04/27(月) 18:42:00.945"
+    },
+    {
+      "threadNumber": "1777282905",
+      "threadTitle": "冷静に考えるとワイなんて後ろから襲われるだけで簡単に殺される程度の雑魚なんよな",
+      "metadentUpper": "6Z8t",
+      "metadentLower": "My0B",
+      "firstPostId": "My0cgoPWB",
+      "firstPostDateTime": "2026/04/27(月) 18:41:45.032"
+    },
+    {
+      "threadNumber": "1777282904",
+      "threadTitle": "彡(ﾟ)(ﾟ)お金無いから千葉に帰られへん… 彡(^)(^)せや！消防車盗んで帰ったろ！",
+      "metadentUpper": "u7s+",
+      "metadentLower": "8T5x",
+      "firstPostId": "8T5YRwTLx",
+      "firstPostDateTime": "2026/04/27(月) 18:41:44.382"
+    },
+    {
+      "threadNumber": "1777282885",
+      "threadTitle": "アンミカ｢日本は世界の恥です｣",
+      "metadentUpper": "/6gY",
+      "metadentLower": "K4xZ",
+      "firstPostId": "K4xwXBVEZ",
+      "firstPostDateTime": "2026/04/27(月) 18:41:25.708"
+    },
+    {
+      "threadNumber": "1777282880",
+      "threadTitle": "ドラクエ5って結局ピエールとゴレムスしか仲間モンスター使わないよな",
+      "metadentUpper": "yEEF",
+      "metadentLower": "n69H",
+      "firstPostId": "n690WgceH",
+      "firstPostDateTime": "2026/04/27(月) 18:41:20.261"
+    },
+    {
+      "threadNumber": "1777282875",
+      "threadTitle": "天竜人直属のCP9あれだけ強かったしその最高峰のCP0ってどんな強さなんだろうﾜｸﾜｸ",
+      "metadentUpper": "TWKD",
+      "metadentLower": "GCuf",
+      "firstPostId": "GCulVZWbf",
+      "firstPostDateTime": "2026/04/27(月) 18:41:15.779"
+    },
+    {
+      "threadNumber": "1777282871",
+      "threadTitle": "はっきり言う、POISON",
+      "metadentUpper": "oomC",
+      "metadentLower": "UZ6g",
+      "firstPostId": "UZ6PEc3Yg",
+      "firstPostDateTime": "2026/04/27(月) 18:41:11.824"
+    },
+    {
+      "threadNumber": "1777282870",
+      "threadTitle": "今日の晩飯、>>3に>>5のせて食うわ",
+      "metadentUpper": "DZWX",
+      "metadentLower": "Ml0T",
+      "firstPostId": "Ml0t46rYT",
+      "firstPostDateTime": "2026/04/27(月) 18:41:10.817"
+    },
+    {
+      "threadNumber": "1777282866",
+      "threadTitle": "【悲報】漫画家「なかなかストーリーが描けないな……エロ漫画家になるか……」",
+      "metadentUpper": "3tiu",
+      "metadentLower": "J1eo",
+      "firstPostId": "J1ez8JELo",
+      "firstPostDateTime": "2026/04/27(月) 18:41:06.620"
+    },
+    {
+      "threadNumber": "1777282865",
+      "threadTitle": "インゴクダンチとかいうエロアニメwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "LrEG",
+      "metadentLower": "hOq1",
+      "firstPostId": "hOqvaviW1",
+      "firstPostDateTime": "2026/04/27(月) 18:41:05.371"
+    },
+    {
+      "threadNumber": "1777282849",
+      "threadTitle": "てめえら母の日なに贈る？",
+      "metadentUpper": "1a2z",
+      "metadentLower": "glYw",
+      "firstPostId": "glYuuGgZw",
+      "firstPostDateTime": "2026/04/27(月) 18:40:49.357"
+    },
+    {
+      "threadNumber": "1777282837",
+      "threadTitle": "【悲報】名古屋のイオンモールでスタンガンやナイフ突きつけ強盗か　14歳中学生と16歳無職の少年を逮捕",
+      "metadentUpper": "g4ZB",
+      "metadentLower": "1tLu",
+      "firstPostId": "1tLN4aphu",
+      "firstPostDateTime": "2026/04/27(月) 18:40:37.835"
+    },
+    {
+      "threadNumber": "1777282835",
+      "threadTitle": "【画像】CoCo壱のパリパリチキン出来たｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "hVvY",
+      "metadentLower": "zPNJ",
+      "firstPostId": "zPN1t//3J",
+      "firstPostDateTime": "2026/04/27(月) 18:40:35.563"
+    },
+    {
+      "threadNumber": "1777282832",
+      "threadTitle": ">>3「甘い>>5に誘われた私は>>7」",
+      "metadentUpper": "CC8x",
+      "metadentLower": "rvZW",
+      "firstPostId": "rvZuX97oW",
+      "firstPostDateTime": "2026/04/27(月) 18:40:32.072"
+    },
+    {
+      "threadNumber": "1777282826",
+      "threadTitle": "シャドバ、新弾全カード公開で始まる",
+      "metadentUpper": "4Duz",
+      "metadentLower": "Y69y",
+      "firstPostId": "Y69qQA0Ky",
+      "firstPostDateTime": "2026/04/27(月) 18:40:26.260"
+    },
+    {
+      "threadNumber": "1777282815",
+      "threadTitle": "色違いボルケニオンの色、目に悪い",
+      "metadentUpper": "15KX",
+      "metadentLower": "g8kx",
+      "firstPostId": "g8k2Gdn9x",
+      "firstPostDateTime": "2026/04/27(月) 18:40:15.176"
+    },
     {
       "threadNumber": "1777282812",
       "threadTitle": "ワイよりApex強いやつおるか？",
