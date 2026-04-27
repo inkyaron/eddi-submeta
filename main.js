@@ -24,6 +24,23 @@ function decodeTitle(value) {
   return entityDecoder.value;
 }
 
+function hydrateRecords(payload) {
+  const rows = Array.isArray(payload.records) ? payload.records : [];
+  const columns = Array.isArray(payload.columns) ? payload.columns : null;
+
+  if (!columns) {
+    return rows;
+  }
+
+  return rows.map((row) => {
+    if (!Array.isArray(row)) {
+      return row;
+    }
+
+    return Object.fromEntries(columns.map((column, index) => [column, row[index] ?? ""]));
+  });
+}
+
 function normalize(value) {
   return String(value ?? "").trim().toLowerCase();
 }
@@ -181,7 +198,7 @@ async function boot() {
   }
 
   const payload = await response.json();
-  records = Array.isArray(payload.records) ? payload.records : [];
+  records = hydrateRecords(payload);
   totalCountElement.textContent = records.length.toLocaleString("ja-JP");
   updatedAtElement.textContent = formatUpdatedAt(payload.updatedAt);
   applyFilters();

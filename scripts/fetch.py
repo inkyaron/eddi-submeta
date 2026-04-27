@@ -11,6 +11,14 @@ SUBJECT_URL = "https://bbs.eddibb.cc/liveedge/subject-metadent.txt"
 DAT_BASE_URL = "https://bbs.eddibb.cc/liveedge/dat"
 DATA_DIR = Path("data")
 DATA_PATH = DATA_DIR / "records.json"
+RECORD_COLUMNS = [
+    "threadNumber",
+    "metadentUpper",
+    "metadentLower",
+    "firstPostId",
+    "firstPostDateTime",
+    "threadTitle",
+]
 
 SUBJECT_LINE_RE = re.compile(
     r"^(?P<thread_number>\d+)\.dat<>(?P<title>.+) \[(?P<metadent>[^\[\]\s]{8})★\] \((?P<response_count>\d+)\)$"
@@ -39,32 +47,46 @@ def ensure_data_file() -> None:
             {
                 "updatedAt": None,
                 "totalRecords": 0,
+                "columns": RECORD_COLUMNS,
                 "records": [],
             },
             ensure_ascii=False,
-            indent=2,
+            separators=(",", ":"),
         )
         + "\n",
         encoding="utf-8",
     )
 
 
+def normalize_row(row: dict[str, str]) -> dict[str, str]:
+    return {
+        "threadNumber": row.get("threadNumber", ""),
+        "metadentUpper": row.get("metadentUpper", ""),
+        "metadentLower": row.get("metadentLower", ""),
+        "firstPostId": row.get("firstPostId", ""),
+        "firstPostDateTime": row.get("firstPostDateTime", ""),
+        "threadTitle": unescape(row.get("threadTitle", "")),
+    }
+
+
 def load_records() -> dict[str, dict[str, str]]:
     ensure_data_file()
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8-sig"))
+    columns = payload.get("columns") or RECORD_COLUMNS
+    rows = payload.get("records", [])
     records: dict[str, dict[str, str]] = {}
-    for row in payload.get("records", []):
-        thread_number = row.get("threadNumber", "")
+
+    for row in rows:
+        if isinstance(row, list):
+            record = normalize_row(dict(zip(columns, row, strict=False)))
+        else:
+            record = normalize_row(row)
+
+        thread_number = record.get("threadNumber", "")
         if not thread_number:
             continue
-        records[thread_number] = {
-            "threadNumber": thread_number,
-            "threadTitle": unescape(row.get("threadTitle", "")),
-            "metadentUpper": row.get("metadentUpper", ""),
-            "metadentLower": row.get("metadentLower", ""),
-            "firstPostId": row.get("firstPostId", ""),
-            "firstPostDateTime": row.get("firstPostDateTime", ""),
-        }
+        records[thread_number] = record
+
     return records
 
 
@@ -77,6 +99,10 @@ def fetch_first_post(thread_number: str) -> tuple[str, str]:
     return match.group("post_id"), match.group("date_time")
 
 
+def serialize_record(row: dict[str, str]) -> list[str]:
+    return [row.get(column, "") for column in RECORD_COLUMNS]
+
+
 def write_payload(records: list[dict[str, str]], added_count: int) -> str:
     updated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     DATA_PATH.write_text(
@@ -85,10 +111,11 @@ def write_payload(records: list[dict[str, str]], added_count: int) -> str:
                 "updatedAt": updated_at,
                 "totalRecords": len(records),
                 "addedCount": added_count,
-                "records": records,
+                "columns": RECORD_COLUMNS,
+                "records": [serialize_record(row) for row in records],
             },
             ensure_ascii=False,
-            indent=2,
+            separators=(",", ":"),
         )
         + "\n",
         encoding="utf-8",
@@ -126,11 +153,11 @@ def main() -> None:
 
         existing[thread_number] = {
             "threadNumber": thread_number,
-            "threadTitle": title,
             "metadentUpper": metadent[:4],
             "metadentLower": metadent[4:8],
             "firstPostId": first_post_id,
             "firstPostDateTime": first_post_datetime,
+            "threadTitle": title,
         }
         added_count += 1
 
