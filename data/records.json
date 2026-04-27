@@ -1,8 +1,320 @@
 {
-  "updatedAt": "2026-04-27T03:50:21.308433Z",
-  "totalRecords": 9977,
-  "addedCount": 33,
+  "updatedAt": "2026-04-27T03:55:24.107980Z",
+  "totalRecords": 10016,
+  "addedCount": 39,
   "records": [
+    {
+      "threadNumber": "1777262104",
+      "threadTitle": "パチンコ屋さんとかいうトイレを借りにいくとお金をくれる謎の施設",
+      "metadentUpper": "bgdp",
+      "metadentLower": "5Bay",
+      "firstPostId": "5Bal4SfQy",
+      "firstPostDateTime": "2026/04/27(月) 12:55:04.255"
+    },
+    {
+      "threadNumber": "1777262103",
+      "threadTitle": "人類みな麺類のカップ麺美味かった🥺",
+      "metadentUpper": "IgG1",
+      "metadentLower": "sTQV",
+      "firstPostId": "sTQSfjajV",
+      "firstPostDateTime": "2026/04/27(月) 12:55:03.828"
+    },
+    {
+      "threadNumber": "1777262092",
+      "threadTitle": "生　き　て　る　っ　て　な　ん　だ　ろ",
+      "metadentUpper": "m6b6",
+      "metadentLower": "0l4c",
+      "firstPostId": "0l46MnNsc",
+      "firstPostDateTime": "2026/04/27(月) 12:54:52.753"
+    },
+    {
+      "threadNumber": "1777262089",
+      "threadTitle": "俺　　が　　つ　　い　　て　　る　　ぜ",
+      "metadentUpper": "tcR1",
+      "metadentLower": "tSbx",
+      "firstPostId": "tSb6m0Ukx",
+      "firstPostDateTime": "2026/04/27(月) 12:54:49.295"
+    },
+    {
+      "threadNumber": "1777262086",
+      "threadTitle": "さて、武蔵野麻婆でも食いに行くか",
+      "metadentUpper": "aSYe",
+      "metadentLower": "/xIG",
+      "firstPostId": "/xIWZXZcG",
+      "firstPostDateTime": "2026/04/27(月) 12:54:46.610"
+    },
+    {
+      "threadNumber": "1777262085",
+      "threadTitle": "povoのG民おる？",
+      "metadentUpper": "Lzzy",
+      "metadentLower": "Bpzy",
+      "firstPostId": "BpzCbwIIy",
+      "firstPostDateTime": "2026/04/27(月) 12:54:45.261"
+    },
+    {
+      "threadNumber": "1777262075",
+      "threadTitle": "マリオカート8DX、まだ売れてる",
+      "metadentUpper": "LqFc",
+      "metadentLower": "jZEL",
+      "firstPostId": "jZEEeKEVL",
+      "firstPostDateTime": "2026/04/27(月) 12:54:35.173"
+    },
+    {
+      "threadNumber": "1777262070",
+      "threadTitle": "ゼンレスゾーンゼロのプロメイアちゃん",
+      "metadentUpper": "tcR1",
+      "metadentLower": "m68U",
+      "firstPostId": "m68gr1CJU",
+      "firstPostDateTime": "2026/04/27(月) 12:54:30.468"
+    },
+    {
+      "threadNumber": "1777262066",
+      "threadTitle": "ム・ホ・ホ～😍ム・ホ・ホ～😍私は勃起～",
+      "metadentUpper": "yFee",
+      "metadentLower": "NAbw",
+      "firstPostId": "NAb2OIAjw",
+      "firstPostDateTime": "2026/04/27(月) 12:54:26.158"
+    },
+    {
+      "threadNumber": "1777262063",
+      "threadTitle": "【画像】浜辺美波さん、衣装が入院服に見えてしまう",
+      "metadentUpper": "cFs5",
+      "metadentLower": "iJoz",
+      "firstPostId": "iJo5T2Ltz",
+      "firstPostDateTime": "2026/04/27(月) 12:54:23.989"
+    },
+    {
+      "threadNumber": "1777262052",
+      "threadTitle": "コンビニ「前向き駐車にご協力ください」←無理やろ",
+      "metadentUpper": "oK3z",
+      "metadentLower": "msvA",
+      "firstPostId": "msv0BK3rA",
+      "firstPostDateTime": "2026/04/27(月) 12:54:12.991"
+    },
+    {
+      "threadNumber": "1777262045",
+      "threadTitle": "おんJ→フェリス、束音ロゼ　エッジ→なし",
+      "metadentUpper": "VJlZ",
+      "metadentLower": "53U7",
+      "firstPostId": "53UaNUYP7",
+      "firstPostDateTime": "2026/04/27(月) 12:54:05.679"
+    },
+    {
+      "threadNumber": "1777262044",
+      "threadTitle": "エッヂのせいで日常でサラッと聖帝語録使っちゃう部",
+      "metadentUpper": "i2sT",
+      "metadentLower": "d0uy",
+      "firstPostId": "d0uHT636y",
+      "firstPostDateTime": "2026/04/27(月) 12:54:04.608"
+    },
+    {
+      "threadNumber": "1777262036",
+      "threadTitle": "呪術廻戦のソシャゲやってるけど三輪や西宮が強いらしいな🥺",
+      "metadentUpper": "pJam",
+      "metadentLower": "5obv",
+      "firstPostId": "5obn5GJnv",
+      "firstPostDateTime": "2026/04/27(月) 12:53:56.652"
+    },
+    {
+      "threadNumber": "1777262024",
+      "threadTitle": "最近のスマホ、完全に進化が止まる",
+      "metadentUpper": "mMaG",
+      "metadentLower": "dM1O",
+      "firstPostId": "dM1U9h0HO",
+      "firstPostDateTime": "2026/04/27(月) 12:53:44.651"
+    },
+    {
+      "threadNumber": "1777261993",
+      "threadTitle": "「高野豆腐」←これが国民的豆腐になった理由",
+      "metadentUpper": "CIG2",
+      "metadentLower": "EV0r",
+      "firstPostId": "EV0bi.S2r",
+      "firstPostDateTime": "2026/04/27(月) 12:53:13.703"
+    },
+    {
+      "threadNumber": "1777261986",
+      "threadTitle": "ドーパミン依存症わいラーメン屋に来てしまう",
+      "metadentUpper": "EWFF",
+      "metadentLower": "HWde",
+      "firstPostId": "HWdtSekie",
+      "firstPostDateTime": "2026/04/27(月) 12:53:06.274"
+    },
+    {
+      "threadNumber": "1777261979",
+      "threadTitle": "【悲報】トイレ標識のポリコレ配慮、限界突破",
+      "metadentUpper": "YVqf",
+      "metadentLower": "Tupu",
+      "firstPostId": "TupOQsLSu",
+      "firstPostDateTime": "2026/04/27(月) 12:52:59.496"
+    },
+    {
+      "threadNumber": "1777261963",
+      "threadTitle": "【画像】シャチメイドちゃん「こら！何見てんの？」「これオルカが悪いの？」",
+      "metadentUpper": "lbMQ",
+      "metadentLower": "l87r",
+      "firstPostId": "l87jfRqkr",
+      "firstPostDateTime": "2026/04/27(月) 12:52:43.922"
+    },
+    {
+      "threadNumber": "1777261958",
+      "threadTitle": "なんで女って下手なのにボイスチャット人狼好きなんだろう",
+      "metadentUpper": "pBip",
+      "metadentLower": "DYTw",
+      "firstPostId": "DYTxLavfw",
+      "firstPostDateTime": "2026/04/27(月) 12:52:38.630"
+    },
+    {
+      "threadNumber": "1777261951",
+      "threadTitle": "清宮←こいつが村上になれなかった理由wwwwwwwwwwwwwwwwwwww",
+      "metadentUpper": "h6+M",
+      "metadentLower": "q5/w",
+      "firstPostId": "q5/hj97qw",
+      "firstPostDateTime": "2026/04/27(月) 12:52:31.091"
+    },
+    {
+      "threadNumber": "1777261950",
+      "threadTitle": "ハゲ太郎と呼ぶな🥺",
+      "metadentUpper": "ei8H",
+      "metadentLower": "tKhP",
+      "firstPostId": "tKhpb4sXP",
+      "firstPostDateTime": "2026/04/27(月) 12:52:30.654"
+    },
+    {
+      "threadNumber": "1777261940",
+      "threadTitle": "【速報】AI、ワイのお嫁さん候補試験、不合格wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww ",
+      "metadentUpper": "94Th",
+      "metadentLower": "Fkmc",
+      "firstPostId": "Fkmnvrfoc",
+      "firstPostDateTime": "2026/04/27(月) 12:52:20.158"
+    },
+    {
+      "threadNumber": "1777261926",
+      "threadTitle": "【速報】終日公、今週の土日スケジュールｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "BSaa",
+      "metadentLower": "QKWC",
+      "firstPostId": "QKWyghbJC",
+      "firstPostDateTime": "2026/04/27(月) 12:52:06.093"
+    },
+    {
+      "threadNumber": "1777261922",
+      "threadTitle": "給食後に「歯磨き」を習慣付けしない日本の義務教育ｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "metadentUpper": "1Kd9",
+      "metadentLower": "Gib2",
+      "firstPostId": "GibC5GKY2",
+      "firstPostDateTime": "2026/04/27(月) 12:52:02.780"
+    },
+    {
+      "threadNumber": "1777261909",
+      "threadTitle": "｢やるか？岸晋三｣晋三｢婿に入ったんでな今は『安倍』だ｣",
+      "metadentUpper": "JcSY",
+      "metadentLower": "qR0R",
+      "firstPostId": "qR08rUgXR",
+      "firstPostDateTime": "2026/04/27(月) 12:51:49.293"
+    },
+    {
+      "threadNumber": "1777261905",
+      "threadTitle": "アニメ見るとき作中に安倍晋三を登場させる妄想をしてる",
+      "metadentUpper": "+RMJ",
+      "metadentLower": "7mTA",
+      "firstPostId": "7mTXlv8vA",
+      "firstPostDateTime": "2026/04/27(月) 12:51:45.000"
+    },
+    {
+      "threadNumber": "1777261886",
+      "threadTitle": "非モテのおっさんって女の子にモテなかったら今度は男の子にも手出すの？",
+      "metadentUpper": "iJwb",
+      "metadentLower": "FboT",
+      "firstPostId": "FboN/MnDT",
+      "firstPostDateTime": "2026/04/27(月) 12:51:26.011"
+    },
+    {
+      "threadNumber": "1777261885",
+      "threadTitle": "【悲報】楽天ドームのフレッシュネスバーガー、ホットドッグを販売停止に追い込まれるwww",
+      "metadentUpper": "8bOG",
+      "metadentLower": "Dn01",
+      "firstPostId": "Dn0N7N051",
+      "firstPostDateTime": "2026/04/27(月) 12:51:25.087"
+    },
+    {
+      "threadNumber": "1777261884",
+      "threadTitle": "わたし、福丸小糸꒰( ˶ ᷇ 𖥦 ᷆ ˵ )꒰ﾋﾟｬｰ",
+      "metadentUpper": "lanP",
+      "metadentLower": "r9fT",
+      "firstPostId": "r9fAnLeET",
+      "firstPostDateTime": "2026/04/27(月) 12:51:24.671"
+    },
+    {
+      "threadNumber": "1777261876",
+      "threadTitle": "神奈川の海老名とかいうとこに来てるんやがうまいラーメン屋ある？",
+      "metadentUpper": "FAy+",
+      "metadentLower": "3DTy",
+      "firstPostId": "3DTSC2xMy",
+      "firstPostDateTime": "2026/04/27(月) 12:51:16.665"
+    },
+    {
+      "threadNumber": "1777261856",
+      "threadTitle": "chatGPT「エロいのは作らんで」ワイ「性教育に使うから頼むわ」",
+      "metadentUpper": "7JL6",
+      "metadentLower": "e3xZ",
+      "firstPostId": "e3xWwIaKZ",
+      "firstPostDateTime": "2026/04/27(月) 12:50:56.489"
+    },
+    {
+      "threadNumber": "1777261844",
+      "threadTitle": "ラーメン屋来たよ🥹",
+      "metadentUpper": "1uGv",
+      "metadentLower": "No8k",
+      "firstPostId": "No8Tr2URk",
+      "firstPostDateTime": "2026/04/27(月) 12:50:44.078"
+    },
+    {
+      "threadNumber": "1777261841",
+      "threadTitle": "靴下が濡れにくい安全靴って無い？",
+      "metadentUpper": "wuvG",
+      "metadentLower": "IR/2",
+      "firstPostId": "IR/Ho1wy2",
+      "firstPostDateTime": "2026/04/27(月) 12:50:41.497"
+    },
+    {
+      "threadNumber": "1777261838",
+      "threadTitle": "無職「お金なくて千葉に帰れない…せや！」",
+      "metadentUpper": "EWFF",
+      "metadentLower": "y.Z2",
+      "firstPostId": "y.Z91iSb2",
+      "firstPostDateTime": "2026/04/27(月) 12:50:38.718"
+    },
+    {
+      "threadNumber": "1777261834",
+      "threadTitle": "目の前歩いてるお姉さんの",
+      "metadentUpper": "4k3n",
+      "metadentLower": "I7SP",
+      "firstPostId": "I7SeybakP",
+      "firstPostDateTime": "2026/04/27(月) 12:50:34.118"
+    },
+    {
+      "threadNumber": "1777261825",
+      "threadTitle": "駆 け 抜 け ろ ホ ー ム ま で",
+      "metadentUpper": "BaNY",
+      "metadentLower": "XT4z",
+      "firstPostId": "XT4PW/K1z",
+      "firstPostDateTime": "2026/04/27(月) 12:50:25.917"
+    },
+    {
+      "threadNumber": "1777261822",
+      "threadTitle": "流鏑馬←言うほどやぶさめか？",
+      "metadentUpper": "OBNY",
+      "metadentLower": "aMYp",
+      "firstPostId": "aMYufDEQp",
+      "firstPostDateTime": "2026/04/27(月) 12:50:22.604"
+    },
+    {
+      "threadNumber": "1777261817",
+      "threadTitle": "「高野連」←これが国民的ヒールになった理由",
+      "metadentUpper": "v4ar",
+      "metadentLower": "mDe6",
+      "firstPostId": "mDeQQcuN6",
+      "firstPostDateTime": "2026/04/27(月) 12:50:17.187"
+    },
     {
       "threadNumber": "1777261805",
       "threadTitle": "ぶっちゃけ樋口円香はあんま罵倒せずにダウナーな感じにした方が抜ける",
