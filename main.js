@@ -145,12 +145,29 @@ function buildIdUrl(record) {
   return `${KYODEMO_ID_BASE_URL}?${params.toString()}`;
 }
 
+function buildLocalSearchUrl(nextFilters) {
+  const params = new URLSearchParams(window.location.search);
+
+  for (const [key, value] of Object.entries(nextFilters)) {
+    if (value) {
+      params.set(key, value);
+    } else {
+      params.delete(key);
+    }
+  }
+
+  const query = params.toString();
+  return query ? `${window.location.pathname}?${query}` : window.location.pathname;
+}
+
 function renderRows(rows) {
   resultsElement.replaceChildren();
 
   for (const record of rows) {
     const row = rowTemplate.content.firstElementChild.cloneNode(true);
     const threadCell = row.querySelector(".thread");
+    const upperCell = row.querySelector(".upper");
+    const lowerCell = row.querySelector(".lower");
     const firstPostIdCell = row.querySelector(".first-post-id");
     const titleCell = row.querySelector(".thread-title");
     const datUrl = buildDatUrl(record);
@@ -168,8 +185,23 @@ function renderRows(rows) {
       threadCell.textContent = record.threadNumber;
     }
 
-    row.querySelector(".upper").textContent = record.metadentUpper;
-    row.querySelector(".lower").textContent = record.metadentLower;
+    if (record.metadentUpper) {
+      const link = document.createElement("a");
+      link.href = buildLocalSearchUrl({ upper: record.metadentUpper });
+      link.textContent = record.metadentUpper;
+      upperCell.replaceChildren(link);
+    } else {
+      upperCell.textContent = record.metadentUpper || "-";
+    }
+
+    if (record.metadentLower) {
+      const link = document.createElement("a");
+      link.href = buildLocalSearchUrl({ lower: record.metadentLower });
+      link.textContent = record.metadentLower;
+      lowerCell.replaceChildren(link);
+    } else {
+      lowerCell.textContent = record.metadentLower || "-";
+    }
 
     if (idUrl && record.firstPostId) {
       const link = document.createElement("a");
