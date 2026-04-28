@@ -10,6 +10,7 @@ const idFilter = document.querySelector("#id-filter");
 const titleFilter = document.querySelector("#title-filter");
 const searchForm = document.querySelector("#search-form");
 const clearButton = document.querySelector("#clear-button");
+const fieldClearButtons = Array.from(document.querySelectorAll(".field-clear"));
 const rowTemplate = document.querySelector("#row-template");
 const KYODEMO_ID_BASE_URL = "https://www.kyodemo.net/sdemo/b/e_e_liveedge/";
 const KYODEMO_THREAD_BASE_URL = "https://www.kyodemo.net/sdemo/r/e_e_liveedge/";
@@ -19,6 +20,7 @@ const DATA_URL =
 
 let records = [];
 const entityDecoder = document.createElement("textarea");
+const filters = [threadFilter, upperFilter, lowerFilter, idFilter, titleFilter];
 
 function getFilterValues() {
   return {
@@ -64,6 +66,18 @@ function populateFiltersFromUrl() {
   lowerFilter.value = params.get("lower") ?? "";
   idFilter.value = params.get("id") ?? "";
   titleFilter.value = params.get("title") ?? "";
+  syncFieldClearButtons();
+}
+
+function syncFieldClearButtons() {
+  for (const button of fieldClearButtons) {
+    const target = document.getElementById(button.dataset.target);
+    if (!target) {
+      continue;
+    }
+
+    button.hidden = target.value.trim() === "";
+  }
 }
 
 function decodeTitle(value) {
@@ -278,11 +292,10 @@ function runSearch() {
 }
 
 function clearFilters() {
-  threadFilter.value = "";
-  upperFilter.value = "";
-  lowerFilter.value = "";
-  idFilter.value = "";
-  titleFilter.value = "";
+  for (const filter of filters) {
+    filter.value = "";
+  }
+  syncFieldClearButtons();
   runSearch();
 }
 
@@ -306,6 +319,24 @@ searchForm.addEventListener("submit", (event) => {
 });
 
 clearButton.addEventListener("click", clearFilters);
+
+for (const filter of filters) {
+  filter.addEventListener("input", syncFieldClearButtons);
+}
+
+for (const button of fieldClearButtons) {
+  button.addEventListener("click", () => {
+    const target = document.getElementById(button.dataset.target);
+    if (!target) {
+      return;
+    }
+
+    target.value = "";
+    syncFieldClearButtons();
+    runSearch();
+    target.focus();
+  });
+}
 
 boot().catch((error) => {
   console.error(error);
