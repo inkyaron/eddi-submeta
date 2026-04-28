@@ -146,13 +146,11 @@ function buildIdUrl(record) {
 }
 
 function buildLocalSearchUrl(nextFilters) {
-  const params = new URLSearchParams(window.location.search);
+  const params = new URLSearchParams();
 
   for (const [key, value] of Object.entries(nextFilters)) {
     if (value) {
       params.set(key, value);
-    } else {
-      params.delete(key);
     }
   }
 
