@@ -8,6 +8,8 @@ const upperFilter = document.querySelector("#upper-filter");
 const lowerFilter = document.querySelector("#lower-filter");
 const idFilter = document.querySelector("#id-filter");
 const titleFilter = document.querySelector("#title-filter");
+const searchButton = document.querySelector("#search-button");
+const clearButton = document.querySelector("#clear-button");
 const rowTemplate = document.querySelector("#row-template");
 const KYODEMO_ID_BASE_URL = "https://www.kyodemo.net/sdemo/b/e_e_liveedge/";
 const KYODEMO_THREAD_BASE_URL = "https://www.kyodemo.net/sdemo/r/e_e_liveedge/";
@@ -17,6 +19,52 @@ const DATA_URL =
 
 let records = [];
 const entityDecoder = document.createElement("textarea");
+
+function getFilterValues() {
+  return {
+    thread: threadFilter.value.trim(),
+    upper: upperFilter.value.trim(),
+    lower: lowerFilter.value.trim(),
+    firstPostId: idFilter.value.trim(),
+    title: titleFilter.value.trim(),
+  };
+}
+
+function hasActiveFilters(filters) {
+  return Boolean(filters.thread || filters.upper || filters.lower || filters.firstPostId || filters.title);
+}
+
+function updateUrlFromFilters(filters) {
+  const params = new URLSearchParams();
+  if (filters.thread) {
+    params.set("thread", filters.thread);
+  }
+  if (filters.upper) {
+    params.set("upper", filters.upper);
+  }
+  if (filters.lower) {
+    params.set("lower", filters.lower);
+  }
+  if (filters.firstPostId) {
+    params.set("id", filters.firstPostId);
+  }
+  if (filters.title) {
+    params.set("title", filters.title);
+  }
+
+  const query = params.toString();
+  const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+  window.history.replaceState({}, "", nextUrl);
+}
+
+function populateFiltersFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  threadFilter.value = params.get("thread") ?? "";
+  upperFilter.value = params.get("upper") ?? "";
+  lowerFilter.value = params.get("lower") ?? "";
+  idFilter.value = params.get("id") ?? "";
+  titleFilter.value = params.get("title") ?? "";
+}
 
 function decodeTitle(value) {
   const text = String(value ?? "");
@@ -161,37 +209,53 @@ function renderRows(rows) {
   emptyStateElement.hidden = rows.length !== 0;
 }
 
-function applyFilters() {
-  const thread = normalize(threadFilter.value);
-  const upper = normalize(upperFilter.value);
-  const lower = normalize(lowerFilter.value);
-  const firstPostId = normalize(idFilter.value);
-  const title = normalize(titleFilter.value);
+function runSearch() {
+  const filters = getFilterValues();
+  const normalized = {
+    thread: normalize(filters.thread),
+    upper: normalize(filters.upper),
+    lower: normalize(filters.lower),
+    firstPostId: normalize(filters.firstPostId),
+    title: normalize(filters.title),
+  };
 
-  const hasActiveFilters = Boolean(thread || upper || lower || firstPostId || title);
-  if (!hasActiveFilters) {
+  if (!hasActiveFilters(normalized)) {
     resultCountElement.textContent = "0";
     resultsElement.replaceChildren();
     emptyStateElement.textContent = "検索条件を入力してください。";
     emptyStateElement.hidden = false;
+    updateUrlFromFilters(filters);
     return;
   }
 
   const filtered = records.filter((record) => {
-    const matchesThread = !thread || normalize(record.threadNumber).includes(thread);
-    const matchesUpper = !upper || normalize(record.metadentUpper).includes(upper);
-    const matchesLower = !lower || normalize(record.metadentLower).includes(lower);
-    const matchesFirstPostId = !firstPostId || normalize(record.firstPostId).includes(firstPostId);
-    const matchesTitle = !title || normalize(decodeTitle(record.threadTitle)).includes(title);
+    const matchesThread = !normalized.thread || normalize(record.threadNumber).includes(normalized.thread);
+    const matchesUpper = !normalized.upper || normalize(record.metadentUpper).includes(normalized.upper);
+    const matchesLower = !normalized.lower || normalize(record.metadentLower).includes(normalized.lower);
+    const matchesFirstPostId =
+      !normalized.firstPostId || normalize(record.firstPostId).includes(normalized.firstPostId);
+    const matchesTitle =
+      !normalized.title || normalize(decodeTitle(record.threadTitle)).includes(normalized.title);
 
     return matchesThread && matchesUpper && matchesLower && matchesFirstPostId && matchesTitle;
   });
 
   emptyStateElement.textContent = "一致するデータはありません。";
   renderRows(filtered);
+  updateUrlFromFilters(filters);
+}
+
+function clearFilters() {
+  threadFilter.value = "";
+  upperFilter.value = "";
+  lowerFilter.value = "";
+  idFilter.value = "";
+  titleFilter.value = "";
+  runSearch();
 }
 
 async function boot() {
+  populateFiltersFromUrl();
   const response = await fetch(DATA_URL, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`データ読み込み失敗: ${response.status}`);
@@ -201,14 +265,20 @@ async function boot() {
   records = hydrateRecords(payload);
   totalCountElement.textContent = records.length.toLocaleString("ja-JP");
   updatedAtElement.textContent = formatUpdatedAt(payload.updatedAt);
-  applyFilters();
+  runSearch();
 }
 
-threadFilter.addEventListener("input", applyFilters);
-upperFilter.addEventListener("input", applyFilters);
-lowerFilter.addEventListener("input", applyFilters);
-idFilter.addEventListener("input", applyFilters);
-titleFilter.addEventListener("input", applyFilters);
+searchButton.addEventListener("click", runSearch);
+clearButton.addEventListener("click", clearFilters);
+
+for (const input of [threadFilter, upperFilter, lowerFilter, idFilter, titleFilter]) {
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      runSearch();
+    }
+  });
+}
 
 boot().catch((error) => {
   console.error(error);

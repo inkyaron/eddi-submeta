@@ -120,6 +120,33 @@ h1 {
   width: 100%;
 }
 
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+button {
+  padding: 12px 20px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  background: var(--accent);
+  cursor: pointer;
+}
+
+button.secondary {
+  color: var(--ink);
+  border-color: rgba(27, 28, 29, 0.15);
+  background: rgba(255, 255, 255, 0.82);
+}
+
+button:hover {
+  opacity: 0.92;
+}
+
 label span {
   font-size: 0.88rem;
   font-weight: 700;
