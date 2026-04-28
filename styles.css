@@ -239,14 +239,9 @@ label span {
   transform: translateX(-50%) translateY(0);
 }
 
-.input-wrap {
-  position: relative;
-  display: block;
-}
-
 input {
   width: 100%;
-  padding: 14px 46px 14px 16px;
+  padding: 14px 16px;
   border: 1px solid rgba(27, 28, 29, 0.15);
   border-radius: 16px;
   color: var(--ink);
@@ -257,40 +252,6 @@ input {
 input:focus {
   outline: 2px solid rgba(204, 79, 47, 0.2);
   border-color: var(--accent);
-}
-
-.field-clear {
-  position: absolute;
-  top: 50%;
-  right: 14px;
-  width: 1rem;
-  height: 1rem;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  color: var(--muted);
-  font-size: 1rem;
-  line-height: 1;
-  font-weight: 400;
-  background: transparent;
-  opacity: 0.45;
-  transform: translateY(-50%);
-  box-shadow: none;
-}
-
-.field-clear:hover {
-  color: var(--ink);
-  background: transparent;
-  opacity: 0.78;
-}
-
-.field-clear:focus {
-  outline: none;
-  opacity: 0.9;
-}
-
-.field-clear[hidden] {
-  display: none;
 }
 
 .stats {
