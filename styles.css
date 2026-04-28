@@ -15,6 +15,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   color: var(--ink);
   font-family: "BIZ UDPGothic", "Yu Gothic UI", sans-serif;
@@ -24,7 +25,26 @@ body {
     linear-gradient(180deg, #f7f0df 0%, #efe4ca 100%);
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  background-image:
+    url("./assets/pleading-face.svg"),
+    url("./assets/pleading-face.svg"),
+    url("./assets/pleading-face.svg"),
+    url("./assets/pleading-face.svg");
+  background-repeat: no-repeat;
+  background-size: 150px 150px, 120px 120px, 140px 140px, 110px 110px;
+  background-position: 5% 16%, 91% 24%, 12% 78%, 88% 86%;
+}
+
 .page {
+  position: relative;
+  z-index: 1;
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
   padding: 40px 0 56px;
@@ -101,6 +121,11 @@ h1 {
   gap: 16px;
 }
 
+#search-form {
+  display: grid;
+  gap: 16px;
+}
+
 .search-note,
 .filters label {
   display: grid;
@@ -131,6 +156,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  margin-top: 4px;
 }
 
 button {
@@ -274,12 +300,18 @@ th {
 .thread-title {
   min-width: 20rem;
   line-height: 1.55;
+  overflow-wrap: anywhere;
   word-break: break-word;
 }
 
 .table-panel a {
   color: inherit;
   text-decoration: none;
+}
+
+.thread-title a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .table-panel a:hover {
@@ -310,6 +342,26 @@ th {
   .filters,
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .actions {
+    margin-top: 6px;
+  }
+
+  .thread-title {
+    min-width: 0;
+  }
+
+  .thread-title,
+  .thread-title a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  body::before {
+    opacity: 0.06;
+    background-size: 110px 110px, 88px 88px, 100px 100px, 82px 82px;
+    background-position: 6% 14%, 93% 22%, 9% 79%, 90% 88%;
   }
 
   table,
