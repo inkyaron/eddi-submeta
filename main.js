@@ -8,7 +8,7 @@ const upperFilter = document.querySelector("#upper-filter");
 const lowerFilter = document.querySelector("#lower-filter");
 const idFilter = document.querySelector("#id-filter");
 const titleFilter = document.querySelector("#title-filter");
-const searchButton = document.querySelector("#search-button");
+const searchForm = document.querySelector("#search-form");
 const clearButton = document.querySelector("#clear-button");
 const rowTemplate = document.querySelector("#row-template");
 const KYODEMO_ID_BASE_URL = "https://www.kyodemo.net/sdemo/b/e_e_liveedge/";
@@ -268,17 +268,12 @@ async function boot() {
   runSearch();
 }
 
-searchButton.addEventListener("click", runSearch);
-clearButton.addEventListener("click", clearFilters);
+searchForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  runSearch();
+});
 
-for (const input of [threadFilter, upperFilter, lowerFilter, idFilter, titleFilter]) {
-  input.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      event.preventDefault();
-      runSearch();
-    }
-  });
-}
+clearButton.addEventListener("click", clearFilters);
 
 boot().catch((error) => {
   console.error(error);

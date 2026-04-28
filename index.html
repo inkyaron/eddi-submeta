@@ -38,36 +38,50 @@
           複数の検索条件を入力した場合は AND 検索。部分一致。
         </p>
 
-        <div class="filters">
-          <label>
-            <span>スレ番号</span>
-            <input id="thread-filter" type="text" inputmode="numeric" placeholder="例: 1777138729" />
-          </label>
-          <label>
-            <span>meta-upper</span>
-            <input id="upper-filter" type="text" maxlength="4" placeholder="例: pMFf" />
-          </label>
-          <label>
-            <span>meta-lower</span>
-            <input id="lower-filter" type="text" maxlength="4" placeholder="例: bRCn" />
-          </label>
-          <label>
-            <span>レスID</span>
-            <input id="id-filter" type="text" placeholder="例: bRCqwQRln" />
-          </label>
-        </div>
+        <form id="search-form">
+          <div class="filters">
+            <label>
+              <span>スレ番号</span>
+              <input id="thread-filter" type="text" inputmode="numeric" placeholder="例: 1777138729" />
+            </label>
+            <label>
+              <span class="label-with-help">
+                meta-upper
+                <span class="help-tip" tabindex="0" aria-label="meta-upperの説明">
+                  ?
+                    <span class="tooltip-text">ASN・UA・認証レベルから計算</span>
+                </span>
+              </span>
+              <input id="upper-filter" type="text" maxlength="4" placeholder="例: pMFf" />
+            </label>
+            <label>
+              <span class="label-with-help">
+                meta-lower
+                <span class="help-tip" tabindex="0" aria-label="meta-lowerの説明">
+                  ?
+                  <span class="tooltip-text">IPアドレスから計算</span>
+                </span>
+              </span>
+              <input id="lower-filter" type="text" maxlength="4" placeholder="例: bRCn" />
+            </label>
+            <label>
+              <span>レスID</span>
+              <input id="id-filter" type="text" placeholder="例: bRCqwQRln" />
+            </label>
+          </div>
 
-        <div class="filters filters-title">
-          <label class="filter-title">
-            <span>スレタイ</span>
-            <input id="title-filter" type="text" placeholder="例: エッヂ死んだ飼い犬が夢に出る部" />
-          </label>
-        </div>
+          <div class="filters filters-title">
+            <label class="filter-title">
+              <span>スレタイ</span>
+              <input id="title-filter" type="text" placeholder="例: エッヂ死んだ飼い犬が夢に出る部" />
+            </label>
+          </div>
 
-        <div class="actions">
-          <button id="search-button" type="button">検索</button>
-          <button id="clear-button" type="button" class="secondary">クリア</button>
-        </div>
+          <div class="actions">
+            <button id="search-button" type="submit">検索</button>
+            <button id="clear-button" type="button" class="secondary">クリア</button>
+          </div>
+        </form>
       </section>
 
       <section class="panel table-panel">
